@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Rector\Utils\ProjectValidator\Command;
 
+use Nette\Utils\FileSystem;
 use Nette\Utils\Strings;
 use const PATHINFO_DIRNAME;
 use Symfony\Component\Console\Command\Command;
@@ -45,7 +46,7 @@ final class ValidateFixtureNamespaceCommand extends Command
         $fixtureFiles = $this->getFixtureFiles();
         $incorrectNamespaceFiles = [];
 
-        foreach ($fixtureFiles as $key => $fixtureFile) {
+        foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
             [, $relativePath] = explode(getcwd(), (string) $fixtureFile);
             $relativePath = ltrim(pathinfo($relativePath, PATHINFO_DIRNAME), '\/');
@@ -57,11 +58,11 @@ final class ValidateFixtureNamespaceCommand extends Command
             }
 
             // 2. reading file contents
-            $fileContent = (string) file_get_contents((string) $fixtureFile);
+            $fileContent = (string) FileSystem::read((string) $fixtureFile);
             // @see https://regex101.com/r/5KtBi8/2
             $matchAll = Strings::matchAll($fileContent, '#^namespace (.*);$#msU');
 
-            if (! $matchAll) {
+            if ($matchAll === []) {
                 // 3. collect files with no namespace
                 $incorrectNamespaceFiles[] = (string) $fixtureFile;
                 continue;
@@ -91,24 +92,42 @@ final class ValidateFixtureNamespaceCommand extends Command
         return ShellCode::SUCCESS;
     }
 
+    /**
+     * @return SmartFileInfo[]
+     */
+    private function getFixtureFiles(): array
+    {
+        $finder = new Finder();
+        $finder = $finder->files()
+            ->name('#\.php\.inc$#')
+            ->notName('#empty_file\.php\.inc$#')
+            ->path('#/Fixture/#')
+            ->notPath('#/blade-template/#')
+            ->in(__DIR__ . '/../../../../tests')
+            ->in(__DIR__ . '/../../../../packages/*/tests')
+            ->in(__DIR__ . '/../../../../rules/*/tests');
+
+        return $this->finderSanitizer->sanitize($finder);
+    }
+
     private function getExpectedNamespace(string $backslashedPath): ?string
     {
         if (strpos($backslashedPath, 'tests\\') === 0) {
-            return 'Rector\Core\Tests' . substr($backslashedPath, 5);
+            return 'Rector\Core\Tests' . Strings::substring($backslashedPath, 5);
         }
 
         if (strpos($backslashedPath, 'rules\\') === 0) {
-            $namespaces     = explode('\\', $backslashedPath);
+            $namespaces = explode('\\', $backslashedPath);
             unset($namespaces[0]);
-            $namespaces[1]  = ucfirst($namespaces[1]);
-            $namespaces[1]  = preg_replace_callback('#-(\w)#', function ($value) {
+            $namespaces[1] = ucfirst($namespaces[1]);
+            $namespaces[1] = Strings::replace($namespaces[1], '#-(\w)#', function ($value): string {
                 if (is_array($value)) {
                     return strtoupper($value[1]);
                 }
 
                 return strtoupper($value);
-            }, $namespaces[1]);
-            $namespaces[2]  = 'Tests';
+            });
+            $namespaces[2] = 'Tests';
 
             return 'Rector\\' . implode('\\', $namespaces);
         }
@@ -127,23 +146,5 @@ final class ValidateFixtureNamespaceCommand extends Command
         }
 
         return $countMatchAll === 2 && $matchAll[0][1] === $expectedNamespace && $matchAll[1][1] === $expectedNamespace;
-    }
-
-    /**
-     * @return SmartFileInfo[]
-     */
-    private function getFixtureFiles(): array
-    {
-        $finder = new Finder();
-        $finder = $finder->files()
-            ->name('#\.php\.inc$#')
-            ->notName('#empty_file\.php\.inc$#')
-            ->path('#/Fixture/#')
-            ->notPath('#/blade-template/#')
-            ->in(__DIR__ . '/../../../../tests')
-            ->in(__DIR__ . '/../../../../packages/*/tests')
-            ->in(__DIR__ . '/../../../../rules/*/tests');
-
-        return $this->finderSanitizer->sanitize($finder);
     }
 }
