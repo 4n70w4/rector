@@ -25,7 +25,7 @@ final class PSR4AutoloadPathsProvider
     }
 
     /**
-     * @return array<string, string>|array<string, string[]>
+     * @return array<string, string>
      */
     public function provide(): array
     {
@@ -61,8 +61,8 @@ final class PSR4AutoloadPathsProvider
     }
 
     /**
-     * @param array<string, string[]> $psr4Autoloads
-     * @return array<string, string[]>
+     * @param array<string, string> $psr4Autoloads
+     * @return array<string, string>
      */
     private function removeEmptyNamespaces(array $psr4Autoloads): array
     {
