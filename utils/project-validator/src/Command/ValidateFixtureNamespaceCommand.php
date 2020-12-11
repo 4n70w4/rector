@@ -8,6 +8,7 @@ use Nette\Utils\FileSystem;
 use Nette\Utils\Strings;
 use const PATHINFO_DIRNAME;
 use Rector\Core\Configuration\Option;
+use Rector\PSR4\Composer\PSR4AutoloadPathsProvider;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -16,7 +17,6 @@ use Symfony\Component\Finder\Finder;
 use Symplify\PackageBuilder\Console\ShellCode;
 use Symplify\SmartFileSystem\Finder\FinderSanitizer;
 use Symplify\SmartFileSystem\SmartFileInfo;
-use Rector\PSR4\Composer\PSR4AutoloadPathsProvider;
 
 final class ValidateFixtureNamespaceCommand extends Command
 {
@@ -35,11 +35,20 @@ final class ValidateFixtureNamespaceCommand extends Command
      */
     private $psr4autoloadPaths;
 
-    public function __construct(FinderSanitizer $finderSanitizer, PSR4AutoloadPathsProvider $psr4AutoloadPathsProvider, SymfonyStyle $symfonyStyle)
-    {
+    /**
+     * @var string
+     */
+    private $currentDirectory;
+
+    public function __construct(
+        FinderSanitizer $finderSanitizer,
+        PSR4AutoloadPathsProvider $psr4AutoloadPathsProvider,
+        SymfonyStyle $symfonyStyle
+    ) {
         $this->finderSanitizer = $finderSanitizer;
         $this->symfonyStyle = $symfonyStyle;
         $this->psr4autoloadPaths = $psr4AutoloadPathsProvider->provide();
+        $this->currentDirectory = getcwd();
 
         parent::__construct();
     }
@@ -52,16 +61,14 @@ final class ValidateFixtureNamespaceCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $optionFix = $input->getOption(Option::FIX);
         $fixtureFiles = $this->getFixtureFiles();
         $incorrectNamespaceFiles = [];
-        $incorrectNamespaces = [];
-        $incorrectFileContents = [];
 
-        $currentDirectory = getcwd();
         foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
             [$directoryNamespace, $relativePath] = explode('/tests/', (string) $fixtureFile);
-            $path = ltrim(substr($directoryNamespace, strlen($currentDirectory)) . '/tests', '/');
+            $path = ltrim(substr($directoryNamespace, strlen($this->currentDirectory)) . '/tests', '/');
             $expectedNamespace = $this->getExpectedNamespace($path, $relativePath);
 
             if ($expectedNamespace === null) {
@@ -85,7 +92,7 @@ final class ValidateFixtureNamespaceCommand extends Command
             $incorrectNamespaceFiles[] = (string) $fixtureFile;
             $incorrectNamespace = $this->getIncorrectNamespace($matchAll, $expectedNamespace);
 
-            if ($input->getOption(Option::FIX)) {
+            if ($optionFix) {
                 $this->fixNamespace((string) $fixtureFile, $incorrectNamespace, $fileContent, $expectedNamespace);
             }
         }
@@ -98,8 +105,8 @@ final class ValidateFixtureNamespaceCommand extends Command
                 count($incorrectNamespaceFiles)
             );
 
-            if (! $input->getOption(Option::FIX)) {
-                $message .= ', Just add "--fix" to console command and rerun to apply.';
+            if (! $optionFix) {
+                $message .= '. Just add "--fix" to console command and rerun to apply.';
                 $this->symfonyStyle->error($message);
                 return ShellCode::ERROR;
             }
@@ -112,8 +119,12 @@ final class ValidateFixtureNamespaceCommand extends Command
         return ShellCode::SUCCESS;
     }
 
-    private function fixNamespace(string $incorrectNamespaceFile, string $incorrectNamespace, string $incorrectFileContent, string $expectedNamespace)
-    {
+    private function fixNamespace(
+        string $incorrectNamespaceFile,
+        string $incorrectNamespace,
+        string $incorrectFileContent,
+        string $expectedNamespace
+    ): void {
         $newContent = str_replace($incorrectNamespace, $expectedNamespace, $incorrectFileContent);
         FileSystem::write((string) $incorrectNamespaceFile, $newContent);
     }
@@ -163,6 +174,9 @@ final class ValidateFixtureNamespaceCommand extends Command
         return $countMatchAll === 2 && $matchAll[0][1] === $expectedNamespace && $matchAll[1][1] === $expectedNamespace;
     }
 
+    /**
+     * @param array<int, array<int, string>> $matchAll
+     */
     private function getIncorrectNamespace(array $matchAll, string $expectedNamespace): string
     {
         $countMatchAll = count($matchAll);

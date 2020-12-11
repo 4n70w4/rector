@@ -10,7 +10,7 @@ use Symplify\SmartFileSystem\SmartFileSystem;
 final class PSR4AutoloadPathsProvider
 {
     /**
-     * @var array<string, string[]>
+     * @var array<string, string>
      */
     private $cachedComposerJsonPSR4AutoloadPaths = [];
 
@@ -25,7 +25,7 @@ final class PSR4AutoloadPathsProvider
     }
 
     /**
-     * @return array<string, string[]>
+     * @return array<string, string>
      */
     public function provide(): array
     {
