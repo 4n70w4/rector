@@ -130,7 +130,7 @@ final class ValidateFixtureNamespaceCommand extends Command
             ->path('#/Fixture/#')
             ->notPath('#/blade-template/#')
             ->notPath('#bootstrap_names\.php\.inc#')
-            ->notPath('#/packages/rector-generator/tests/RectorGenerator/Fixture/expected_3rd_party/#')
+            ->notPath('#/expected_3rd_party/#')
             ->in(__DIR__ . '/../../../../tests')
             ->in(__DIR__ . '/../../../../packages/*/tests')
             ->in(__DIR__ . '/../../../../rules/*/tests');
