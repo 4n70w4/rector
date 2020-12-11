@@ -7,7 +7,7 @@ trait SomeTrait
 
 }
 
-class SomeClass
+class Trait
 {
     /**
      * @param SomeTrait $param

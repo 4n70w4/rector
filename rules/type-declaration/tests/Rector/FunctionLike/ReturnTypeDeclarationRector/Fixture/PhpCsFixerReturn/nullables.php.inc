@@ -2,11 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\PhpCsFixerReturn;
 
-class Bar {}
-class Foo {}
-
-/** @return null|Bar */
-function my_foo($value) {
+class Nullables {
     return $value;
 }
 /** @return Bar|null */

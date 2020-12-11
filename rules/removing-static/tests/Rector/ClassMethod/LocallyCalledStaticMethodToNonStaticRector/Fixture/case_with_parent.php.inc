@@ -4,7 +4,7 @@ namespace Rector\RemovingStatic\Tests\Rector\ClassMethod\LocallyCalledStaticMeth
 
 use Rector\RemovingStatic\Tests\Rector\ClassMethod\LocallyCalledStaticMethodToNonStaticRector\Source\SomeParent;
 
-class CaseWithParent extends SomeParent
+class CaseWithParent
 {
     private static function someStatic()
     {
@@ -24,7 +24,7 @@ namespace Rector\RemovingStatic\Tests\Rector\ClassMethod\LocallyCalledStaticMeth
 
 use Rector\RemovingStatic\Tests\Rector\ClassMethod\LocallyCalledStaticMethodToNonStaticRector\Source\SomeParent;
 
-class CaseWithParent extends SomeParent
+class CaseWithParent
 {
     private function someStatic()
     {

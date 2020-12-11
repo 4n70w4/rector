@@ -2,16 +2,16 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\PhpCsFixerReturn;
 
-class Bar
+class SkipBlacklistedClassMethods
 {
 }
 
 class Foo
 {
-    /** @return Bar */
+    /** @return SkipBlacklistedClassMethods */
     function __construct() {}
-    /** @return Bar */
+    /** @return SkipBlacklistedClassMethods */
     function __destruct() {}
-    /** @return Bar */
+    /** @return SkipBlacklistedClassMethods */
     function __clone() {}
 }

@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class ResultSpec extends ObjectBehavior
+class SetupPrivateCtor
 {
     public function it_is_initializable()
     {

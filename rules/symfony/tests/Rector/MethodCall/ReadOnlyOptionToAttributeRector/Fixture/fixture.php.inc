@@ -1,10 +1,10 @@
 <?php
 
-namespace Rector\Symfony\Tests\Rector\MethodCall\ReadOnlyOptionToAttributeRector\Fixture;
+namespace Rector\Symfony\Tests\Rector\MethodCall\FixtureRector\Fixture;
 
 use Symfony\Component\Form\FormBuilder;
 
-class ReadOnlyOptionToAttribute
+class Fixture
 {
     function buildForm(FormBuilder $builder, array $options)
     {
@@ -16,11 +16,11 @@ class ReadOnlyOptionToAttribute
 -----
 <?php
 
-namespace Rector\Symfony\Tests\Rector\MethodCall\ReadOnlyOptionToAttributeRector\Fixture;
+namespace Rector\Symfony\Tests\Rector\MethodCall\FixtureRector\Fixture;
 
 use Symfony\Component\Form\FormBuilder;
 
-class ReadOnlyOptionToAttribute
+class Fixture
 {
     function buildForm(FormBuilder $builder, array $options)
     {

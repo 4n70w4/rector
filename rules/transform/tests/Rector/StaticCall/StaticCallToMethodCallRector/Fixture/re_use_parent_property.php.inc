@@ -5,7 +5,7 @@ namespace Rector\Transform\Tests\Rector\StaticCall\StaticCallToMethodCallRector\
 use Nette\Utils\FileSystem;
 use Rector\Transform\Tests\Rector\StaticCall\StaticCallToMethodCallRector\Source\ClassWithFileSystem;
 
-class ReUseParentMethod extends ClassWithFileSystem
+class ReUseParentProperty
 {
     public function run()
     {
@@ -22,7 +22,7 @@ namespace Rector\Transform\Tests\Rector\StaticCall\StaticCallToMethodCallRector\
 use Nette\Utils\FileSystem;
 use Rector\Transform\Tests\Rector\StaticCall\StaticCallToMethodCallRector\Source\ClassWithFileSystem;
 
-class ReUseParentMethod extends ClassWithFileSystem
+class ReUseParentProperty
 {
     public function run()
     {

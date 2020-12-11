@@ -5,7 +5,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\Class_\FormControlToControllerAndFo
 use Nette\Application\UI\Form;
 use Nette\Application\UI\Control;
 
-class SomeForm extends Control
+class Fixture
 {
     public function createComponentForm()
     {

@@ -1,6 +1,6 @@
 <?php
 
-class Rector\Renaming\Tests\Rector\FileWithoutNamespace\PseudoNamespaceToNamespaceRector\Fixture_Abc
+class Fixture3
 {
     public function run()
     {

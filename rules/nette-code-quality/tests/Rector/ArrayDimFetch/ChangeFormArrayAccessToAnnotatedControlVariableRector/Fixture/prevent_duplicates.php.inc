@@ -4,7 +4,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 
 use Nette\Application\UI\Form;
 
-class PreventDuplicates extends Form
+class PreventDuplicates
 {
     public function __construct()
     {
@@ -26,7 +26,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 
 use Nette\Application\UI\Form;
 
-class PreventDuplicates extends Form
+class PreventDuplicates
 {
     public function __construct()
     {

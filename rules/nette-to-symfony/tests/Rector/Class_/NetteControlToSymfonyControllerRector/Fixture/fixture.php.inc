@@ -4,7 +4,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\Class_\NetteControlToSymfonyControl
 
 use Nette\Application\UI\Control;
 
-class SomeControl extends Control
+class Fixture
 {
     public function render()
     {

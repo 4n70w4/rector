@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 use Nette\Application\UI\Presenter;
 use Nette\Forms\Form;
 
-class SkipAssignTo extends Presenter
+class SkipAssignTo
 {
     public function someAction()
     {

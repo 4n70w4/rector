@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\RemoveDefaultGetBlockPrefixRec
 
 use Symfony\Component\Form\AbstractType;
 
-class DoubleNameType extends AbstractType
+class DoubleName
 {
     public function getBlockPrefix()
     {
@@ -20,7 +20,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\RemoveDefaultGetBlockPrefixRec
 
 use Symfony\Component\Form\AbstractType;
 
-class DoubleNameType extends AbstractType
+class DoubleName
 {
 }
 

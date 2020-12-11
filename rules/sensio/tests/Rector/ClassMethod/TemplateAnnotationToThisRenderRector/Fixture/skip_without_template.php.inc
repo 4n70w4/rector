@@ -5,7 +5,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\Routing\Annotation\Route;
 
-class WithoutBaseClassAndTemplate
+class SkipWithoutTemplate
 {
     /**
      * @Route("/route", name="route")

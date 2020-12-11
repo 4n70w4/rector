@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class SomeClassTest extends TestCaseWithGetContainer
+class Fixture
 {
     public function test()
     {
@@ -29,7 +29,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class SomeClassTest extends TestCaseWithGetContainer
+class Fixture
 {
     /**
      * @inject

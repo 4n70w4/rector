@@ -4,7 +4,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Symfony\Component\Console\Command\Command;
 
-class MultipleSomeCommand extends Command
+class MultipleSomeCommand
 {
     public function longerOne()
     {
@@ -22,7 +22,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Symfony\Component\Console\Command\Command;
 
-class MultipleSomeCommand extends Command
+class MultipleSomeCommand
 {
     public function longerOne()
     {

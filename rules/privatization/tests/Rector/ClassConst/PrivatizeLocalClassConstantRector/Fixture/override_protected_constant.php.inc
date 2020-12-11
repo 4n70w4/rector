@@ -2,7 +2,7 @@
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class OverridingProtectedConstantClass extends DeclaringProtectedConstantClass
+class OverrideProtectedConstant
 {
     const PROTECTED_CONSTANT = false;
 }
@@ -26,7 +26,7 @@ class DeclaringProtectedConstantClass
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class OverridingProtectedConstantClass extends DeclaringProtectedConstantClass
+class OverrideProtectedConstant
 {
     protected const PROTECTED_CONSTANT = false;
 }

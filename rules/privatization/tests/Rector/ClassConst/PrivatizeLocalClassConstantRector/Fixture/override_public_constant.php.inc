@@ -2,7 +2,7 @@
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class MiddleExtendingClass extends DeclaringPublicConstantClass
+class OverridePublicConstant
 {
 }
 
@@ -30,7 +30,7 @@ class PublicConstantUser
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class MiddleExtendingClass extends DeclaringPublicConstantClass
+class OverridePublicConstant
 {
 }
 

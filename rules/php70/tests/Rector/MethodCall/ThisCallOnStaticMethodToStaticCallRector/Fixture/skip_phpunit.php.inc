@@ -4,7 +4,7 @@ namespace Rector\Php70\Tests\Rector\MethodCall\ThisCallOnStaticMethodToStaticCal
 
 use PHPUnit\Framework\TestCase;
 
-class SkipPhpUnit extends TestCase
+class SkipPhpunit
 {
     public function testMe()
     {

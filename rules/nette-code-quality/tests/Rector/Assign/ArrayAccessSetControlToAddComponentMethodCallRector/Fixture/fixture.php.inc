@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessSetControlToAdd
 use Nette\Application\UI\Presenter;
 use Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessSetControlToAddComponentMethodCallRector\Source\ChildControl;
 
-class SomeClass extends Presenter
+class Fixture
 {
     public function some()
     {
@@ -23,7 +23,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessSetControlToAdd
 use Nette\Application\UI\Presenter;
 use Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessSetControlToAddComponentMethodCallRector\Source\ChildControl;
 
-class SomeClass extends Presenter
+class Fixture
 {
     public function some()
     {

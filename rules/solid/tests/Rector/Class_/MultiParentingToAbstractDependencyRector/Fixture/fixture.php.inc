@@ -17,7 +17,7 @@ abstract class AbstractParentClass
     }
 }
 
-class FirstChild extends AbstractParentClass
+class Fixture
 {
     public function __construct(SomeDependency $someDependency)
     {
@@ -54,7 +54,7 @@ abstract class AbstractParentClass
     }
 }
 
-class FirstChild extends AbstractParentClass
+class Fixture
 {
 }
 

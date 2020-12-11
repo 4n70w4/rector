@@ -4,7 +4,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclaratio
 
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclarationRector\Source\ParserInterface;
 
-class SomeClassImplementingParserInterface implements ParserInterface
+class Someclassimplementingparserinterface
 {
     public function parse($code, \PhpParser\ErrorHandler $errorHandler = null)
     {
@@ -19,7 +19,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclaratio
 
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclarationRector\Source\ParserInterface;
 
-class SomeClassImplementingParserInterface implements ParserInterface
+class Someclassimplementingparserinterface
 {
     public function parse(string $code, \PhpParser\ErrorHandler $errorHandler = null)
     {

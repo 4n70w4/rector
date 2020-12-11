@@ -5,7 +5,7 @@ namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConsta
 use Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Source\AbstractInBetweenVariableParentClassUser;
 use Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Source\AbstractVariableParentClassUser;
 
-class SkipMultiInheritance extends AbstractInBetweenVariableParentClassUser
+class SkipMultiInheritance
 {
     /**
      * @var string

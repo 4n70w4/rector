@@ -4,7 +4,7 @@ namespace Rector\CodeQuality\Tests\Rector\Array_\CallableThisArrayToAnonymousFun
 
 use Rector\CodeQuality\Tests\Rector\Array_\CallableThisArrayToAnonymousFunctionRector\Source\ParentClass;
 
-class WithParent extends ParentClass
+class WithParent
 {
     public function run(array $values)
     {
@@ -27,7 +27,7 @@ namespace Rector\CodeQuality\Tests\Rector\Array_\CallableThisArrayToAnonymousFun
 
 use Rector\CodeQuality\Tests\Rector\Array_\CallableThisArrayToAnonymousFunctionRector\Source\ParentClass;
 
-class WithParent extends ParentClass
+class WithParent
 {
     public function run(array $values)
     {

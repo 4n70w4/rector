@@ -4,7 +4,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\Class_\MockeryTearDownRector\Fix
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function test()
     {
@@ -20,7 +20,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\Class_\MockeryTearDownRector\Fix
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function test()
     {

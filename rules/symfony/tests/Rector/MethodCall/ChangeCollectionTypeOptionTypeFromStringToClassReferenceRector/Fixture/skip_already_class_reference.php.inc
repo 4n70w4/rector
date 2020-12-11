@@ -7,7 +7,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 
-class SkipAlreadyClassReferenceType extends AbstractType
+class SkipAlreadyClassReference
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {

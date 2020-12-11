@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 use Nette\Application\UI\Presenter;
 use Nette\Application\UI\Form;
 
-class SkipOnCall extends Presenter
+class SkipOnCall
 {
     public function someAction()
     {

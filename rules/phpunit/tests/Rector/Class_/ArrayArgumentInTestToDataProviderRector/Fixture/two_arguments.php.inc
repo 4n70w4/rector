@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\ArrayArgumentInTestToDataProviderRector\Fixture;
 
-class TwoArgumentsTest extends \PHPUnit\Framework\TestCase
+class TwoArguments
 {
     public function test()
     {
@@ -16,7 +16,7 @@ class TwoArgumentsTest extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\ArrayArgumentInTestToDataProviderRector\Fixture;
 
-class TwoArgumentsTest extends \PHPUnit\Framework\TestCase
+class TwoArguments
 {
     /**
      * @dataProvider provideDataForTest()

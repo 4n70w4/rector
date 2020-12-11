@@ -4,15 +4,15 @@ namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationR
 
 /** @param $bar mixed */ function my_foo($bar) {}
 
-/** @param $bar Foo|Bar */ function my_foo2($bar) {}
+/** @param $bar Skip|Bar */ function my_foo2($bar) {}
 
 /** @param $bar resource */ function my_foo3($bar) {}
 
-class Foo {
+class Skip {
     /** @param static $foo */ function my_foo($foo) {}
 }
 
-class FooFoo { /** @param Bar $bar */ public function foo($tab) { } }
+class SkipSkip { /** @param Bar $bar */ public function foo($tab) { } }
 
 /** @param int $foo */ function foo(int $foo) {}
 
@@ -20,7 +20,7 @@ class FooFoo { /** @param Bar $bar */ public function foo($tab) { } }
 
 /** @param $bar null */ function my_foo4($bar) {}
 
-/** @param $foo \Foo\\Bar */ function my_foo5($foo) {}
+/** @param $foo \Skip\\Bar */ function my_foo5($foo) {}
 
 /** @param $foo string */ function my_foo6($foo) {}
 

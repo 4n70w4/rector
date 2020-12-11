@@ -5,7 +5,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ClassWithNamedService15Controller extends AbstractController
+class Basic
 {
     /**
      * @Template
@@ -41,7 +41,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ClassWithNamedService15Controller extends AbstractController
+class Basic
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

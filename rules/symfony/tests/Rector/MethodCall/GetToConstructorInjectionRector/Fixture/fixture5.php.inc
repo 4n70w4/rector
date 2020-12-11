@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector
 
 use Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\ParentClassWithGetTrait;
 
-class ClassCallNotFoundService extends ParentClassWithGetTrait
+class Fixture5
 {
     public function render()
     {

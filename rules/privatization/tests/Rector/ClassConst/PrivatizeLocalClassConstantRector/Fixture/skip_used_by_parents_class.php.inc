@@ -4,7 +4,7 @@ namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConsta
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture\ParentClass;
 
-class SkipUsedByParentClass extends ParentClassUser
+class SkipUsedByParentsClass
 {
     /**
      * @var string

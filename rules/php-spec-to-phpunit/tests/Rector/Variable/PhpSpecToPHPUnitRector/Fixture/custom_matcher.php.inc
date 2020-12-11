@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class RatesSpec extends ObjectBehavior
+class CustomMatcher
 {
     public function let(Provider $provider)
     {

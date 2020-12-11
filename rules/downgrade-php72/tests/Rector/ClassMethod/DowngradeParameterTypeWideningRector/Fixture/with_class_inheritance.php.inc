@@ -2,7 +2,7 @@
 
 namespace Rector\DowngradePhp72\Tests\Rector\ClassMethod\DowngradeParameterTypeWideningRector\Fixture;
 
-class AncestorClass
+class WithClassInheritance
 {
     public function test(array $input)
     {
@@ -10,7 +10,7 @@ class AncestorClass
     }
 }
 
-class ChildClass extends AncestorClass
+class ChildClass extends WithClassInheritance
 {
     public function test($input) // type omitted for $input
     {
@@ -18,7 +18,7 @@ class ChildClass extends AncestorClass
     }
 }
 
-class AffectedChildClass extends AncestorClass
+class AffectedChildClass extends WithClassInheritance
 {
     public function test(array $input)
     {
@@ -32,7 +32,7 @@ class AffectedChildClass extends AncestorClass
 
 namespace Rector\DowngradePhp72\Tests\Rector\ClassMethod\DowngradeParameterTypeWideningRector\Fixture;
 
-class AncestorClass
+class WithClassInheritance
 {
     /**
      * @param mixed[] $input
@@ -43,7 +43,7 @@ class AncestorClass
     }
 }
 
-class ChildClass extends AncestorClass
+class ChildClass extends WithClassInheritance
 {
     public function test($input) // type omitted for $input
     {
@@ -51,7 +51,7 @@ class ChildClass extends AncestorClass
     }
 }
 
-class AffectedChildClass extends AncestorClass
+class AffectedChildClass extends WithClassInheritance
 {
     /**
      * @param mixed[] $input

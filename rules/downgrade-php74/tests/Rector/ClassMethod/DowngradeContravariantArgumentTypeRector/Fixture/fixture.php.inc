@@ -2,10 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class ParentType {}
-class ChildType extends ParentType {}
-
-class A
+class Fixture
 {
     public function contraVariantArguments(ChildType $type)
     { /* … */ }
@@ -23,10 +20,7 @@ class B extends A
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class ParentType {}
-class ChildType extends ParentType {}
-
-class A
+class Fixture
 {
     public function contraVariantArguments(ChildType $type)
     { /* … */ }

@@ -4,14 +4,14 @@ namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRe
 
 use Doctrine\ORM\Mapping as ORM;
 
-class DoctrineRelated
+class DoctrineRelationTargetEntitySameNamespace
 {
 }
 
 class DoctrineRelationTargetEntitySameNamespace
 {
     /**
-     * @ORM\OneToOne(targetEntity="DoctrineRelated")
+     * @ORM\OneToOne(targetEntity="DoctrineRelationTargetEntitySameNamespace")
      */
     private $related;
 }
@@ -24,15 +24,15 @@ namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRe
 
 use Doctrine\ORM\Mapping as ORM;
 
-class DoctrineRelated
+class DoctrineRelationTargetEntitySameNamespace
 {
 }
 
 class DoctrineRelationTargetEntitySameNamespace
 {
     /**
-     * @ORM\OneToOne(targetEntity="DoctrineRelated")
-     * @var \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\DoctrineRelated|null
+     * @ORM\OneToOne(targetEntity="DoctrineRelationTargetEntitySameNamespace")
+     * @var \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\DoctrineRelationTargetEntitySameNamespace|null
      */
     private $related;
 }

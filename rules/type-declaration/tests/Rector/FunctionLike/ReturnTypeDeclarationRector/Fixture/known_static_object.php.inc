@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Tiny
+class KnownStaticObject
 {
 
 }
@@ -15,9 +15,9 @@ class KnownStaticObject
         return $object;
     }
 
-    public function getTiny()
+    public function getKnownStaticObject()
     {
-        $object = new Tiny();
+        $object = new KnownStaticObject();
         return $object;
     }
 
@@ -37,7 +37,7 @@ class KnownStaticObject
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Tiny
+class KnownStaticObject
 {
 
 }
@@ -50,9 +50,9 @@ class KnownStaticObject
         return $object;
     }
 
-    public function getTiny(): \Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\Tiny
+    public function getKnownStaticObject(): \Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\KnownStaticObject
     {
-        $object = new Tiny();
+        $object = new KnownStaticObject();
         return $object;
     }
 

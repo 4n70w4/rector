@@ -5,7 +5,7 @@ namespace Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedDoctrineEntityMethodAn
 use Doctrine\ORM\Mapping as ORM;
 use Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedDoctrineEntityMethodAndPropertyRector\Source\SomeEntityProvider;
 
-class SomeClassOnlyUsingTrait
+class SkipTraitComplex
 {
     use SkipTraitComplex;
 }

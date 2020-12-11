@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
  * @Route("/hey", name="hey")
  * @Route("/hey-me", name="hey_me")
  */
-class DoubleRoute extends AbstractController
+class DoubleRoute
 {
     /**
      * @Route("/property", name="property")

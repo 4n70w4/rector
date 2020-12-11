@@ -4,7 +4,7 @@ namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConsta
 
 use Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Source\SomeProtectedParentClass;
 
-class SkipParentClassProtected extends SomeProtectedParentClass
+class SkipParentClassProtected
 {
     protected const SOME_CONST = 'changed_value';
 }

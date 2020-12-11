@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Throwable;
 
-class ClassIfElseArrayController extends AbstractController
+class IfElseArrayResponse
 {
     /**
      * @Template()
@@ -39,7 +39,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Throwable;
 
-class ClassIfElseArrayController extends AbstractController
+class IfElseArrayResponse
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

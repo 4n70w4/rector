@@ -5,7 +5,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector
 use PHPUnit\Framework\TestCase;
 use Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Source\ClassWithMethodOfTwoArguments;
 
-class SkipAlreadyArrayTestCase extends TestCase
+class SkipAlreadyArray
 {
     public function test()
     {

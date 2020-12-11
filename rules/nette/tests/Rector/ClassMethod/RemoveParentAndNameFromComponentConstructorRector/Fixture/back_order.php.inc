@@ -5,7 +5,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\RemoveParentAndNameFromComponent
 use Nette\Application\UI\Control;
 use Nette\ComponentModel\IContainer;
 
-class BackOrderControl extends Control
+class BackOrder
 {
     public function __construct($name = null, int $value, IContainer $parent = null)
     {
@@ -22,7 +22,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\RemoveParentAndNameFromComponent
 use Nette\Application\UI\Control;
 use Nette\ComponentModel\IContainer;
 
-class BackOrderControl extends Control
+class BackOrder
 {
     public function __construct(int $value)
     {

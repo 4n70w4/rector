@@ -6,7 +6,7 @@ use PhpParser\Node\Scalar\LNumber;
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class UnionTypes extends SomeType
+class UnionTypes
 {
     public function getNodeTypes(): array
     {
@@ -28,7 +28,7 @@ use PhpParser\Node\Scalar\LNumber;
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class UnionTypes extends SomeType
+class UnionTypes
 {
     public function getNodeTypes(): array
     {

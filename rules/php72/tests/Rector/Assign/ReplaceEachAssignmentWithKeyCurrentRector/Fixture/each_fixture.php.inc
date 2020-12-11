@@ -4,7 +4,7 @@ namespace Rector\Php72\Tests\Rector\Assign\ReplaceEachAssignmentWithKeyCurrentRe
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class EachFixture implements RunnableInterface
+class EachFixture
 {
     public function run()
     {
@@ -24,7 +24,7 @@ namespace Rector\Php72\Tests\Rector\Assign\ReplaceEachAssignmentWithKeyCurrentRe
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class EachFixture implements RunnableInterface
+class EachFixture
 {
     public function run()
     {

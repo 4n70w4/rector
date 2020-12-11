@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDeadRecursiveClassMetho
 
 use Symplify\SmartFileSystem\SmartFileInfo;
 
-class FileRemover
+class RemoveFile
 {
     /**
      * @var SmartFileInfo[]
@@ -17,10 +17,10 @@ class FileRemover
     }
 }
 
-abstract class AbstractClassUsingFileRemover
+abstract class AbstractClassUsingRemoveFile
 {
     /**
-     * @var FileRemover
+     * @var RemoveFile
      */
     private $removeFile;
 
@@ -30,7 +30,7 @@ abstract class AbstractClassUsingFileRemover
     }
 }
 
-class ClassExtendingClass extends AbstractClassUsingFileRemover
+class ClassExtendingClass extends AbstractClassUsingRemoveFile
 {
     public function run($smartFileInfo)
     {

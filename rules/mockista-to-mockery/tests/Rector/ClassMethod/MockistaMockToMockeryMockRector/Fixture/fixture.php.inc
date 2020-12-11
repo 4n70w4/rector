@@ -4,7 +4,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function testSomething()
     {
@@ -21,7 +21,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function testSomething()
     {

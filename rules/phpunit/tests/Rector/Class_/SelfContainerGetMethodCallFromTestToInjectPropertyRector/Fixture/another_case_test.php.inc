@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class AnotherCaseTest extends TestCaseWithGetContainer
+class AnotherCaseTest
 {
     protected function getDomainBaseUrl(): string
     {
@@ -23,7 +23,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class AnotherCaseTest extends TestCaseWithGetContainer
+class AnotherCaseTest
 {
     /**
      * @inject

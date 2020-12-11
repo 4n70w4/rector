@@ -8,7 +8,7 @@ use Rector\Doctrine\Tests\Rector\Class_\AddUuidToEntityWhereMissingRector\Source
 /**
  * @ORM\Entity
  */
-class WithParentConstructor extends BaseEntityWithConstructor
+class WithParentConstructor
 {
     /**
      * @var int
@@ -31,7 +31,7 @@ use Rector\Doctrine\Tests\Rector\Class_\AddUuidToEntityWhereMissingRector\Source
 /**
  * @ORM\Entity
  */
-class WithParentConstructor extends BaseEntityWithConstructor
+class WithParentConstructor
 {
     /**
      * @var \Ramsey\Uuid\UuidInterface

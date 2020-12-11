@@ -2,7 +2,7 @@
 
 namespace Rector\Php70\Tests\Rector\StaticCall\StaticCallOnNonStaticToInstanceCallRector\Fixture;
 
-class AddStaticToMethodTest
+class AddStaticToMethod
 {
     private function __construct() // private constructor
     {
@@ -13,7 +13,7 @@ class AddStaticToMethodTest
     }
 }
 
-class AddStaticToMethodTest2
+class AddStaticToMethod2
 {
     public function __construct(string $test) // constructor with parameter
     {
@@ -29,8 +29,8 @@ class ClassWrapToPreventCodeRun
 {
     public function run()
     {
-        AddStaticToMethodTest::method();
-        AddStaticToMethodTest2::method();
+        AddStaticToMethod::method();
+        AddStaticToMethod2::method();
     }
 }
 
@@ -40,7 +40,7 @@ class ClassWrapToPreventCodeRun
 
 namespace Rector\Php70\Tests\Rector\StaticCall\StaticCallOnNonStaticToInstanceCallRector\Fixture;
 
-class AddStaticToMethodTest
+class AddStaticToMethod
 {
     private function __construct() // private constructor
     {
@@ -51,7 +51,7 @@ class AddStaticToMethodTest
     }
 }
 
-class AddStaticToMethodTest2
+class AddStaticToMethod2
 {
     public function __construct(string $test) // constructor with parameter
     {
@@ -67,8 +67,8 @@ class ClassWrapToPreventCodeRun
 {
     public function run()
     {
-        AddStaticToMethodTest::method();
-        AddStaticToMethodTest2::method();
+        AddStaticToMethod::method();
+        AddStaticToMethod2::method();
     }
 }
 

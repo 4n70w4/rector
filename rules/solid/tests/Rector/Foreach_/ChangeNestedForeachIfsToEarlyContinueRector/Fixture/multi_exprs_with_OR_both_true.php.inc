@@ -4,7 +4,7 @@ namespace Rector\SOLID\Tests\Rector\Foreach_\ChangeNestedForeachIfsToEarlyContin
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class MultiExprsWithOrBothTruthy implements RunnableInterface
+class MultiExprsWithOrBothTrue
 {
     public function run()
     {
@@ -34,7 +34,7 @@ namespace Rector\SOLID\Tests\Rector\Foreach_\ChangeNestedForeachIfsToEarlyContin
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class MultiExprsWithOrBothTruthy implements RunnableInterface
+class MultiExprsWithOrBothTrue
 {
     public function run()
     {

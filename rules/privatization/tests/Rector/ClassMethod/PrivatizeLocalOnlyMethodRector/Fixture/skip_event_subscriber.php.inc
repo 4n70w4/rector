@@ -4,7 +4,7 @@ namespace Rector\Privatization\Tests\Rector\ClassMethod\PrivatizeLocalOnlyMethod
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-class SkipEventSubscriber implements EventSubscriberInterface
+class SkipEventSubscriber
 {
     public static function getSubscribedEvents()
     {

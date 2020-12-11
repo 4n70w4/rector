@@ -4,7 +4,7 @@ namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
 use Rector\Renaming\Tests\Rector\Name\RenameClassRector\Source\OldClassWithTypo;
 
-class NameInsensitive extends OldClassWithTypO
+class NameInsensitive
 {
     public function run(): OLDClassWithTYPO
     {

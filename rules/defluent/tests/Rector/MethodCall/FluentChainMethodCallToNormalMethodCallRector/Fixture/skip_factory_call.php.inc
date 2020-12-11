@@ -4,7 +4,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Symfony\Component\Console\Command\Command;
 
-class SkipFactoryCall extends Command
+class SkipFactoryCall
 {
     public function go()
     {

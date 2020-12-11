@@ -4,12 +4,12 @@ namespace Rector\Nette\Tests\Rector\MethodCall\SetClassWithArgumentToSetFactoryR
 
 use Nette\DI\ContainerBuilder;
 
-class SomeClass
+class Fixture
 {
     public function run(ContainerBuilder $containerBuilder)
     {
         $containerBuilder->addDefinition('...')
-            ->setClass('SomeClass', [1, 2]);
+            ->setClass('Fixture', [1, 2]);
     }
 }
 
@@ -21,12 +21,12 @@ namespace Rector\Nette\Tests\Rector\MethodCall\SetClassWithArgumentToSetFactoryR
 
 use Nette\DI\ContainerBuilder;
 
-class SomeClass
+class Fixture
 {
     public function run(ContainerBuilder $containerBuilder)
     {
         $containerBuilder->addDefinition('...')
-            ->setFactory('SomeClass', [1, 2]);
+            ->setFactory('Fixture', [1, 2]);
     }
 }
 

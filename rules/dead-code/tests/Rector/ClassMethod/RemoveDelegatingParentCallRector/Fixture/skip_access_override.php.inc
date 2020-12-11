@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRector\Fixture;
 
-class SkipAccessOverride extends ParentClassWithProtected
+class SkipAccessOverride
 {
     public function getName()
     {

@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\RemoveExpectAnyFromMockRector\F
 
 use PHPUnit\Framework\TestCase;
 
-class SomeClass extends TestCase
+class Fixture
 {
     public function test()
     {
@@ -23,7 +23,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\RemoveExpectAnyFromMockRector\F
 
 use PHPUnit\Framework\TestCase;
 
-class SomeClass extends TestCase
+class Fixture
 {
     public function test()
     {

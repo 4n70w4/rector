@@ -2,21 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\dunglas;
 
-class AnyClass
-{}
-
-/**
- * @param integer $integer
- * @param boolean $boolean
- * @param real $real
- * @param double $double
- * @param callback $callback
- * @param void $void
- * @param mixed $mixed
- * @param unknown $unknown
- * @param AnyClass $class
- */
-function aliases($integer, $boolean, $real, $double, $callback, $void, $mixed, $unkown, $class) {
+class TypeAliasesAndWhitelisting {
 }
 ?>
 -----

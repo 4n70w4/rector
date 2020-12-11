@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\CreateMockToCreateStubRector\Fi
 
 use PHPUnit\Framework\TestCase;
 
-class SkipSonataExpects extends TestCase
+class SkipSonataExpects
 {
     public function testItBehavesAsExpected(): void
     {

@@ -6,7 +6,7 @@ use Rector\CodingStyle\Tests\Rector\Use_\RemoveUnusedAliasRector\Source\Abstract
 use Rector\CodingStyle\Tests\Rector\Use_\RemoveUnusedAliasRector\Source\AbstractKernel as BaseKernel;
 
 
-class SomeClass extends BaseKernel implements BaseInterface
+class Fixture
 {
     public function run(BaseKernel $baseKernel): BaseInterface
     {

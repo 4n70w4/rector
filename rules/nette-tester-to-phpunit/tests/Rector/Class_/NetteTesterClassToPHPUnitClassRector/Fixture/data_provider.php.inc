@@ -5,7 +5,7 @@ namespace Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPU
 use Tester\Assert;
 use Tester\TestCase;
 
-class DataProviderTest extends TestCase
+class DataProvider
 {
     /**
      * @dataProvider dataMySqlExceptions

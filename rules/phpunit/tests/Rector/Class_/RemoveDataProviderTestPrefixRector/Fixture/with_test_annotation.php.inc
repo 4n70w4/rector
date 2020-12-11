@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class WithTestAnnotation extends \PHPUnit\Framework\TestCase
+class WithTestAnnotation
 {
     /**
      * @test
@@ -25,7 +25,7 @@ class WithTestAnnotation extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class WithTestAnnotation extends \PHPUnit\Framework\TestCase
+class WithTestAnnotation
 {
     /**
      * @test

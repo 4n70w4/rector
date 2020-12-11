@@ -2,7 +2,7 @@
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class ClassWithConstantUsedSomewhereElse
+class KeepPublic
 {
     const NON_LOCAL_ONLY = true;
 }
@@ -11,7 +11,7 @@ class ForeignConstantAddictUser
 {
     public function run()
     {
-        return ClassWithConstantUsedSomewhereElse::NON_LOCAL_ONLY;
+        return KeepPublic::NON_LOCAL_ONLY;
     }
 }
 
@@ -21,7 +21,7 @@ class ForeignConstantAddictUser
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class ClassWithConstantUsedSomewhereElse
+class KeepPublic
 {
     public const NON_LOCAL_ONLY = true;
 }
@@ -30,7 +30,7 @@ class ForeignConstantAddictUser
 {
     public function run()
     {
-        return ClassWithConstantUsedSomewhereElse::NON_LOCAL_ONLY;
+        return KeepPublic::NON_LOCAL_ONLY;
     }
 }
 

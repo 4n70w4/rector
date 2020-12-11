@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRec
 
 use Throwable;
 
-class DefaultOverrideException extends \Exception
+class DifferentDefaultsInternal
 {
     public function __construct($message = "My special message", $code = 0, Throwable $previous = null)
     {

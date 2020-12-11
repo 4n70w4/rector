@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class DeliverySpec extends ObjectBehavior
+class MockMethodCallArguments
 {
     public function let(DeliveryFactory $factory, ShippingMethod $shippingMethod)
     {

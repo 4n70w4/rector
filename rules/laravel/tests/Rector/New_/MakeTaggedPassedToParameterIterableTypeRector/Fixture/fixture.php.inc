@@ -2,7 +2,7 @@
 
 namespace Rector\Laravel\Tests\Rector\New_\MakeTaggedPassedToParameterIterableTypeRector\Fixture;
 
-class AnotherClass
+class Fixture
 {
     /**
      * @var \Illuminate\Contracts\Foundation\Application
@@ -29,7 +29,7 @@ class SomeClass
 
 namespace Rector\Laravel\Tests\Rector\New_\MakeTaggedPassedToParameterIterableTypeRector\Fixture;
 
-class AnotherClass
+class Fixture
 {
     /**
      * @var \Illuminate\Contracts\Foundation\Application

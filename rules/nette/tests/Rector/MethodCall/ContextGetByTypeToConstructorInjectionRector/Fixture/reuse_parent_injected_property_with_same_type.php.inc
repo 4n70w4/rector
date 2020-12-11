@@ -5,7 +5,7 @@ namespace Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInje
 use Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInjectionRector\Source\ParentWithInjectedPropertyPresenter;
 use Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInjectionRector\Source\SomeTypeToInject;
 
-class ReuseParentInjectedPropertyWithSameType extends ParentWithInjectedPropertyPresenter
+class ReuseParentInjectedPropertyWithSameType
 {
     /**
      * @var \Nette\DI\Container
@@ -27,7 +27,7 @@ namespace Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInje
 use Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInjectionRector\Source\ParentWithInjectedPropertyPresenter;
 use Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInjectionRector\Source\SomeTypeToInject;
 
-class ReuseParentInjectedPropertyWithSameType extends ParentWithInjectedPropertyPresenter
+class ReuseParentInjectedPropertyWithSameType
 {
     /**
      * @var \Nette\DI\Container

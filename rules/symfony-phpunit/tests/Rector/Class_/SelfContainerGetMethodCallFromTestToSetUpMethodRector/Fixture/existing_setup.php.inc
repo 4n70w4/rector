@@ -5,7 +5,7 @@ namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFr
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ItemRepository;
 
-class ExistingSetUpTest extends KernelTestCase
+class ExistingSetup
 {
     protected function setUp(): void
     {
@@ -34,7 +34,7 @@ namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFr
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ItemRepository;
 
-class ExistingSetUpTest extends KernelTestCase
+class ExistingSetup
 {
     private \Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ItemRepository $itemRepository;
     protected function setUp(): void

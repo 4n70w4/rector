@@ -2,7 +2,7 @@
 
 namespace Rector\Php70\Tests\Rector\StaticCall\StaticCallOnNonStaticToInstanceCallRector\Fixture;
 
-class A {
+class Keep {
     public function method() {
         $this->foo();
     }
@@ -19,11 +19,11 @@ class A {
     }
 }
 
-class B extends A {
+class B extends Keep {
     public function method() {
         // This call is allowed, because it's not a static call (it only looks like one)
         parent::method();
         // This call is also allowed, for the same reason
-        A::method();
+        Keep::method();
     }
 }

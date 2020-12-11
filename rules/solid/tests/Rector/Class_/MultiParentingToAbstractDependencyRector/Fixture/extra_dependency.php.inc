@@ -18,7 +18,7 @@ abstract class AbstractParentClassWithExtraDependency
     }
 }
 
-class FirstChildWithExtraDependency extends AbstractParentClassWithExtraDependency
+class ExtraDependency
 {
     /**
      * @var AnotherDependency
@@ -62,7 +62,7 @@ abstract class AbstractParentClassWithExtraDependency
     }
 }
 
-class FirstChildWithExtraDependency extends AbstractParentClassWithExtraDependency
+class ExtraDependency
 {
     /**
      * @var AnotherDependency

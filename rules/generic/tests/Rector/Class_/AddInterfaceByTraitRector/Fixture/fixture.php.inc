@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Source\SomeTrait;
 
-class SomeClass
+class Fixture
 {
     use SomeTrait;
 }
@@ -17,7 +17,7 @@ namespace Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Source\SomeTrait;
 
-class SomeClass implements \Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Source\SomeInterface
+class Fixture implements \Rector\Generic\Tests\Rector\Class_\AddInterfaceByTraitRector\Source\SomeInterface
 {
     use SomeTrait;
 }

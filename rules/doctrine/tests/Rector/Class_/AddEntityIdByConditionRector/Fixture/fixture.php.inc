@@ -4,7 +4,7 @@ namespace Rector\Doctrine\Tests\Rector\Class_\AddEntityIdByConditionRector\Fixtu
 
 use Rector\Doctrine\Tests\Rector\Class_\AddEntityIdByConditionRector\Source\SomeTrait;
 
-class SomeClass
+class Fixture
 {
     use SomeTrait;
 }
@@ -17,7 +17,7 @@ namespace Rector\Doctrine\Tests\Rector\Class_\AddEntityIdByConditionRector\Fixtu
 
 use Rector\Doctrine\Tests\Rector\Class_\AddEntityIdByConditionRector\Source\SomeTrait;
 
-class SomeClass
+class Fixture
 {
     use SomeTrait;
     /**

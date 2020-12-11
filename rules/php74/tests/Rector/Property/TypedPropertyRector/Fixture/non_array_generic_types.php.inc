@@ -2,7 +2,7 @@
 
 namespace Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture;
 
-class Promise
+class NonArrayGenericTypes
 {
 }
 
@@ -18,7 +18,7 @@ final class NonArrayGenericTypes
     private $foo;
 
     /**
-     * @var Promise<Foo>
+     * @var NonArrayGenericTypes<Foo>
      */
     private $bar;
 }
@@ -29,7 +29,7 @@ final class NonArrayGenericTypes
 
 namespace Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture;
 
-class Promise
+class NonArrayGenericTypes
 {
 }
 
@@ -45,9 +45,9 @@ final class NonArrayGenericTypes
     private \Traversable $foo;
 
     /**
-     * @var Promise<Foo>
+     * @var NonArrayGenericTypes<Foo>
      */
-    private \Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture\Promise $bar;
+    private \Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture\NonArrayGenericTypes $bar;
 }
 
 ?>

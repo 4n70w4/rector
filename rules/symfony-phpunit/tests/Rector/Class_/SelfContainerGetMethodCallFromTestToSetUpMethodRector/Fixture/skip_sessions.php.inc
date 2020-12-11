@@ -5,7 +5,7 @@ namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFr
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ParentClassWithPropertyKernelTestCase;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
-class SkipSessions extends ParentClassWithPropertyKernelTestCase
+class SkipSessions
 {
     public function testOne()
     {

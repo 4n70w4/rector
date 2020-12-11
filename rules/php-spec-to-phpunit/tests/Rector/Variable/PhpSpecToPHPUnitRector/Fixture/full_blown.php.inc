@@ -13,7 +13,7 @@ use Ecommerce\Taxing\PriceType;
 use Ramsey\Uuid\Uuid;
 use PhpSpec\ObjectBehavior;
 
-class CartSpec extends ObjectBehavior
+class FullBlown
 {
     public function let()
     {

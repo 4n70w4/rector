@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class SomeClass implements OneToManyInterface
+class Fixture
 {
     public function getNode(): string
     {
@@ -20,7 +20,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class SomeClass implements OneToManyInterface
+class Fixture
 {
     /**
      * @return string[]

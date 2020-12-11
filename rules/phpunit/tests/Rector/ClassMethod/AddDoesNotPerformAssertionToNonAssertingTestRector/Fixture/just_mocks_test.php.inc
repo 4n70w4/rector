@@ -5,7 +5,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 use Mockery;
 use PHPUnit\Framework\TestCase;
 
-class JustMocksTest extends TestCase
+class JustMocksTest
 {
     public function test()
     {
@@ -23,7 +23,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 use Mockery;
 use PHPUnit\Framework\TestCase;
 
-class JustMocksTest extends TestCase
+class JustMocksTest
 {
     /**
      * @doesNotPerformAssertions

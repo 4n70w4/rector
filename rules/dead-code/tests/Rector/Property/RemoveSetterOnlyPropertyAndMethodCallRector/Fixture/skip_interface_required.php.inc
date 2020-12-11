@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveSetterOnlyPropertyAndMethodCallRector\Fixture;
 
-class SkipInterfaceRequired implements ParentInterface
+class SkipInterfaceRequired
 {
     private $name;
     public function setName(string $name): void

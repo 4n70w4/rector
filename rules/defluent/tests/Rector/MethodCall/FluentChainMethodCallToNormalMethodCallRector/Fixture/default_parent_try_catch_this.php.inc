@@ -4,7 +4,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Throwable;
 
-class DefaultParentTryCatchThis extends SomeAjaxPresenter
+class DefaultParentTryCatchThis
 {
     public function run($path)
     {
@@ -38,7 +38,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Throwable;
 
-class DefaultParentTryCatchThis extends SomeAjaxPresenter
+class DefaultParentTryCatchThis
 {
     public function run($path)
     {

@@ -2,12 +2,12 @@
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class FirstParent
+class ProtectedParentParent
 {
     const CHILD_ONLY = true;
 }
 
-class SecondParent extends FirstParent
+class SecondParent extends ProtectedParentParent
 {
 }
 
@@ -25,12 +25,12 @@ final class FirstBorn extends SecondParent
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class FirstParent
+class ProtectedParentParent
 {
     protected const CHILD_ONLY = true;
 }
 
-class SecondParent extends FirstParent
+class SecondParent extends ProtectedParentParent
 {
 }
 

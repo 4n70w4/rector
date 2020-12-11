@@ -5,7 +5,7 @@ namespace Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Fixture;
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\AbstractType;
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\Something;
 
-class SkipDifferentType extends AbstractType
+class SkipDifferentType
 {
     public function anyMethod(SomeResolver $resolver)
     {

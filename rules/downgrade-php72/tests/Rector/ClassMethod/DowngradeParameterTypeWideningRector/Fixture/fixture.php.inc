@@ -7,7 +7,7 @@ interface A
     public function test(array $input);
 }
 
-class B implements A
+class Fixture
 {
     public function test($input){} // type omitted for $input
 }
@@ -31,7 +31,7 @@ interface A
     public function test($input);
 }
 
-class B implements A
+class Fixture
 {
     public function test($input){} // type omitted for $input
 }

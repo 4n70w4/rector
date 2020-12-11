@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYi
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYieldRector\Source\ParentTestCase;
 
-class DataProvider extends ParentTestCase
+class DataProvider
 {
     public static function provideData()
     {
@@ -30,7 +30,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYi
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYieldRector\Source\ParentTestCase;
 
-class DataProvider extends ParentTestCase
+class DataProvider
 {
     public static function provideData(): \Iterator
     {

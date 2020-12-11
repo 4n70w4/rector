@@ -6,7 +6,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\Class_\NetteControlToSymfonyControl
 
 use Nette\Application\UI\Control;
 
-class GetPresenterSession extends Control
+class GetPresenterSession
 {
     public function render(): void
     {

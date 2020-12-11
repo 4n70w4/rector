@@ -5,7 +5,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\RemoveParentAndNameFromComponent
 use Nette\Application\UI\Control;
 use Nette\ComponentModel\IContainer;
 
-class SomeControl extends Control
+class Fixture
 {
     public function __construct(IContainer $parent = null, $name = null, int $value)
     {
@@ -23,7 +23,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\RemoveParentAndNameFromComponent
 use Nette\Application\UI\Control;
 use Nette\ComponentModel\IContainer;
 
-class SomeControl extends Control
+class Fixture
 {
     public function __construct(int $value)
     {

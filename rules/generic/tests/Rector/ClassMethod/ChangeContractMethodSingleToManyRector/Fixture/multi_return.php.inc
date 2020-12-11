@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class MultiReturn implements OneToManyInterface
+class MultiReturn
 {
     public function getNode(): string
     {
@@ -24,7 +24,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class MultiReturn implements OneToManyInterface
+class MultiReturn
 {
     /**
      * @return string[]

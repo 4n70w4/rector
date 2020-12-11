@@ -10,7 +10,7 @@ interface RespectInterface
     public function toString(): string;
 }
 
-class SkipThrowsTypeOverride implements RespectInterface
+class SkipThrowsTypeOverride
 {
     /**
      * @return string

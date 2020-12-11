@@ -2,7 +2,7 @@
 
 namespace Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture;
 
-class ChildClass extends ParentClass
+class Fixture
 {
     public function run()
     {
@@ -22,7 +22,7 @@ class ParentClass
 
 namespace Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture;
 
-class ChildClass extends ParentClass
+class Fixture
 {
     protected function run()
     {

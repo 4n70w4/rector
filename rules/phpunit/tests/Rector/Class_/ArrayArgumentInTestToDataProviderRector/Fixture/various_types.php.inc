@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\ArrayArgumentInTestToDataProviderRector\Fixture;
 
-class VariousTypesTest extends \PHPUnit\Framework\TestCase
+class VariousTypes
 {
     public function test()
     {
@@ -16,7 +16,7 @@ class VariousTypesTest extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\ArrayArgumentInTestToDataProviderRector\Fixture;
 
-class VariousTypesTest extends \PHPUnit\Framework\TestCase
+class VariousTypes
 {
     /**
      * @param int|string|float $variable

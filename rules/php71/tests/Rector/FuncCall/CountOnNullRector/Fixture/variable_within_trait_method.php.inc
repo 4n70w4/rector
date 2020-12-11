@@ -4,7 +4,7 @@ namespace Rector\Php71\Tests\Rector\FuncCall\CountOnNullRector\Fixture;
 
 use Rector\Php71\Tests\Rector\FuncCall\CountOnNullRector\Source\CountableClass;
 
-class SomeClassUsingTrait
+class VariableWithinTraitMethod
 {
     use VariableWithinTraitMethod;
 }

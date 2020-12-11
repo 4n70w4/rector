@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Rector\Php71\Tests\Rector\FuncCall\CountOnNullRector\Fixture;
 
 $fn = function() {
-    $primaryColumns = Dibi::getColumns();
+    $primaryColumns = DoubleSameVariable::getColumns();
 
     if (count($primaryColumns) === 0) {
         throw new \Exception("x");
@@ -16,7 +16,7 @@ $fn = function() {
     }
 };
 
-class Dibi
+class DoubleSameVariable
 {
     public static function getColumns(): array
     {

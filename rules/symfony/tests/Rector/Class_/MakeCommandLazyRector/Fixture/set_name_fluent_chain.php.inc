@@ -2,7 +2,7 @@
 
 namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 
-class SetNameFluentChain extends \Symfony\Component\Console\Command\Command
+class SetNameFluentChain
 {
     public function configure()
     {
@@ -19,7 +19,7 @@ class SetNameFluentChain extends \Symfony\Component\Console\Command\Command
 
 namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 
-class SetNameFluentChain extends \Symfony\Component\Console\Command\Command
+class SetNameFluentChain
 {
     protected static $defaultName = 'some:command';
     public function configure()

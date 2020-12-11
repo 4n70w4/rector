@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class BlablaSpec extends ObjectBehavior
+class GetWrappedObject
 {
     public function it_is_me(SomeType $someType)
     {

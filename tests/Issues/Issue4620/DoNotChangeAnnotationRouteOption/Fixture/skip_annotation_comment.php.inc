@@ -8,9 +8,9 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Class InvoiceAdminController.
+ * Class SkipAnnotationComment.
  */
-class InvoiceAdminController
+class SkipAnnotationComment
 {
     /**
      * @Route("/admin/invoice/show/{id}", options={ "expose" = true, "another_option" = false }, name="invoice_admin_show")

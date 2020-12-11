@@ -4,7 +4,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddArrayParamDocTypeRe
 
 use PHPUnit\Framework\TestCase;
 
-class DataProvider extends TestCase
+class DataProvider
 {
     /**
      * @dataProvider provideData()
@@ -29,7 +29,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddArrayParamDocTypeRe
 
 use PHPUnit\Framework\TestCase;
 
-class DataProvider extends TestCase
+class DataProvider
 {
     /**
      * @dataProvider provideData()

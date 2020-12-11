@@ -7,7 +7,7 @@ interface SkipInterface
     public function process();
 }
 
-class ImplementerOfTheInterface implements SkipInterface
+class SkipInterface
 {
     public function process()
     {

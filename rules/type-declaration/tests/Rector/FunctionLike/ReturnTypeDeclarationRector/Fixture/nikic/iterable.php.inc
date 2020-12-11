@@ -2,13 +2,13 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\nikic;
 
-class AnIterableClass {
+class Iterable {
     /** @return iterable */
     public function getIterable($value) {
         return $value;
     }
 }
-class BuildOnThePreviousClass extends AnIterableClass {
+class BuildOnThePreviousClass extends Iterable {
     /** @return array */
     public function getIterable($value) {
         return $value;
@@ -21,12 +21,12 @@ class BuildOnThePreviousClass extends AnIterableClass {
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\nikic;
 
-class AnIterableClass {
+class Iterable {
     public function getIterable($value): iterable {
         return $value;
     }
 }
-class BuildOnThePreviousClass extends AnIterableClass {
+class BuildOnThePreviousClass extends Iterable {
     /** @return array */
     public function getIterable($value): iterable {
         return $value;

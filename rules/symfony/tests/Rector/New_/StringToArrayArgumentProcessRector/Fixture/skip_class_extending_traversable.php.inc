@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\New_\StringToArrayArgumentProcessRector\Fi
 
 use Rector\Symfony\Tests\Rector\New_\StringToArrayArgumentProcessRector\Source\TraversableClass;
 
-class TestClass
+class SkipClassExtendingTraversable
 {
     public function foo(): void
     {

@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\GetRequestRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 
-class ClassWithNamedService extends SymfonyController
+class Fixture
 {
     public function someAction()
     {
@@ -20,7 +20,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\GetRequestRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 
-class ClassWithNamedService extends SymfonyController
+class Fixture
 {
     public function someAction(\Symfony\Component\HttpFoundation\Request $request)
     {

@@ -2,10 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class Foo
-{}
-
-class A {
+class NullableInheritance {
     /** @param Foo $a */
     public function test2($a) {}
 }
@@ -20,10 +17,7 @@ class B extends A {
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class Foo
-{}
-
-class A {
+class NullableInheritance {
     /** @param Foo $a */
     public function test2(\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic\Foo $a) {}
 }

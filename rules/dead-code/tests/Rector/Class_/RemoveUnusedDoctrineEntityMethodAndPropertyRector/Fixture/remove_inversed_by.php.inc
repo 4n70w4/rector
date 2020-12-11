@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  */
-class Answer
+class RemoveInversedBy
 {
     /**
      * @ORM\ManyToMany(targetEntity="RemoveInversedBy", inversedBy="answers")
@@ -21,7 +21,7 @@ class Answer
     }
 }
 
-$answer = new Answer();
+$answer = new RemoveInversedBy();
 $answer->getVoters();
 
 /**
@@ -30,7 +30,7 @@ $answer->getVoters();
 class RemoveInversedBy
 {
     /**
-     * @ORM\ManyToMany(targetEntity="Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedDoctrineEntityMethodAndPropertyRector\Fixture\Answer", mappedBy="voters")
+     * @ORM\ManyToMany(targetEntity="Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedDoctrineEntityMethodAndPropertyRector\Fixture\RemoveInversedBy", mappedBy="voters")
      */
     private $answers;
 
@@ -52,7 +52,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  */
-class Answer
+class RemoveInversedBy
 {
     /**
      * @ORM\ManyToMany(targetEntity="RemoveInversedBy")
@@ -65,7 +65,7 @@ class Answer
     }
 }
 
-$answer = new Answer();
+$answer = new RemoveInversedBy();
 $answer->getVoters();
 
 /**

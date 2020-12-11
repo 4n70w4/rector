@@ -1,21 +1,21 @@
 <?php
 
-namespace Rector\Doctrine\Tests\Rector\Property\RemoveTemporaryUuidColumnPropertyRector\Fixture;
+namespace Rector\Doctrine\Tests\Rector\Property\RemoveTemporaryUuidFixturePropertyRector\Fixture;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  */
-class Column
+class Fixture
 {
     /**
-     * @ORM\Column
+     * @ORM\Fixture
      */
     public $id;
 
     /**
-     * @ORM\Column
+     * @ORM\Fixture
      */
     public $uuid;
 }
@@ -24,17 +24,17 @@ class Column
 -----
 <?php
 
-namespace Rector\Doctrine\Tests\Rector\Property\RemoveTemporaryUuidColumnPropertyRector\Fixture;
+namespace Rector\Doctrine\Tests\Rector\Property\RemoveTemporaryUuidFixturePropertyRector\Fixture;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  */
-class Column
+class Fixture
 {
     /**
-     * @ORM\Column
+     * @ORM\Fixture
      */
     public $id;
 }

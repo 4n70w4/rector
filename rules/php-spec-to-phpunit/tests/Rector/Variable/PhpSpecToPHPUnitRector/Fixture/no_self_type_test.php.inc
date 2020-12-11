@@ -5,7 +5,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 use Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\Fixture\ItIsMe;
 use PhpSpec\ObjectBehavior;
 
-class ItIsMeSpec extends ObjectBehavior
+class NoSelfTypeTest
 {
     public function it_is_me()
     {

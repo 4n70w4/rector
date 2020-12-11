@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\dunglas;
 
-class Child extends Foo implements BarInterface
+class Child
 {
     use BazTrait;
     public function test($a, $b)
@@ -65,7 +65,7 @@ interface BarInterface
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\dunglas;
 
-class Child extends Foo implements BarInterface
+class Child
 {
     use BazTrait;
     public function test($a, $b)

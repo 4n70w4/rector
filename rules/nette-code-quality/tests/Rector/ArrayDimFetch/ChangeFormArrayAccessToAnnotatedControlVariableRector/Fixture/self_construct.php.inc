@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 use Nette\Application\UI\Form;
 use Nette\Forms\Controls\TextInput;
 
-class SelfConstruct extends Form
+class SelfConstruct
 {
     public function __construct()
     {
@@ -23,7 +23,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 use Nette\Application\UI\Form;
 use Nette\Forms\Controls\TextInput;
 
-class SelfConstruct extends Form
+class SelfConstruct
 {
     public function __construct()
     {

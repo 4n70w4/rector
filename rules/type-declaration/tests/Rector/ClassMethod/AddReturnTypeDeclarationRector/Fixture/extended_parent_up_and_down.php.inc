@@ -4,7 +4,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarati
 
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Source\FirstChildPHPUnitTestCase;
 
-class FirstChild extends FirstChildPHPUnitTestCase
+class ExtendedParentUpAndDown
 {
     public function tearDown()
     {
@@ -19,7 +19,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarati
 
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Source\FirstChildPHPUnitTestCase;
 
-class FirstChild extends FirstChildPHPUnitTestCase
+class ExtendedParentUpAndDown
 {
     public function tearDown(): void
     {

@@ -4,7 +4,7 @@ namespace Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Fixture;
 
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\AbstractType;
 
-class RenameVariousLetterCasing extends AbstractType
+class RenameVariousLetterCasing
 {
     public function setDefaultOptions(SomeResolver $resolver)
     {
@@ -20,7 +20,7 @@ namespace Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Fixture;
 
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\AbstractType;
 
-class RenameVariousLetterCasing extends AbstractType
+class RenameVariousLetterCasing
 {
     public function configureOptions(SomeResolver $resolver)
     {

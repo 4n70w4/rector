@@ -17,7 +17,7 @@ abstract class AbstractParentClassSkipEmptyConstructor
     }
 }
 
-class FirstChildSkipEmptyConstructor extends AbstractParentClassSkipEmptyConstructor
+class SkipEmptyConstructor
 {
     public function __construct()
     {

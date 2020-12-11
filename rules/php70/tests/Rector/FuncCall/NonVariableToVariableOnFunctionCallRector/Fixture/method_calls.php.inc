@@ -2,7 +2,7 @@
 
 namespace Rector\Php70\Tests\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector\Fixture;
 
-class Child
+class MethodCalls
 {
     public function bar(&$bar) {}
 }
@@ -13,9 +13,9 @@ class AClass
 
     public function baz(&$bar) {}
 
-    public function child(): Child
+    public function child(): MethodCalls
     {
-        return new Child();
+        return new MethodCalls();
     }
 }
 
@@ -33,7 +33,7 @@ function methodCalls()
 
 namespace Rector\Php70\Tests\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector\Fixture;
 
-class Child
+class MethodCalls
 {
     public function bar(&$bar) {}
 }
@@ -44,9 +44,9 @@ class AClass
 
     public function baz(&$bar) {}
 
-    public function child(): Child
+    public function child(): MethodCalls
     {
-        return new Child();
+        return new MethodCalls();
     }
 }
 

@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\FormIsValidRector\Fixture;
 
 use Symfony\Component\Form\Form;
 
-class SkipNegativeIfsController
+class SkipNegativeIf
 {
     public function action()
     {

@@ -8,7 +8,7 @@ abstract class AbstractClass
 
 }
 
-class ChildClass extends AbstractClass
+class ChangeWhenNotUsingInChildren
 {
     public function foo(string $value)
     {
@@ -28,7 +28,7 @@ abstract class AbstractClass
 
 }
 
-class ChildClass extends AbstractClass
+class ChangeWhenNotUsingInChildren
 {
     public function foo()
     {

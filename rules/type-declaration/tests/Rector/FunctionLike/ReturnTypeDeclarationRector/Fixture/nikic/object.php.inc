@@ -2,13 +2,13 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\nikic;
 
-class A {
+class Object {
     /** @return object */
     public function getObject($value) {
         return $value;
     }
 }
-class B extends A {
+class B extends Object {
     /** @return Foo */
     public function getObject($value) {
         return $value;
@@ -20,12 +20,12 @@ class B extends A {
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\nikic;
 
-class A {
+class Object {
     public function getObject($value): object {
         return $value;
     }
 }
-class B extends A {
+class B extends Object {
     /** @return Foo */
     public function getObject($value): object {
         return $value;

@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Fixture;
 
 use Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Source\SomeParentClient;
 
-class Scoped extends SomeParentClient
+class Scoped
 {
     public function submit(\DomCrawlerForm $form, array $values = [])
     {
@@ -26,7 +26,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Fixture;
 
 use Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Source\SomeParentClient;
 
-class Scoped extends SomeParentClient
+class Scoped
 {
     public function submit(\DomCrawlerForm $form, array $values = [], array $serverParameters = [])
     {

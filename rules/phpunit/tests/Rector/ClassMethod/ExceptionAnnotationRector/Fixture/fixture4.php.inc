@@ -11,7 +11,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixt
 
 use PHPUnit\Framework\TestCase;
 
-class ExceptionMessageTest extends TestCase
+class Fixture4
 {
     /**
      * @expectedException \Exception
@@ -45,7 +45,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixt
 
 use PHPUnit\Framework\TestCase;
 
-class ExceptionMessageTest extends TestCase
+class Fixture4
 {
     public function testLiteralMessage(): void
     {

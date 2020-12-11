@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class KeepMethodSpec extends ObjectBehavior
+class KeepMethod
 {
     public function let()
     {

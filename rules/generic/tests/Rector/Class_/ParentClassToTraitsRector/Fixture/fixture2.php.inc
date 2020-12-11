@@ -5,7 +5,7 @@ namespace Rector\Generic\Tests\Rector\Class_\ParentClassToTraitsRector\Fixture;
 use Rector\Generic\Tests\Rector\Class_\ParentClassToTraitsRector\Source\AnotherTrait;
 use Rector\Generic\Tests\Rector\Class_\ParentClassToTraitsRector\Source\ParentObject;
 
-class ClassWithExternalConstant2 extends ParentObject
+class Fixture2
 {
     use AnotherTrait;
 }

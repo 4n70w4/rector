@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\FormTypeGetParentRector\Fixtur
 
 use Symfony\Component\Form\AbstractTypeExtension;
 
-class TypeExtension extends AbstractTypeExtension
+class AbstractTypeExtension
 {
     public function getExtendedType()
     {
@@ -20,7 +20,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\FormTypeGetParentRector\Fixtur
 
 use Symfony\Component\Form\AbstractTypeExtension;
 
-class TypeExtension extends AbstractTypeExtension
+class AbstractTypeExtension
 {
     public function getExtendedType()
     {

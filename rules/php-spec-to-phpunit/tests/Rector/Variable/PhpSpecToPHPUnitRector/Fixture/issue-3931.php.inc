@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 /**
  * Class PageLinksGeneratorSpec
  */
-class PageLinksGeneratorSpec extends ObjectBehavior
+class Issue-3931
 {
     public function it_is_initializable()
     {

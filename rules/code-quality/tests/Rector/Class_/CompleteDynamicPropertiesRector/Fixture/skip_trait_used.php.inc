@@ -2,7 +2,7 @@
 
 namespace Rector\CodeQuality\Tests\Rector\Class_\CompleteDynamicPropertiesRector\Fixture;
 
-class AddicatedClass
+class SkipTraitUsed
 {
     use PropertyInjection;
 

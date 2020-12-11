@@ -7,7 +7,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\Class_\NetteControlToSymfonyControl
 use App\Service\BasketManager;
 use Nette\Application\UI\Control;
 
-class TemplateWithAssign extends Control
+class TemplateWithAssign
 {
     /**
      * @var \App\Service\BasketManager

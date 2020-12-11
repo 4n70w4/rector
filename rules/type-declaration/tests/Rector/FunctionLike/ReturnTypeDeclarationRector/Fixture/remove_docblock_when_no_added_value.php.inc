@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class RemoveWhenNoAddedValue
+class RemoveDocblockWhenNoAddedValue
 {
     /**
      * @return float
@@ -19,7 +19,7 @@ class RemoveWhenNoAddedValue
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class RemoveWhenNoAddedValue
+class RemoveDocblockWhenNoAddedValue
 {
     public function getSize(): float
     {

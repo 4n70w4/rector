@@ -4,7 +4,7 @@ namespace Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Fixture;
 
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\AbstractType;
 
-class MyCustomType extends AbstractType
+class RenameClassMethodAndParentCall
 {
     public function setDefaultOptions(SomeResolver $resolver)
     {
@@ -28,7 +28,7 @@ namespace Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Fixture;
 
 use Rector\Renaming\Tests\Rector\MethodCall\RenameMethodRector\Source\AbstractType;
 
-class MyCustomType extends AbstractType
+class RenameClassMethodAndParentCall
 {
     public function configureOptions(SomeResolver $resolver)
     {

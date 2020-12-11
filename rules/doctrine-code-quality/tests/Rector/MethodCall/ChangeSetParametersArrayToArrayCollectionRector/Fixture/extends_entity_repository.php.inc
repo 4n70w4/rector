@@ -4,7 +4,7 @@ namespace Rector\DoctrineCodeQuality\Tests\Rector\MethodCall\ChangeSetParameters
 
 use Doctrine\ORM\EntityRepository;
 
-class SomeRepository extends EntityRepository
+class ExtendsEntityRepository
 {
     public function getSomething()
     {
@@ -28,7 +28,7 @@ namespace Rector\DoctrineCodeQuality\Tests\Rector\MethodCall\ChangeSetParameters
 
 use Doctrine\ORM\EntityRepository;
 
-class SomeRepository extends EntityRepository
+class ExtendsEntityRepository
 {
     public function getSomething()
     {

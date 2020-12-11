@@ -2,7 +2,7 @@
 
 namespace Rector\Php70\Tests\Rector\StaticCall\StaticCallOnNonStaticToInstanceCallRector\Fixture;
 
-class Something
+class Fixture
 {
     public function doWork()
     {
@@ -13,7 +13,7 @@ class Another
 {
     public function run()
     {
-        return Something::doWork(1);
+        return Fixture::doWork(1);
     }
 }
 
@@ -23,7 +23,7 @@ class Another
 
 namespace Rector\Php70\Tests\Rector\StaticCall\StaticCallOnNonStaticToInstanceCallRector\Fixture;
 
-class Something
+class Fixture
 {
     public function doWork()
     {
@@ -34,7 +34,7 @@ class Another
 {
     public function run()
     {
-        return (new Something())->doWork(1);
+        return (new Fixture())->doWork(1);
     }
 }
 

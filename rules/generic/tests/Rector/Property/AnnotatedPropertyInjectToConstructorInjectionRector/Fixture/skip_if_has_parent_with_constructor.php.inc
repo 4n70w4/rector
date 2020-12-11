@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstruc
 
 use Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProduct;
 
-class SkipIfHasParentWithConstructor extends ParentWithConstructor
+class SkipIfHasParentWithConstructor
 {
     /**
      * @var \Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProduct

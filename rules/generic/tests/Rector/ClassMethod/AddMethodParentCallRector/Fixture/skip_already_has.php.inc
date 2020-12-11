@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Fixt
 
 use Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Source\ParentClassWithNewConstructor;
 
-class SkipAlreadyHas extends ParentClassWithNewConstructor
+class SkipAlreadyHas
 {
     public function __construct()
     {

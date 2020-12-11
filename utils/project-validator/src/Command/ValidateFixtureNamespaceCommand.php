@@ -93,7 +93,7 @@ final class ValidateFixtureNamespaceCommand extends Command
                 continue;
             }
 
-            if ($this->isFoundIncorrectNamespace($matchAll, $expectedNamespace)) {
+            if ($this->isFoundCorrectNamespace($matchAll, $expectedNamespace)) {
                 continue;
             }
 
@@ -172,7 +172,7 @@ final class ValidateFixtureNamespaceCommand extends Command
     /**
      * @param array<int, array<int, string>> $matchAll
      */
-    private function isFoundIncorrectNamespace(array $matchAll, string $expectedNamespace): bool
+    private function isFoundCorrectNamespace(array $matchAll, string $expectedNamespace): bool
     {
         $countMatchAll = count($matchAll);
         if ($countMatchAll === 1 && $matchAll[0][1] === $expectedNamespace) {

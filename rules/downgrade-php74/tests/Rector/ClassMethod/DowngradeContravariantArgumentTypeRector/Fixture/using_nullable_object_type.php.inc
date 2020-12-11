@@ -2,9 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class UsingNullableObjectType {}
-
-class UsingNullableObjectTypeA
+class UsingNullableObjectType
 {
     public function contraVariantArguments(?UsingNullableObjectType $type)
     { /* … */ }
@@ -22,9 +20,7 @@ class UsingNullableObjectTypeB extends UsingNullableObjectTypeA
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class UsingNullableObjectType {}
-
-class UsingNullableObjectTypeA
+class UsingNullableObjectType
 {
     public function contraVariantArguments(?UsingNullableObjectType $type)
     { /* … */ }

@@ -8,7 +8,7 @@ Class Base
     }
 }
 
-class Override extends Base
+class DefaultParam
 {
     public function __construct($a)
     {
@@ -28,7 +28,7 @@ Class Base
     }
 }
 
-class Override extends Base
+class DefaultParam
 {
 }
 

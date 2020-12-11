@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveUnusedPrivatePropertyRector\Fixture;
 
-class TestException extends \Exception
+class DontRemoveParameter
 {
     private $previous;
 
@@ -18,7 +18,7 @@ class TestException extends \Exception
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveUnusedPrivatePropertyRector\Fixture;
 
-class TestException extends \Exception
+class DontRemoveParameter
 {
     public function __construct(\Throwable $previous)
     {

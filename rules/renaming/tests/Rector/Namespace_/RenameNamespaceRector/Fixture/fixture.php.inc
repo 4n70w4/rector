@@ -5,13 +5,13 @@ namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 use OldNamespace;
 use OldNamespace\AnotherSubNamespace;
 
-class SomeClass
+class Fixture
 {
     public function someClass()
     {
         $keepThis = new \OldNamespace;
 
-        return new \OldNamespace\SomeClass;
+        return new \OldNamespace\Fixture;
     }
 }
 
@@ -24,13 +24,13 @@ namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 use NewNamespace;
 use NewNamespace\AnotherSubNamespace;
 
-class SomeClass
+class Fixture
 {
     public function someClass()
     {
         $keepThis = new \OldNamespace;
 
-        return new \NewNamespace\SomeClass;
+        return new \NewNamespace\Fixture;
     }
 }
 

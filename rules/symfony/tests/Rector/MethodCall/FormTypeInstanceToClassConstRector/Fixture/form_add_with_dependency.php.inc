@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\FormTypeInstanceToClassConstRec
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\FormBuilder;
 
-class SomeAnotherControllerWithArgs extends Controller
+class FormAddWithDependency
 {
     public function action(FormBuilder $builder)
     {
@@ -35,7 +35,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\FormTypeInstanceToClassConstRec
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\FormBuilder;
 
-class SomeAnotherControllerWithArgs extends Controller
+class FormAddWithDependency
 {
     public function action(FormBuilder $builder)
     {

@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetParameterToConstructorInject
 use Rector\Symfony\Tests\Rector\MethodCall\GetParameterToConstructorInjectionRector\Source\DoctrineQuery;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ClassWithNamedService3 extends Controller
+class Fixture2
 {
     public function render()
     {
@@ -25,7 +25,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetParameterToConstructorInject
 use Rector\Symfony\Tests\Rector\MethodCall\GetParameterToConstructorInjectionRector\Source\DoctrineQuery;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ClassWithNamedService3 extends Controller
+class Fixture2
 {
     private string $someParameter;
     public function __construct(string $someParameter)

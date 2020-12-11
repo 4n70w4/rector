@@ -4,7 +4,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\Class_\MockeryTearDownRector\Fix
 
 use PHPUnit\Framework\TestCase;
 
-class SkipExisting extends TestCase
+class SkipExisting
 {
     public function test()
     {

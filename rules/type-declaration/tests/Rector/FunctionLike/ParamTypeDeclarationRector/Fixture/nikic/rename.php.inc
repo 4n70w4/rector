@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class A {
+class Rename {
     /**
      * @param string $a
      * @param int $b
@@ -10,7 +10,7 @@ class A {
     public function test($a, $b) {}
 }
 
-class B extends A {
+class B extends Rename {
     // Typehints are position, not name based
     public function test($b, $a) {}
 }
@@ -21,7 +21,7 @@ class B extends A {
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class A {
+class Rename {
     /**
      * @param string $a
      * @param int $b
@@ -29,7 +29,7 @@ class A {
     public function test(string $a, int $b) {}
 }
 
-class B extends A {
+class B extends Rename {
     // Typehints are position, not name based
     public function test(string $b, int $a) {}
 }

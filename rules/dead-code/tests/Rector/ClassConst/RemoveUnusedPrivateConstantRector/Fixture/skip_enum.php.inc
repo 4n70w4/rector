@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassConst\RemoveUnusedPrivateConstantRec
 
 use Rector\DeadCode\Tests\Rector\ClassConst\RemoveUnusedPrivateConstantRector\Source\AbstractEnum;
 
-class SkipEnum extends AbstractEnum
+class SkipEnum
 {
     private const ENUM_MAGIC = 'yes';
 }

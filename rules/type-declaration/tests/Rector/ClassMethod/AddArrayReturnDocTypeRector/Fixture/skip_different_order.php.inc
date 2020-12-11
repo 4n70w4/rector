@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddArrayReturnDocTypeRector\Fixture;
 
-class Uri
+class SkipDifferentOrder
 {
     public function __construct($value)
     {
@@ -13,13 +13,13 @@ class SkipDifferentOrder
 {
     /**
      * @param mixed $value
-     * @return string|\Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddArrayReturnDocTypeRector\Fixture\Uri|null
+     * @return string|\Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddArrayReturnDocTypeRector\Fixture\SkipDifferentOrder|null
      */
     public function changeValue($value){
         if (null === $value || '' === $value) {
             return $value;
         }
 
-        return new Uri($value);
+        return new SkipDifferentOrder($value);
     }
 }

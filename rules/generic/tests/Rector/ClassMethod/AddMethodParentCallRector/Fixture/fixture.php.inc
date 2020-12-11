@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Fixt
 
 use Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Source\ParentClassWithNewConstructor;
 
-class SunshineCommand extends ParentClassWithNewConstructor
+class Fixture
 {
     public function __construct()
     {
@@ -20,7 +20,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Fixt
 
 use Rector\Generic\Tests\Rector\ClassMethod\AddMethodParentCallRector\Source\ParentClassWithNewConstructor;
 
-class SunshineCommand extends ParentClassWithNewConstructor
+class Fixture
 {
     public function __construct()
     {

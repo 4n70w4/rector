@@ -5,7 +5,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 use Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Source\Denormalizer;
 use Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Source\DenormalizerInterface;
 
-class ProphecyAssertions extends \PHPUnit\Framework\TestCase
+class SkipProphecyAssertions
 {
     public function testDenormalize(): void
     {
@@ -33,7 +33,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 use Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Source\Denormalizer;
 use Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Source\DenormalizerInterface;
 
-class ProphecyAssertions extends \PHPUnit\Framework\TestCase
+class SkipProphecyAssertions
 {
     /**
      * @doesNotPerformAssertions

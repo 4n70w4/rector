@@ -2,7 +2,7 @@
 
 namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Fixture;
 
-class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Source\Persister
+class Fixture
 {
     public function getSelectJoinColumnSQL($tableAlias, $joinColumnName, $quotedColumnName, $type, $className)
     {
@@ -16,7 +16,7 @@ class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Gener
 
 namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Fixture;
 
-class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Source\Persister
+class Fixture
 {
     public function getSelectJoinColumnSQL($tableAlias, $joinColumnName, $quotedColumnName, $type)
     {

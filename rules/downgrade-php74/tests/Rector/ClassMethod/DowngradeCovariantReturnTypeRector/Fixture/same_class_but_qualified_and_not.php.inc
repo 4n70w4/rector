@@ -2,10 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture;
 
-class SameButDifferentParentType {}
-class SameButDifferentChildType extends SameButDifferentParentType {}
-
-class SameButDifferentA
+class SameClassButQualifiedAndNot
 {
     public function covariantReturnTypes(): \Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture\SameButDifferentParentType
     { /* … */ }

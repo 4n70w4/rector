@@ -8,7 +8,7 @@ use PhpParser\Node\Expr\BinaryOp\Plus as BinaryPlus;
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class SkipAliasAlready extends SomeType
+class SkipAliasAlready
 {
     public function getNodeTypes(): array
     {

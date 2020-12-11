@@ -5,7 +5,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclaratio
 use Doctrine\ORM\EntityManager;
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclarationRector\Source\ClassMetadataFactory;
 
-class MyMetadataFactory extends ClassMetadataFactory
+class Mymetadatafactory
 {
     public function setEntityManager(EntityManager $emanager)
     {
@@ -22,7 +22,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclaratio
 use Doctrine\ORM\EntityManager;
 use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddParamTypeDeclarationRector\Source\ClassMetadataFactory;
 
-class MyMetadataFactory extends ClassMetadataFactory
+class Mymetadatafactory
 {
     public function setEntityManager(\Doctrine\ORM\EntityManagerInterface $emanager)
     {

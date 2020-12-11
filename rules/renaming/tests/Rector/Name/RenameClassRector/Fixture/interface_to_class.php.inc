@@ -2,7 +2,7 @@
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class InterfaceToClass implements \Countable
+class InterfaceToClass
 {
     public function run(\Countable $dateTime): \Countable
     {
@@ -19,7 +19,7 @@ class InterfaceToClass implements \Countable
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class InterfaceToClass implements \Countable
+class InterfaceToClass
 {
     public function run(\stdClass $dateTime): \stdClass
     {

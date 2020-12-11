@@ -2,9 +2,7 @@
 
 namespace Rector\Php70\Tests\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector\Fixture;
 
-class Bar {}
-
-function new_()
+class New
 {
     reset(new \stdClass());
     reset(new Bar());
@@ -16,9 +14,7 @@ function new_()
 
 namespace Rector\Php70\Tests\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector\Fixture;
 
-class Bar {}
-
-function new_()
+class New
 {
     $stdClass = new \stdClass();
     reset($stdClass);

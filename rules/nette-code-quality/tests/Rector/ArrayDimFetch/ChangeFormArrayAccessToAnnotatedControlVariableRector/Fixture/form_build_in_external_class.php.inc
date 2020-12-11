@@ -4,7 +4,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 
 use Nette\Application\UI\Form;
 
-class FormBuilderInExternalClass
+class FormBuildInExternalClass
 {
     /**
      * @var SomeFormFactory
@@ -42,7 +42,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 
 use Nette\Application\UI\Form;
 
-class FormBuilderInExternalClass
+class FormBuildInExternalClass
 {
     /**
      * @var SomeFormFactory

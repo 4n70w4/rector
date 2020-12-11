@@ -1,28 +1,28 @@
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixture;
+namespace Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Fixture;
 
-use Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException;
+use Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Source\Exceptions\TheException;
 
-class A
+class UseOfAMethodOfAClassPassedAsParameter
 {
     /**
      * @throws TheException
      */
-    public function thisMethodThrowsAnException():string
+    public function thisMethodThrowsUseOfAMethodOfAClassPassedAsParameternException():string
     {
         throw new TheException('');
     }
 }
 
-class UseAClassWithAMethodThatMayThrowAnException
+class UseUseOfAMethodOfAClassPassedAsParameterClassWithUseOfAMethodOfAClassPassedAsParameterMethodThatMayThrowUseOfAMethodOfAClassPassedAsParameternException
 {
     /**
-     * @param A $theClass
+     * @param UseOfAMethodOfAClassPassedAsParameter $theClass
      */
-    public function thisMethodUsesTheClassWithTheMethodThatTrhowsAnException(A $theClass)
+    public function thisMethodUsesTheClassWithTheMethodThatTrhowsUseOfAMethodOfAClassPassedAsParameternException(UseOfAMethodOfAClassPassedAsParameter $theClass)
     {
-        $aVariable = $theClass->thisMethodThrowsAnException();
+        $aVariable = $theClass->thisMethodThrowsUseOfAMethodOfAClassPassedAsParameternException();
     }
 }
 
@@ -30,30 +30,30 @@ class UseAClassWithAMethodThatMayThrowAnException
 -----
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixture;
+namespace Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Fixture;
 
-use Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException;
+use Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Source\Exceptions\TheException;
 
-class A
+class UseOfAMethodOfAClassPassedAsParameter
 {
     /**
      * @throws TheException
      */
-    public function thisMethodThrowsAnException():string
+    public function thisMethodThrowsUseOfAMethodOfAClassPassedAsParameternException():string
     {
         throw new TheException('');
     }
 }
 
-class UseAClassWithAMethodThatMayThrowAnException
+class UseUseOfAMethodOfAClassPassedAsParameterClassWithUseOfAMethodOfAClassPassedAsParameterMethodThatMayThrowUseOfAMethodOfAClassPassedAsParameternException
 {
     /**
-     * @param A $theClass
-     * @throws \Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException
+     * @param UseOfAMethodOfAClassPassedAsParameter $theClass
+     * @throws \Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Source\Exceptions\TheException
      */
-    public function thisMethodUsesTheClassWithTheMethodThatTrhowsAnException(A $theClass)
+    public function thisMethodUsesTheClassWithTheMethodThatTrhowsUseOfAMethodOfAClassPassedAsParameternException(UseOfAMethodOfAClassPassedAsParameter $theClass)
     {
-        $aVariable = $theClass->thisMethodThrowsAnException();
+        $aVariable = $theClass->thisMethodThrowsUseOfAMethodOfAClassPassedAsParameternException();
     }
 }
 

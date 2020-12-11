@@ -5,7 +5,7 @@ namespace Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodR
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class SkipCorrect extends SomeType
+class SkipCorrect
 {
     public function getNodeTypes(): array
     {

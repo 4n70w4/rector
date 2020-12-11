@@ -4,7 +4,7 @@ namespace Rector\Order\Tests\Rector\Class_\OrderPublicInterfaceMethodRector\Fixt
 
 use Rector\Order\Tests\Rector\Class_\OrderPublicInterfaceMethodRector\Source\FoodRecipeInterface;
 
-class SomeClass implements FoodRecipeInterface
+class Fixture
 {
     public function process()
     {
@@ -23,7 +23,7 @@ namespace Rector\Order\Tests\Rector\Class_\OrderPublicInterfaceMethodRector\Fixt
 
 use Rector\Order\Tests\Rector\Class_\OrderPublicInterfaceMethodRector\Source\FoodRecipeInterface;
 
-class SomeClass implements FoodRecipeInterface
+class Fixture
 {
     public function getDescription()
     {

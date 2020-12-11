@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\StaticCall\RemoveParentCallWithoutParentRector\Fixture;
 
-class EdgeCase extends AbstractFilterFactory
+class EdgeCase
 {
     public function getOrderByIdDesc()
     {

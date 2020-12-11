@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Fi
 
 use Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Source\ParentObject;
 
-class ClassThatInheritsAgain extends ParentObject
+class Fixture2
 {
     private static $toBePublicStaticProperty;
 }
@@ -17,7 +17,7 @@ namespace Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Fi
 
 use Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Source\ParentObject;
 
-class ClassThatInheritsAgain extends ParentObject
+class Fixture2
 {
     public static $toBePublicStaticProperty;
 }

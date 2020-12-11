@@ -7,7 +7,7 @@ interface InterfaceWithConstant
     const LOCAL_ONLY = true;
 }
 
-class ClassExtendingInterface implements InterfaceWithConstant
+class InInterface
 {
     public function run()
     {
@@ -26,7 +26,7 @@ interface InterfaceWithConstant
     public const LOCAL_ONLY = true;
 }
 
-class ClassExtendingInterface implements InterfaceWithConstant
+class InInterface
 {
     public function run()
     {

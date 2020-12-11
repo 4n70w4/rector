@@ -2,14 +2,14 @@
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class MyClass
+class RenameClass
 {
     /**
-     * @return MyClass
+     * @return RenameClass
      */
-    public function createSelf(): MyClass
+    public function createSelf(): RenameClass
     {
-        return new MyClass;
+        return new RenameClass;
     }
 }
 

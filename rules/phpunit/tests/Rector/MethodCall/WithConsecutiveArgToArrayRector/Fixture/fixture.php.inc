@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function run($one, $two)
     {
@@ -13,7 +13,7 @@ class SomeTestCase extends \PHPUnit\Framework\TestCase
 {
     public function test()
     {
-        $someClassMock = $this->createMock(SomeClass::class);
+        $someClassMock = $this->createMock(Fixture::class);
         $someClassMock->expects($this->exactly(2))
             ->method('run')
             ->withConsecutive(1, 2, 3, 5);
@@ -26,7 +26,7 @@ class SomeTestCase extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function run($one, $two)
     {
@@ -37,7 +37,7 @@ class SomeTestCase extends \PHPUnit\Framework\TestCase
 {
     public function test()
     {
-        $someClassMock = $this->createMock(SomeClass::class);
+        $someClassMock = $this->createMock(Fixture::class);
         $someClassMock->expects($this->exactly(2))
             ->method('run')->withConsecutive([1, 2], [3, 5]);
     }

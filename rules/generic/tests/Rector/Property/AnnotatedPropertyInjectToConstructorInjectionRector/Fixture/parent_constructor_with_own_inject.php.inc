@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstruc
 
 use DateTimeInterface;
 
-class ClassWithInjects8Parent
+class ParentConstructorWithOwnInject
 {
     /**
      * @var DateTimeInterface
@@ -13,7 +13,7 @@ class ClassWithInjects8Parent
     public $dateTime;
 }
 
-class ClassWithInjects8 extends ClassWithInjects8Parent
+class ClassWithInjects8 extends ParentConstructorWithOwnInject
 {
     /**
      * @var \Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProduct
@@ -30,7 +30,7 @@ namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstruc
 
 use DateTimeInterface;
 
-class ClassWithInjects8Parent
+class ParentConstructorWithOwnInject
 {
     /**
      * @var DateTimeInterface
@@ -42,7 +42,7 @@ class ClassWithInjects8Parent
     }
 }
 
-class ClassWithInjects8 extends ClassWithInjects8Parent
+class ClassWithInjects8 extends ParentConstructorWithOwnInject
 {
     /**
      * @var \Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProduct

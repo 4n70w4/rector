@@ -11,7 +11,7 @@ function add2($a, $b) {
     return $a + $b;
 }
 
-class Number {
+class Basic {
     /**
      * @param int $a
      * @param int $b
@@ -37,7 +37,7 @@ function add2(int $a, int $b) {
     return $a + $b;
 }
 
-class Number {
+class Basic {
     /**
      * @param int $a
      * @param int $b

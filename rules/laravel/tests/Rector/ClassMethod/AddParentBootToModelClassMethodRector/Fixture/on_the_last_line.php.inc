@@ -4,7 +4,7 @@ namespace Rector\Laravel\Tests\Rector\ClassMethod\AddParentBootToModelClassMetho
 
 use Illuminate\Database\Eloquent\Model;
 
-class OnTheLastLine extends Model
+class OnTheLastLine
 {
     public function boot()
     {
@@ -21,7 +21,7 @@ namespace Rector\Laravel\Tests\Rector\ClassMethod\AddParentBootToModelClassMetho
 
 use Illuminate\Database\Eloquent\Model;
 
-class OnTheLastLine extends Model
+class OnTheLastLine
 {
     public function boot()
     {

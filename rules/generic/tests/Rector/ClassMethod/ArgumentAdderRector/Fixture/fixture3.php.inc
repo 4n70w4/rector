@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Fixture;
 
 use Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Source\SomeContainerBuilder;
 
-class CustomContainerBuilder extends SomeContainerBuilder
+class Fixture3
 {
     public function addCompilerPass($pass, $type)
     {
@@ -19,7 +19,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Fixture;
 
 use Rector\Generic\Tests\Rector\ClassMethod\ArgumentAdderRector\Source\SomeContainerBuilder;
 
-class CustomContainerBuilder extends SomeContainerBuilder
+class Fixture3
 {
     public function addCompilerPass($pass, $type, int $priority = 0)
     {

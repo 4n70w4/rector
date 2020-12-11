@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Fixture;
 
-class KeepNonTest extends \PHPUnit\Framework\TestCase
+class KeepNonTest
 {
     public function provideData()
     {

@@ -5,7 +5,7 @@ namespace Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodR
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class SomeClass extends SomeType
+class Fixture
 {
     public function getNodeTypes(): array
     {
@@ -26,7 +26,7 @@ namespace Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodR
 use PhpParser\Node\Scalar\String_;
 use Rector\Restoration\Tests\Rector\ClassMethod\InferParamFromClassMethodReturnRector\Source\SomeType;
 
-class SomeClass extends SomeType
+class Fixture
 {
     public function getNodeTypes(): array
     {

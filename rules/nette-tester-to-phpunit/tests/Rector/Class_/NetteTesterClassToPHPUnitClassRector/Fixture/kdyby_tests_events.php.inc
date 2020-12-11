@@ -5,7 +5,7 @@ namespace Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPU
 use Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Source\ORMTestCase;
 use Tester\Assert;
 
-class EventsCompatibilityTest extends ORMTestCase
+class KdybyTestsEvents
 {
     /**
      * @var Kdyby\Doctrine\EntityManager

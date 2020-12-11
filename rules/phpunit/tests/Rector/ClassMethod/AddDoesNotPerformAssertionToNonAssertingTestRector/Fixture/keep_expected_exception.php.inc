@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 
 use InvalidArgumentException;
 
-class KeepExpectedException extends \PHPUnit\Framework\TestCase
+class KeepExpectedException
 {
     /**
      * @expectedException \Exception

@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixt
 
 use PHPUnit\Framework\TestCase;
 
-class SkipMethodWithNullPhpDoc extends TestCase
+class SkipMethodWithNullPhpDoc
 {
     public function testLiteralMessage(): void
     {

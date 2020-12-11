@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDeadConstructorRector\Fixture;
 
-class Skip extends AnotherClass
+class Skip
 {
     public function __construct()
     {

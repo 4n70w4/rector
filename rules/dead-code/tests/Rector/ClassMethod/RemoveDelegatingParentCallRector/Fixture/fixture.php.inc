@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRec
 
 use PhpParser\PrettyPrinter\Standard;
 
-class SomeClass extends Standard
+class Fixture
 {
     public function prettyPrint(array $stmts): string
     {
@@ -20,7 +20,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRec
 
 use PhpParser\PrettyPrinter\Standard;
 
-class SomeClass extends Standard
+class Fixture
 {
 }
 

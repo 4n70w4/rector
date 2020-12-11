@@ -4,7 +4,7 @@ namespace Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Fixt
 
 use Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Source\AbstractWhatever;
 
-class KeepSelf extends AbstractWhatever
+class KeepSelf
 {
     /**
      * @var self

@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class ExceptionSpec extends ObjectBehavior
+class Exception
 {
     public function it_should_throw_exceptions_where_rates_are_not_loaded()
     {

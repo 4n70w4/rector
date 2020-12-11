@@ -2,14 +2,14 @@
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class AnotherMyClass
+class RenameClassToClassWithoutNamespace
 {
     /**
-     * @return AnotherMyClass
+     * @return RenameClassToClassWithoutNamespace
      */
-    public function createSelf(): AnotherMyClass
+    public function createSelf(): RenameClassToClassWithoutNamespace
     {
-        return new AnotherMyClass;
+        return new RenameClassToClassWithoutNamespace;
     }
 }
 

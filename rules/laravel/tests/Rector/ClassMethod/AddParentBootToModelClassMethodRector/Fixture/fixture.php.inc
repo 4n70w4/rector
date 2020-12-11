@@ -4,7 +4,7 @@ namespace Rector\Laravel\Tests\Rector\ClassMethod\AddParentBootToModelClassMetho
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Fixture
 {
     public function boot()
     {
@@ -19,7 +19,7 @@ namespace Rector\Laravel\Tests\Rector\ClassMethod\AddParentBootToModelClassMetho
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Fixture
 {
     public function boot()
     {

@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\MethodCall\UseSpecificWillMethodRector\Fixture;
 
-class With extends \PHPUnit\Framework\TestCase
+class With
 {
     public function test()
     {
@@ -20,7 +20,7 @@ class With extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\MethodCall\UseSpecificWillMethodRector\Fixture;
 
-class With extends \PHPUnit\Framework\TestCase
+class With
 {
     public function test()
     {

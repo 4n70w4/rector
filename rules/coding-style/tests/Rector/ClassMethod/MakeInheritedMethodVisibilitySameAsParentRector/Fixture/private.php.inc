@@ -2,7 +2,7 @@
 
 namespace Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture;
 
-class PrivateClassParent extends ParentClassWithPrivateMethod
+class Private
 {
     public function run()
     {
@@ -22,7 +22,7 @@ class ParentClassWithPrivateMethod
 
 namespace Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture;
 
-class PrivateClassParent extends ParentClassWithPrivateMethod
+class Private
 {
     private function run()
     {

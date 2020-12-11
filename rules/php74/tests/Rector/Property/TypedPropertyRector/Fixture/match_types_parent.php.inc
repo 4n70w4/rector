@@ -2,12 +2,12 @@
 
 namespace Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture;
 
-class PropperParent
+class MatchTypesParent
 {
 
 }
 
-final class MatchTypesParent extends PropperParent
+final class MatchTypesParent extends MatchTypesParent
 {
     /**
      * @var parent
@@ -21,12 +21,12 @@ final class MatchTypesParent extends PropperParent
 
 namespace Rector\Php74\Tests\Rector\Property\TypedPropertyRector\Fixture;
 
-class PropperParent
+class MatchTypesParent
 {
 
 }
 
-final class MatchTypesParent extends PropperParent
+final class MatchTypesParent extends MatchTypesParent
 {
     private parent $j;
 }

@@ -6,7 +6,7 @@ use Rector\Symfony\Tests\Rector\MethodCall\FormTypeInstanceToClassConstRector\So
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class TaskType extends AbstractType
+class CreateFormWithDependency
 {
     public function buildForm(FormBuilderInterface $formBuilder, array $options)
     {
@@ -26,7 +26,7 @@ use Rector\Symfony\Tests\Rector\MethodCall\FormTypeInstanceToClassConstRector\So
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 
-class TaskType extends AbstractType
+class CreateFormWithDependency
 {
     public function buildForm(FormBuilderInterface $formBuilder, array $options)
     {

@@ -16,7 +16,7 @@ final class SkipValuePassedFromParent extends HttpException
     }
 }
 
-class HttpException extends \Exception
+class SkipValuesPassedFromParent
 {
     public function __construct(
         int $statusCode,

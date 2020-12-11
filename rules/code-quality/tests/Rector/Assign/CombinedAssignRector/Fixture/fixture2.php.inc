@@ -4,7 +4,7 @@ namespace Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Fixture;
 
 use Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Source\AbstractSomeClassSoParentCanBeUsed;
 
-class Whatever extends AbstractSomeClassSoParentCanBeUsed
+class Fixture2
 {
     public function __construct($parameter)
     {
@@ -34,7 +34,7 @@ namespace Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Fixture;
 
 use Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Source\AbstractSomeClassSoParentCanBeUsed;
 
-class Whatever extends AbstractSomeClassSoParentCanBeUsed
+class Fixture2
 {
     public function __construct($parameter)
     {

@@ -2,7 +2,7 @@
 
 namespace Rector\CodeQuality\Tests\Rector\FuncCall\AddPregQuoteDelimiterRector\Fixture;
 
-class SomeClass2
+class WithModifiers
 {
     public function test($input)
     {
@@ -17,7 +17,7 @@ class SomeClass2
 
 namespace Rector\CodeQuality\Tests\Rector\FuncCall\AddPregQuoteDelimiterRector\Fixture;
 
-class SomeClass2
+class WithModifiers
 {
     public function test($input)
     {

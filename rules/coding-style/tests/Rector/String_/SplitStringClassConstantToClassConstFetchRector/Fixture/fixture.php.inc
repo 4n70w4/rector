@@ -2,7 +2,7 @@
 
 namespace Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     const HI = true;
 }
@@ -11,7 +11,7 @@ class AnotherClass
 {
     public function get()
     {
-        return 'Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture\SomeClass::HI';
+        return 'Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture\Fixture::HI';
     }
 }
 
@@ -21,7 +21,7 @@ class AnotherClass
 
 namespace Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     const HI = true;
 }
@@ -30,7 +30,7 @@ class AnotherClass
 {
     public function get()
     {
-        return \Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture\SomeClass::class . '::HI';
+        return \Rector\CodingStyle\Tests\Rector\String_\SplitStringClassConstantToClassConstFetchRector\Fixture\Fixture::class . '::HI';
     }
 }
 

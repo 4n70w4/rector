@@ -2,12 +2,12 @@
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class MakeConstantProtected
+class Protected
 {
     const CHILD_ONLY = true;
 }
 
-class ConstantUser extends MakeConstantProtected
+class ConstantUser extends Protected
 {
     public function run()
     {
@@ -24,12 +24,12 @@ class ConstantUser extends MakeConstantProtected
 
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
-class MakeConstantProtected
+class Protected
 {
     protected const CHILD_ONLY = true;
 }
 
-class ConstantUser extends MakeConstantProtected
+class ConstantUser extends Protected
 {
     public function run()
     {

@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class NullableResourceTypes
+class SkipNullableResource
 {
     /**
      * @param resource|null $value

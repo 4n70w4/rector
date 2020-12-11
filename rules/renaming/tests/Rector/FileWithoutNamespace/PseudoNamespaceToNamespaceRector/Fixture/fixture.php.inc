@@ -2,7 +2,7 @@
 
 namespace Rector\Renaming\Tests\Rector\FileWithoutNamespace\PseudoNamespaceToNamespaceRector\Fixture;
 
-class SomeTest extends \PHPUnit_Framework_TestCase
+class Fixture
 {
     public function create(\PHPUnit_Something $argument): \PHPUnit_Framework_Something
     {

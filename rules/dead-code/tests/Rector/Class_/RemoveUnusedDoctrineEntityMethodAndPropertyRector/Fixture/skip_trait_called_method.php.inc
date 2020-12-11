@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  */
-class Insider
+class SkipTraitCalledMethod
 {
     /**
      * @ORM\Column
@@ -22,7 +22,7 @@ class Insider
 
 trait SkipTraitCalledMethod
 {
-    public function callOnMe(Insider $entity)
+    public function callOnMe(SkipTraitCalledMethod $entity)
     {
         $entity->getName();
     }

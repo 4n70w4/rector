@@ -9,7 +9,7 @@ use Gedmo\Translatable\Translatable;
 /**
  * @ORM\Table
  */
-class SomeClass implements Translatable
+class Fixture
 {
     /**
      * @Gedmo\Translatable

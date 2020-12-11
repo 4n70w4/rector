@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector
 use Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\Anything;
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 
-class ClassWithNamedService2 extends SymfonyController
+class Fixture2
 {
     public function render()
     {
@@ -25,7 +25,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector
 use Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\Anything;
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 
-class ClassWithNamedService2 extends SymfonyController
+class Fixture2
 {
     private \Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\Something $something;
     private \Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\Anything $anything;

@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\GetRequestRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\AbstractSymfonyController;
 
-class SomeController extends AbstractSymfonyController
+class GetRequestStringServiceName
 {
     public function action()
     {
@@ -20,7 +20,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\GetRequestRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\AbstractSymfonyController;
 
-class SomeController extends AbstractSymfonyController
+class GetRequestStringServiceName
 {
     public function action(\Symfony\Component\HttpFoundation\Request $request)
     {

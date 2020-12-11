@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveSetterOnlyPropertyAndMethodCallRector\Fixture;
 
-class SkipAbstractClassRequired extends AbstractClassRequiring
+class SkipAbstractClassRequired
 {
     private $name;
     public function setName(string $name): void

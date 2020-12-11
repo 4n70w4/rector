@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Class_\MergeInterfacesRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\MergeInterfacesRector\Source\SomeOldInterface;
 
-class SomeClass2 implements SomeOldInterface
+class Fixture2
 {
 
 }

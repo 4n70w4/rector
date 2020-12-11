@@ -2,10 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture;
 
-class ParentType {}
-class ChildType extends ParentType {}
-
-class A
+class Fixture
 {
     public function covariantReturnTypes(): ParentType
     { /* … */ }
@@ -23,10 +20,7 @@ class B extends A
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture;
 
-class ParentType {}
-class ChildType extends ParentType {}
-
-class A
+class Fixture
 {
     public function covariantReturnTypes(): ParentType
     { /* … */ }

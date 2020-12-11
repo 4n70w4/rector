@@ -2,7 +2,7 @@
 
 namespace Rector\StrictCodeQuality\Tests\Rector\Stmt\VarInlineAnnotationToAssertRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function run($value)
     {
@@ -21,7 +21,7 @@ class SpecificClass
 
 namespace Rector\StrictCodeQuality\Tests\Rector\Stmt\VarInlineAnnotationToAssertRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function run($value)
     {

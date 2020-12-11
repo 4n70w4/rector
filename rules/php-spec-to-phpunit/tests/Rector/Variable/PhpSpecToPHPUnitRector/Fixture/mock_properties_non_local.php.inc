@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class MockPropertiesNonLocalSpec extends ObjectBehavior
+class MockPropertiesNonLocal
 {
     public function let(OrderFactory $factory)
     {

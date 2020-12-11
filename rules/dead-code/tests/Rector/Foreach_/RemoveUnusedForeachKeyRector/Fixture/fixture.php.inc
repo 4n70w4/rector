@@ -1,8 +1,8 @@
 <?php
 
-namespace Rector\DeadCode\Tests\Rector\Foreach_\RemoveUnusedForeachKeyRector\Fixture;
+namespace Rector\DeadCode\Tests\Rector\Foreach_\FixtureRector\Fixture;
 
-class RemoveUnusedForeachKey
+class Fixture
 {
     public function run()
     {
@@ -21,9 +21,9 @@ class RemoveUnusedForeachKey
 -----
 <?php
 
-namespace Rector\DeadCode\Tests\Rector\Foreach_\RemoveUnusedForeachKeyRector\Fixture;
+namespace Rector\DeadCode\Tests\Rector\Foreach_\FixtureRector\Fixture;
 
-class RemoveUnusedForeachKey
+class Fixture
 {
     public function run()
     {

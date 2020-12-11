@@ -6,7 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
-class SkipReturnResponseController extends AbstractController
+class SkipReturnResponseController
 {
     /**
      * @Template()
@@ -43,7 +43,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
-class SkipReturnResponseController extends AbstractController
+class SkipReturnResponseController
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  */
-class FirstOne
+class SkipDoubleEntityCall
 {
     /**
      * @ORM\Column
@@ -41,7 +41,7 @@ class SkipDoubleEntityCall
 {
     public function callOnMe($entity)
     {
-        if ($entity instanceof FirstOne || $entity instanceof SecondOne) {
+        if ($entity instanceof SkipDoubleEntityCall || $entity instanceof SecondOne) {
             $entity->getName();
         }
     }

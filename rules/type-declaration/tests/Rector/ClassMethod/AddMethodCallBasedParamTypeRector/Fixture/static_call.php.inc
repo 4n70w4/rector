@@ -4,7 +4,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddMethodCallBasedPara
 
 use Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Source\Coconut;
 
-class TestingStaticCall
+class StaticCall
 {
     public static function process($name, $id)
     {
@@ -16,7 +16,7 @@ class CallerClassForStaticCall
     public function run()
     {
         $coconut = new Coconut();
-        TestingStaticCall::process('hi', $coconut->getId());
+        StaticCall::process('hi', $coconut->getId());
     }
 }
 
@@ -28,7 +28,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddMethodCallBasedPara
 
 use Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Source\Coconut;
 
-class TestingStaticCall
+class StaticCall
 {
     public static function process(string $name, \Ramsey\Uuid\UuidInterface $id)
     {
@@ -40,7 +40,7 @@ class CallerClassForStaticCall
     public function run()
     {
         $coconut = new Coconut();
-        TestingStaticCall::process('hi', $coconut->getId());
+        StaticCall::process('hi', $coconut->getId());
     }
 }
 

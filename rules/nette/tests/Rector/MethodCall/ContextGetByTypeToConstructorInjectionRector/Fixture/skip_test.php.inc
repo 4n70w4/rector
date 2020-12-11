@@ -5,7 +5,7 @@ namespace Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInje
 use PHPUnit\Framework\TestCase;
 use Rector\Nette\Tests\Rector\MethodCall\ContextGetByTypeToConstructorInjectionRector\Source\SomeTypeToInject;
 
-class SkipTest extends TestCase
+class SkipTest
 {
     /**
      * @var \Nette\DI\Container

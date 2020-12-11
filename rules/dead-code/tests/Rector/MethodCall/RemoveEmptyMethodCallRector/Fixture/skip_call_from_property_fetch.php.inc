@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\MethodCall\RemoveEmptyMethodCallRector\Fi
 
 use Rector\DeadCode\Tests\Rector\MethodCall\RemoveEmptyMethodCallRector\Source\EmptyMethod;
 
-class ParentClass
+class SkipCallFromPropertyFetch
 {
     public $obj;
 
@@ -14,7 +14,7 @@ class ParentClass
     }
 }
 
-class A extends ParentClass
+class A extends SkipCallFromPropertyFetch
 {
     public function execute()
     {

@@ -4,7 +4,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 
 use Nette\Application\UI\Presenter;
 
-class SomePresenter extends Presenter
+class CreateComponent
 {
     public function someAction()
     {
@@ -25,7 +25,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 
 use Nette\Application\UI\Presenter;
 
-class SomePresenter extends Presenter
+class CreateComponent
 {
     public function someAction()
     {

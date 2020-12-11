@@ -4,7 +4,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\TemplateMagicAssignToExplicitVar
 
 use Nette\Application\UI\Presenter;
 
-class SomeControl extends Presenter
+class Fixture
 {
     public function render()
     {
@@ -21,7 +21,7 @@ namespace Rector\Nette\Tests\Rector\ClassMethod\TemplateMagicAssignToExplicitVar
 
 use Nette\Application\UI\Presenter;
 
-class SomeControl extends Presenter
+class Fixture
 {
     public function render()
     {

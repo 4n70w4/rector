@@ -7,7 +7,7 @@ interface AnotherInterfaceWithConstant
     const LOCAL_ONLY = true;
 }
 
-class AnotherClassExtendingInterface implements AnotherInterfaceWithConstant
+class InInterfaceUsedChildAndExternal
 {
     public function run()
     {
@@ -34,7 +34,7 @@ interface AnotherInterfaceWithConstant
     public const LOCAL_ONLY = true;
 }
 
-class AnotherClassExtendingInterface implements AnotherInterfaceWithConstant
+class InInterfaceUsedChildAndExternal
 {
     public function run()
     {

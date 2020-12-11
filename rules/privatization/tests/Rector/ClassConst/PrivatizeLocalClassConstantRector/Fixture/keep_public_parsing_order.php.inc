@@ -3,7 +3,7 @@
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
 // The class using the constant must be parsed first
-class ForeignConstantAddictUser2
+class KeepPublicParsingOrder
 {
     public function run()
     {
@@ -28,7 +28,7 @@ class ClassWithConstantUsedSomewhereElse2 extends ClassWithConstantUsedSomewhere
 namespace Rector\Privatization\Tests\Rector\ClassConst\PrivatizeLocalClassConstantRector\Fixture;
 
 // The class using the constant must be parsed first
-class ForeignConstantAddictUser2
+class KeepPublicParsingOrder
 {
     public function run()
     {

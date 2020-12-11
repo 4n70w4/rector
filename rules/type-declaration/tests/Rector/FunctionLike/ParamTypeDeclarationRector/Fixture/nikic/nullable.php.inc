@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class Foo
+class Nullable
 {
 }
 
@@ -11,7 +11,7 @@ class Bar
 }
 
 /**
- * @param Foo|null $a
+ * @param Nullable|null $a
  * @param Bar|null $b
  */
 function test2($a, $b = null) {}
@@ -22,7 +22,7 @@ function test2($a, $b = null) {}
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic;
 
-class Foo
+class Nullable
 {
 }
 
@@ -31,9 +31,9 @@ class Bar
 }
 
 /**
- * @param Foo|null $a
+ * @param Nullable|null $a
  * @param Bar|null $b
  */
-function test2(?\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic\Foo $a, ?\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic\Bar $b = null) {}
+function test2(?\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic\Nullable $a, ?\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\nikic\Bar $b = null) {}
 
 ?>

@@ -4,7 +4,7 @@ namespace Rector\CodeQuality\Tests\Rector\Class_\CompleteDynamicPropertiesRector
 
 use Rector\CodeQuality\Tests\Rector\Class_\CompleteDynamicPropertiesRector\Source\MagicParent;
 
-class SkipMagicParent extends MagicParent
+class SkipMagicParent
 {
     public function set()
     {

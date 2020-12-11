@@ -5,7 +5,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class WithVarsController extends AbstractController
+class WithVars
 {
     /**
      * @Template("@SensioBlog/post/show.html.twig", vars={"post"})
@@ -25,7 +25,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class WithVarsController extends AbstractController
+class WithVars
 {
     public function index(Post $post): \Symfony\Component\HttpFoundation\Response
     {

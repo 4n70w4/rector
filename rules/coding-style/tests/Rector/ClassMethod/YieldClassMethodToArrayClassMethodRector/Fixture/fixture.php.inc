@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayCla
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayClassMethodRector\Source\EventSubscriberInterface;
 
-class SomeEventSubscriber implements EventSubscriberInterface
+class Fixture
 {
     public static function getSubscribedEvents()
     {
@@ -20,7 +20,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayCla
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayClassMethodRector\Source\EventSubscriberInterface;
 
-class SomeEventSubscriber implements EventSubscriberInterface
+class Fixture
 {
     public static function getSubscribedEvents(): array
     {

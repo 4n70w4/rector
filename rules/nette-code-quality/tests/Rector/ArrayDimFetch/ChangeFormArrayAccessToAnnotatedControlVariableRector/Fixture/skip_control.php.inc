@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 use Nette\Application\UI\Control;
 use Nette\Application\UI\Form;
 
-class SkipControl extends Control
+class SkipControl
 {
     public function run()
     {

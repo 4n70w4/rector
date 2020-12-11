@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\StaticCall\RemoveParentCallWithoutParentRector\Fixture;
 
-class ParentButNoMethod extends ParentMethod
+class ParentButNoMethod
 {
     public function run()
     {
@@ -29,7 +29,7 @@ class ParentMethod
 
 namespace Rector\DeadCode\Tests\Rector\StaticCall\RemoveParentCallWithoutParentRector\Fixture;
 
-class ParentButNoMethod extends ParentMethod
+class ParentButNoMethod
 {
     public function run()
     {

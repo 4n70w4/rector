@@ -2,11 +2,11 @@
 
 namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
-class SomeClass5
+class Fixture5
 {
     public function someClass()
     {
-        return new SomeClass5;
+        return new Fixture5;
     }
 }
 
@@ -16,11 +16,11 @@ class SomeClass5
 
 namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
-class SomeClass5
+class Fixture5
 {
     public function someClass()
     {
-        return new \Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture\SomeClass5;
+        return new \Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture\Fixture5;
     }
 }
 

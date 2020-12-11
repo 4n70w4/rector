@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRec
 
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
-class SkipRequired extends ParentClassWithoutRequired
+class SkipRequired
 {
     /**
      * @required

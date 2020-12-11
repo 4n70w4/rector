@@ -4,7 +4,7 @@ namespace Rector\CodeQuality\Tests\Rector\FuncCall\ArrayKeysAndInArrayToArrayKey
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class SomeClass implements RunnableInterface
+class Fixture
 {
     public function run()
     {
@@ -25,7 +25,7 @@ namespace Rector\CodeQuality\Tests\Rector\FuncCall\ArrayKeysAndInArrayToArrayKey
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class SomeClass implements RunnableInterface
+class Fixture
 {
     public function run()
     {

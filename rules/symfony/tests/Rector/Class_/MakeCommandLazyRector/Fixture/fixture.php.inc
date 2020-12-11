@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class SunshineCommand extends \Symfony\Component\Console\Command\Command
+class Fixture
 {
     public function configure()
     {
@@ -27,7 +27,7 @@ namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class SunshineCommand extends \Symfony\Component\Console\Command\Command
+class Fixture
 {
     protected static $defaultName = 'sunshine';
     public function configure()

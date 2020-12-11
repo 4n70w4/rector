@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstruc
 
 use Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProductWithInterface;
 
-class ChildPropertyCallProtected extends SomeParentWithInject
+class ChildPropertyCallProtected
 {
     public function run()
     {
@@ -29,7 +29,7 @@ namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstruc
 
 use Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Source\SomeProductWithInterface;
 
-class ChildPropertyCallProtected extends SomeParentWithInject
+class ChildPropertyCallProtected
 {
     public function run()
     {

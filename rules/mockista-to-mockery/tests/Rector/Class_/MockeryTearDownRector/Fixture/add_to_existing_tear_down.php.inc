@@ -4,7 +4,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\Class_\MockeryTearDownRector\Fix
 
 use PHPUnit\Framework\TestCase;
 
-class AddToExistingTearDownTest extends TestCase
+class AddToExistingTearDown
 {
     public function test()
     {
@@ -24,7 +24,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\Class_\MockeryTearDownRector\Fix
 
 use PHPUnit\Framework\TestCase;
 
-class AddToExistingTearDownTest extends TestCase
+class AddToExistingTearDown
 {
     public function test()
     {

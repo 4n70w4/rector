@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventR
 
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
-class SomeClass
+class Fixture
 {
     public function run(EventDispatcherInterface $eventDisptacher)
     {
@@ -22,7 +22,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventR
 
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
-class SomeClass
+class Fixture
 {
     public function run(EventDispatcherInterface $eventDisptacher)
     {

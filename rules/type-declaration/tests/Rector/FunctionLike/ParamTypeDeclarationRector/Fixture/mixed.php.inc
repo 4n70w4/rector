@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class MixedTypes
+class Mixed
 {
     /**
      * @param mixed|mixed[] $value

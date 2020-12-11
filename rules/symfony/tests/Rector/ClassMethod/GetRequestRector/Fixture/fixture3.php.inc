@@ -8,7 +8,7 @@ use App\Entity\Captcha;
 use App\Form\CaptchaType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 
-class CaptchaController extends SymfonyController
+class Fixture3
 {
     /**
      * @Security("has_role('ROLE_ADMIN')")

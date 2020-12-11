@@ -3,8 +3,8 @@
 namespace Rector\PHPUnit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture;
 
 /**
- * @see \Rector\PHPUnit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Source\SomeExistingTest
+ * @see \Rector\PHPUnit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Source\SkipExistingTest
  */
-class SomeExisting
+class SkipExisting
 {
 }

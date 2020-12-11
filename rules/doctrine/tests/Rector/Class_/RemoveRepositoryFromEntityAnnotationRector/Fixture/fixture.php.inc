@@ -5,9 +5,9 @@ namespace Rector\Doctrine\Tests\Rector\Class_\RemoveRepositoryFromEntityAnnotati
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="ProductRepository")
+ * @ORM\Entity(repositoryClass="FixtureRepository")
  */
-class Product
+class Fixture
 {
 }
 
@@ -22,7 +22,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity()
  */
-class Product
+class Fixture
 {
 }
 

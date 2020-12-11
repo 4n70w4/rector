@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class MultipleDataProviders extends \PHPUnit\Framework\TestCase
+class MultipleDataProviders
 {
     /**
      * @dataProvider testProvideData()
@@ -36,7 +36,7 @@ class MultipleDataProviders extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class MultipleDataProviders extends \PHPUnit\Framework\TestCase
+class MultipleDataProviders
 {
     /**
      * @dataProvider provideData()

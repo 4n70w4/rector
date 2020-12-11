@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Fixture;
 
-class KeepNonPublic extends \PHPUnit\Framework\TestCase
+class KeepNonPublic
 {
     protected function testDelegated()
     {

@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilder;
 
-class SomeAnotherController extends Controller
+class FormAdd
 {
     public function action(FormBuilder $builder)
     {
@@ -29,7 +29,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilder;
 
-class SomeAnotherController extends Controller
+class FormAdd
 {
     public function action(FormBuilder $builder)
     {

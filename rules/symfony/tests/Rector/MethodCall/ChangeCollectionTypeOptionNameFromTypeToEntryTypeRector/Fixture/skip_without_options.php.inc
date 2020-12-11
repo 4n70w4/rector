@@ -7,7 +7,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
-class SkipWithoutOptionsType extends AbstractType
+class SkipWithoutOptions
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {

@@ -6,7 +6,7 @@ use ItemRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ParentClassWithPropertyKernelTestCase;
 
-class ExtendsParentClassWithProperty extends ParentClassWithPropertyKernelTestCase
+class ExtendsParentClassWithProperty
 {
     public function testOne()
     {
@@ -31,7 +31,7 @@ use ItemRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ParentClassWithPropertyKernelTestCase;
 
-class ExtendsParentClassWithProperty extends ParentClassWithPropertyKernelTestCase
+class ExtendsParentClassWithProperty
 {
     public function testOne()
     {

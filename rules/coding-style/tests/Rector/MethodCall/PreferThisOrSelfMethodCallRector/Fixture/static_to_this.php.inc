@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallR
 
 use Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallRector\Source\BeLocalClass;
 
-class StaticToThis extends BeLocalClass
+class StaticToThis
 {
     public function run()
     {
@@ -20,7 +20,7 @@ namespace Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallR
 
 use Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallRector\Source\BeLocalClass;
 
-class StaticToThis extends BeLocalClass
+class StaticToThis
 {
     public function run()
     {

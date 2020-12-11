@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedClassesRector\Fixture;
 
 use Rector\DeadCode\Tests\Rector\Class_\RemoveUnusedClassesRector\Source\SomeInterface;
 
-class SkipUsedConstant implements SomeInterface
+class SkipUsedConstant
 {
     public function run()
     {

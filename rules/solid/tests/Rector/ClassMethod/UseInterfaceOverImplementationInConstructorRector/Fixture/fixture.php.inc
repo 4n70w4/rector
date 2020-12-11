@@ -2,7 +2,7 @@
 
 namespace Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function __construct(\Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture\SomeImplementation $someImplementation)
     {
@@ -23,7 +23,7 @@ interface SomeInterface
 
 namespace Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     public function __construct(\Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture\SomeInterface $someImplementation)
     {

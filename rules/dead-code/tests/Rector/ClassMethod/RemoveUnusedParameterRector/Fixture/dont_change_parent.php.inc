@@ -8,7 +8,7 @@ abstract class AnAbstractClass
 
 }
 
-class AChildClass extends AnAbstractClass
+class DontChangeParent
 {
     public function foo(string $foo, string $bar)
     {

@@ -2,9 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class UsingObjectType {}
-
-class UsingObjectTypeA
+class UsingObjectType
 {
     public function contraVariantArguments(UsingObjectType $type)
     { /* … */ }
@@ -22,9 +20,7 @@ class UsingObjectTypeB extends UsingObjectTypeA
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class UsingObjectType {}
-
-class UsingObjectTypeA
+class UsingObjectType
 {
     public function contraVariantArguments(UsingObjectType $type)
     { /* … */ }

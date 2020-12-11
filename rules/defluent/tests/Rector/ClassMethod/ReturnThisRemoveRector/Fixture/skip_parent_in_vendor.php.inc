@@ -4,7 +4,7 @@ namespace Rector\Defluent\Tests\Rector\ClassMethod\ReturnThisRemoveRector\Fixtur
 
 use Rector\Defluent\Tests\Rector\ClassMethod\ReturnThisRemoveRector\Source\ParentInVendor;
 
-class SkipParentInVendor extends ParentInVendor
+class SkipParentInVendor
 {
     /**
      * @return SkipParentInVendor

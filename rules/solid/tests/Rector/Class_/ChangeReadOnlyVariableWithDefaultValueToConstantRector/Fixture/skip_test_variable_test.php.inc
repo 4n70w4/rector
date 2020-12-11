@@ -4,7 +4,7 @@ namespace Rector\SOLID\Tests\Rector\Class_\ChangeReadOnlyVariableWithDefaultValu
 
 use PHPUnit\Framework\TestCase;
 
-class SkipTestVariableTest extends TestCase
+class SkipTestVariableTest
 {
     public function test()
     {

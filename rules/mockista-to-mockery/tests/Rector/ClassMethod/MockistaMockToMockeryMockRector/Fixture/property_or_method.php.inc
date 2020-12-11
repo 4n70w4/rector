@@ -5,7 +5,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 use PHPUnit\Framework\TestCase;
 use Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMockeryMockRector\Source\User;
 
-class PropertyOrMethod extends TestCase
+class PropertyOrMethod
 {
     public function testSomething()
     {
@@ -23,7 +23,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 use PHPUnit\Framework\TestCase;
 use Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMockeryMockRector\Source\User;
 
-class PropertyOrMethod extends TestCase
+class PropertyOrMethod
 {
     public function testSomething()
     {

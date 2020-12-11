@@ -22,7 +22,7 @@ abstract class ParentSingleTableInheritanceWithIdentifier
 /**
  * @ORM\Entity
  */
-class AddSingleTableInheritanceAgain extends ParentSingleTableInheritanceWithIdentifier
+class AddSingleTableInheritanceWithIdentifier
 {
 }
 
@@ -57,7 +57,7 @@ abstract class ParentSingleTableInheritanceWithIdentifier
 /**
  * @ORM\Entity
  */
-class AddSingleTableInheritanceAgain extends ParentSingleTableInheritanceWithIdentifier
+class AddSingleTableInheritanceWithIdentifier
 {
 }
 

@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector
 
 use Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\GetTrait;
 
-class ClassWithNamedServiceAndTrait
+class Fixture3
 {
     use GetTrait;
 
@@ -22,7 +22,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector
 
 use Rector\Symfony\Tests\Rector\MethodCall\GetToConstructorInjectionRector\Source\GetTrait;
 
-class ClassWithNamedServiceAndTrait
+class Fixture3
 {
     use GetTrait;
     private \Rector\Symfony\Tests\Rector\MethodCall\AbstractToConstructorInjectionRectorSource\Contract\SomeTranslatorInterface $someTranslator;

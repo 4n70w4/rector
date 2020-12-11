@@ -6,7 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class ClassWithReturnTypes extends AbstractController
+class WithReturnTypes
 {
     /**
      * @Template("AppBundle:Module:index.html.twig")
@@ -53,7 +53,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class ClassWithReturnTypes extends AbstractController
+class WithReturnTypes
 {
     /**
      *

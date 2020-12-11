@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class SomeClass extends \PHPUnit\Framework\TestCase
+class Fixture
 {
     /**
      * @dataProvider testProvideData()
@@ -24,7 +24,7 @@ class SomeClass extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
-class SomeClass extends \PHPUnit\Framework\TestCase
+class Fixture
 {
     /**
      * @dataProvider provideData()

@@ -4,7 +4,7 @@ namespace Rector\Php70\Tests\Rector\MethodCall\ThisCallOnStaticMethodToStaticCal
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class SomeParent
+class Fixture
 {
     public function speak()
     {
@@ -16,7 +16,7 @@ class SomeParent
     }
 }
 
-class SomeChild extends SomeParent
+class SomeChild extends Fixture
 {
     public static function whoami()
     {
@@ -41,7 +41,7 @@ namespace Rector\Php70\Tests\Rector\MethodCall\ThisCallOnStaticMethodToStaticCal
 
 use Rector\Testing\Contract\RunnableInterface;
 
-class SomeParent
+class Fixture
 {
     public function speak()
     {
@@ -53,7 +53,7 @@ class SomeParent
     }
 }
 
-class SomeChild extends SomeParent
+class SomeChild extends Fixture
 {
     public static function whoami()
     {

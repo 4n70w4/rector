@@ -2,7 +2,7 @@
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class ClassToInterface extends \DateTime
+class ClassToInterface
 {
     public function run(\DateTime $dateTime): \DateTime
     {
@@ -16,7 +16,7 @@ class ClassToInterface extends \DateTime
 
 namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class ClassToInterface extends \DateTime
+class ClassToInterface
 {
     public function run(\DateTimeInterface $dateTime): \DateTimeInterface
     {

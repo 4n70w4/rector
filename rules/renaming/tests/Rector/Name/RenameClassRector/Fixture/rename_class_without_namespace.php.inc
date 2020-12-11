@@ -1,13 +1,13 @@
 <?php
 
-class MyOldClass
+class RenameClassWithoutNamespace
 {
     /**
-     * @return MyOldClass
+     * @return RenameClassWithoutNamespace
      */
-    public function createSelf(): MyOldClass
+    public function createSelf(): RenameClassWithoutNamespace
     {
-        return new MyOldClass;
+        return new RenameClassWithoutNamespace;
     }
 }
 

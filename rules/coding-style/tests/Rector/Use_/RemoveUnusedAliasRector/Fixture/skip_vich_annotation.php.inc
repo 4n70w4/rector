@@ -3,17 +3,17 @@
 namespace Rector\CodingStyle\Tests\Rector\Use_\RemoveUnusedAliasRector\Fixture;
 
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueSkipVichAnnotation;
 use Symfony\Component\Validator\Constraints as Assert;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * @ORM\Table()
- * @ORM\Entity()
- * @UniqueEntity("slug")
+ * @ORM\SkipVichAnnotation()
+ * @UniqueSkipVichAnnotation("slug")
  * @Vich\Uploadable
  */
-class Entity
+class SkipVichAnnotation
 {
     /**
      * @var string

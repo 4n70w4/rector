@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\php-cs-fixer-param;
 
-class NonRootClassWithDifferentTypeOfParams
+class NonRootClassWithDifferentTypesOfParams
 {
 }
 
@@ -13,7 +13,7 @@ class NonRootClassWithDifferentTypeOfParams
  */
 function my_foo($bar, $baz, $tab) {}
 
-/** @param NonRootClassWithDifferentTypeOfParams $foo */ function my_foo2($foo) {}
+/** @param NonRootClassWithDifferentTypesOfParams $foo */ function my_foo2($foo) {}
 
 ?>
 -----
@@ -21,7 +21,7 @@ function my_foo($bar, $baz, $tab) {}
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\php-cs-fixer-param;
 
-class NonRootClassWithDifferentTypeOfParams
+class NonRootClassWithDifferentTypesOfParams
 {
 }
 
@@ -32,6 +32,6 @@ class NonRootClassWithDifferentTypeOfParams
  */
 function my_foo(string $bar, int $baz, float $tab) {}
 
-/** @param NonRootClassWithDifferentTypeOfParams $foo */ function my_foo2(\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\php-cs-fixer-param\NonRootClassWithDifferentTypeOfParams $foo) {}
+/** @param NonRootClassWithDifferentTypesOfParams $foo */ function my_foo2(\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\php-cs-fixer-param\NonRootClassWithDifferentTypesOfParams $foo) {}
 
 ?>

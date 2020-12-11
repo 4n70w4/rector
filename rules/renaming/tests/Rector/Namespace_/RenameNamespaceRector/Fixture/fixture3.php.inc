@@ -4,11 +4,11 @@ namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 use OldNamespaceWith\OldSplitNamespace;
 
-class SomeClass3
+class Fixture3
 {
     public function someClass()
     {
-        return new OldSplitNamespace\SomeClass3;
+        return new OldSplitNamespace\Fixture3;
     }
 }
 
@@ -20,11 +20,11 @@ namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 use NewNamespaceWith\NewSplitNamespace;
 
-class SomeClass3
+class Fixture3
 {
     public function someClass()
     {
-        return new \NewNamespaceWith\NewSplitNamespace\SomeClass3;
+        return new \NewNamespaceWith\NewSplitNamespace\Fixture3;
     }
 }
 

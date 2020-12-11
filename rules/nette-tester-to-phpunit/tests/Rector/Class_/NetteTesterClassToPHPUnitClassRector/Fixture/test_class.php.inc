@@ -5,7 +5,7 @@ namespace Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPU
 use Tester\Assert;
 use Tester\TestCase;
 
-class ExtensionTest extends TestCase
+class TestClass
 {
     public function setUp()
     {

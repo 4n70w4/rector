@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class ReferenceSymbolInDocBlock
+class ReferenceSymbolInDocblock
 {
     /**
      * @param array &$value
@@ -17,7 +17,7 @@ class ReferenceSymbolInDocBlock
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class ReferenceSymbolInDocBlock
+class ReferenceSymbolInDocblock
 {
     /**
      * @param array &$value

@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\RectorOrder\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function test()
     {
@@ -23,7 +23,7 @@ namespace Rector\Generic\Tests\Rector\RectorOrder\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
-class SomeTest extends TestCase
+class Fixture
 {
     public function test()
     {

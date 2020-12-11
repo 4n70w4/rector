@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayCla
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayClassMethodRector\Source\EventSubscriberInterface;
 
-class TypeDeclaration implements EventSubscriberInterface
+class TypeDeclaration
 {
     public static function getSubscribedEvents(): \Iterator
     {
@@ -20,7 +20,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayCla
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\YieldClassMethodToArrayClassMethodRector\Source\EventSubscriberInterface;
 
-class TypeDeclaration implements EventSubscriberInterface
+class TypeDeclaration
 {
     public static function getSubscribedEvents(): array
     {

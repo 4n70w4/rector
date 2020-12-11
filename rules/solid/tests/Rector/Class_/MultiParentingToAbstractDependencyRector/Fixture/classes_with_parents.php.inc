@@ -17,7 +17,7 @@ abstract class AbstractParentClassWithParents
     }
 }
 
-class FirstChildClassWithParent extends AbstractParentClassWithParents
+class ClassesWithParents
 {
     public function __construct(ClassWithParent $firstImplementer)
     {
@@ -54,7 +54,7 @@ abstract class AbstractParentClassWithParents
     }
 }
 
-class FirstChildClassWithParent extends AbstractParentClassWithParents
+class ClassesWithParents
 {
 }
 

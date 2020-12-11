@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallR
 
 use PHPUnit\Framework\TestCase;
 
-class ToSelfPHPUnitAssertTest extends TestCase
+class ToSelfPhpunitAssert
 {
     public function test()
     {
@@ -20,7 +20,7 @@ namespace Rector\CodingStyle\Tests\Rector\MethodCall\PreferThisOrSelfMethodCallR
 
 use PHPUnit\Framework\TestCase;
 
-class ToSelfPHPUnitAssertTest extends TestCase
+class ToSelfPhpunitAssert
 {
     public function test()
     {

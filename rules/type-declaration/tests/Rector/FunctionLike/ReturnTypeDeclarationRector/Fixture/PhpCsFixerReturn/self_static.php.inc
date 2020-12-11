@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\PhpCsFixerReturn;
 
-class Foo {
+class SelfStatic {
     /** @return self */
     function my_foo($value)
     {
@@ -10,7 +10,7 @@ class Foo {
     }
 }
 
-class Foo2 {
+class SelfStatic2 {
     /** @return static */
     function my_foo($value)
     {
@@ -24,14 +24,14 @@ class Foo2 {
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\PhpCsFixerReturn;
 
-class Foo {
+class SelfStatic {
     function my_foo($value): self
     {
         return $value;
     }
 }
 
-class Foo2 {
+class SelfStatic2 {
     /** @return static */
     function my_foo($value)
     {

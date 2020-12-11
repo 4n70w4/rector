@@ -12,7 +12,7 @@ abstract class ParentOverride
     }
 }
 
-class OverrideParent extends ParentOverride
+class ParentOverride
 {
     public function getValue()
     {
@@ -36,7 +36,7 @@ abstract class ParentOverride
     }
 }
 
-class OverrideParent extends ParentOverride
+class ParentOverride
 {
     public function getValue(): string
     {

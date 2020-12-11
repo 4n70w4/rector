@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class TestVoidType
+class VoidType
 {
     /**
      * @return false
@@ -26,7 +26,7 @@ class TestVoidType
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class TestVoidType
+class VoidType
 {
     /**
      * @return false

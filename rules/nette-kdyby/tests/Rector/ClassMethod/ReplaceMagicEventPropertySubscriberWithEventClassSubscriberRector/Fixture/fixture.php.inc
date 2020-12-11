@@ -5,7 +5,7 @@ namespace Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySu
 use Kdyby\Events\Subscriber;
 use Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Source\Tomato;
 
-class VegetableMarket
+class Fixture
 {
     public $onTomatoBuy;
 
@@ -20,7 +20,7 @@ final class ActionLogEventSubscriber implements Subscriber
     public function getSubscribedEvents(): array
     {
         return [
-            VegetableMarket::class . '::onTomatoBuy' => 'onTomatoBuy',
+            Fixture::class . '::onTomatoBuy' => 'onTomatoBuy',
         ];
     }
 
@@ -39,7 +39,7 @@ namespace Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySu
 use Kdyby\Events\Subscriber;
 use Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Source\Tomato;
 
-class VegetableMarket
+class Fixture
 {
     public $onTomatoBuy;
 
@@ -54,11 +54,11 @@ final class ActionLogEventSubscriber implements Subscriber
     public function getSubscribedEvents(): array
     {
         return [
-            \Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Fixture\Event\VegetableMarketTomatoBuyEvent::class => 'onTomatoBuy',
+            \Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Fixture\Event\FixtureTomatoBuyEvent::class => 'onTomatoBuy',
         ];
     }
 
-    public function onTomatoBuy(\Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Fixture\Event\VegetableMarketTomatoBuyEvent $vegetableMarketTomatoBuyEvent): void
+    public function onTomatoBuy(\Rector\NetteKdyby\Tests\Rector\ClassMethod\ReplaceMagicEventPropertySubscriberWithEventClassSubscriberRector\Fixture\Event\FixtureTomatoBuyEvent $vegetableMarketTomatoBuyEvent): void
     {
         $anotherTomato = $vegetableMarketTomatoBuyEvent->getTomato();
         $anotherTomato->unwrap();

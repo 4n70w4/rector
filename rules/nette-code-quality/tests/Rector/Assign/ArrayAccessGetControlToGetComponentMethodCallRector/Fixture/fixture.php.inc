@@ -4,7 +4,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 
 use Nette\Application\UI\Presenter;
 
-class SomeClass extends Presenter
+class Fixture
 {
     public function some()
     {
@@ -20,7 +20,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 
 use Nette\Application\UI\Presenter;
 
-class SomeClass extends Presenter
+class Fixture
 {
     public function some()
     {

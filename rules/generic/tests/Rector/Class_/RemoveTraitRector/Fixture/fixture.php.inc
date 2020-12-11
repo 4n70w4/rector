@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Class_\RemoveTraitRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\RemoveTraitRector\Source\TraitToBeRemoved;
 
-class SomeClass
+class Fixture
 {
     use TraitToBeRemoved;
 }
@@ -17,7 +17,7 @@ namespace Rector\Generic\Tests\Rector\Class_\RemoveTraitRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\RemoveTraitRector\Source\TraitToBeRemoved;
 
-class SomeClass
+class Fixture
 {
 }
 

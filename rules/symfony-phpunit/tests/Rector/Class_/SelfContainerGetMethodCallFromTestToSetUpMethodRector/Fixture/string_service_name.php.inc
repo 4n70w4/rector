@@ -4,7 +4,7 @@ namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFr
 
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class StringServiceName extends KernelTestCase
+class StringServiceName
 {
     public function testOne()
     {
@@ -21,7 +21,7 @@ namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFr
 
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class StringServiceName extends KernelTestCase
+class StringServiceName
 {
     private \some_value $someValue;
     protected function setUp()

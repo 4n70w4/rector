@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventR
 use Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventRector\Source\CustomEvent;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
-class EventGetClass
+class GetClass
 {
     public function run(EventDispatcher $eventDispatcher)
     {
@@ -23,7 +23,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventR
 use Rector\Symfony\Tests\Rector\MethodCall\MakeDispatchFirstArgumentEventRector\Source\CustomEvent;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
-class EventGetClass
+class GetClass
 {
     public function run(EventDispatcher $eventDispatcher)
     {

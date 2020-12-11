@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixtur
 
 use Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException;
 
-class ThisA
+class UseOfThisInherited
 {
     /**
      * @throws TheException
@@ -15,7 +15,7 @@ class ThisA
     }
 }
 
-class UseOfThisInherited extends ThisA
+class UseOfThisInherited extends UseOfThisInherited
 {
     public function thisMethodUsesAThisThatThrowsAnException()
     {
@@ -31,7 +31,7 @@ namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixtur
 
 use Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException;
 
-class ThisA
+class UseOfThisInherited
 {
     /**
      * @throws TheException
@@ -42,7 +42,7 @@ class ThisA
     }
 }
 
-class UseOfThisInherited extends ThisA
+class UseOfThisInherited extends UseOfThisInherited
 {
     /**
      * @throws \Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException

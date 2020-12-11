@@ -4,7 +4,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationR
 
 use Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Source\ParentInterface;
 
-class ImplementingClass implements ParentInterface
+class SkipParentInterface
 {
     /**
      * @param string $value

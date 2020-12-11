@@ -4,7 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveDelegatingParentCallRec
 
 use PhpParser\PrettyPrinter\Standard;
 
-class SkipExtraContent extends Standard
+class SkipExtraContent
 {
     public function prettyPrint(array $stmts): string
     {

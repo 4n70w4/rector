@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\FormTypeGetParentRector\Fixtur
 
 use Symfony\Component\Form\AbstractType;
 
-class PermissionCollectionType extends AbstractType
+class AbstractType
 {
     public function getName()
     {
@@ -25,7 +25,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\FormTypeGetParentRector\Fixtur
 
 use Symfony\Component\Form\AbstractType;
 
-class PermissionCollectionType extends AbstractType
+class AbstractType
 {
     public function getName()
     {

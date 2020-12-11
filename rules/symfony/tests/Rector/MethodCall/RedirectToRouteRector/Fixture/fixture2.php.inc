@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\RedirectToRouteRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class AppController2 extends Controller
+class Fixture2
 {
     public function someAction()
     {
@@ -20,7 +20,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\RedirectToRouteRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class AppController2 extends Controller
+class Fixture2
 {
     public function someAction()
     {

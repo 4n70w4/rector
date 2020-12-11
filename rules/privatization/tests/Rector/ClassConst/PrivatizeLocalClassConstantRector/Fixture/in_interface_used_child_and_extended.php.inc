@@ -7,7 +7,7 @@ interface YetAnotherInterfaceWithConstant
     const LOCAL_ONLY = true;
 }
 
-class YetAnotherClassExtendingInterface implements YetAnotherInterfaceWithConstant
+class InInterfaceUsedChildAndExtended
 {
     public function run()
     {
@@ -34,7 +34,7 @@ interface YetAnotherInterfaceWithConstant
     public const LOCAL_ONLY = true;
 }
 
-class YetAnotherClassExtendingInterface implements YetAnotherInterfaceWithConstant
+class InInterfaceUsedChildAndExtended
 {
     public function run()
     {

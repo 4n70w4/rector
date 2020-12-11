@@ -5,7 +5,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\ArrayDimFetch\ChangeFormArrayAcce
 use Nette\Application\UI\Form;
 use Nette\Forms\Controls\TextInput;
 
-class SkipAssign extends Form
+class SkipAssign
 {
     public function __construct()
     {

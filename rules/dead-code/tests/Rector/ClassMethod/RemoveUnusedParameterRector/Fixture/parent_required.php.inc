@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveUnusedParameterRector\Fixture;
 
-class StrictPapa
+class ParentRequired
 {
     public function getIt($value, $value2)
     {
@@ -11,7 +11,7 @@ class StrictPapa
 
 }
 
-class ParentRequired extends StrictPapa
+class ParentRequired extends ParentRequired
 {
     public function getIt($value, $value2)
     {

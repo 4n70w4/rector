@@ -4,7 +4,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Symfony\Component\Console\Command\Command;
 
-class SomeCommand extends Command
+class SomeCommand
 {
     protected function configured()
     {
@@ -22,7 +22,7 @@ namespace Rector\Defluent\Tests\Rector\MethodCall\FluentChainMethodCallToNormalM
 
 use Symfony\Component\Console\Command\Command;
 
-class SomeCommand extends Command
+class SomeCommand
 {
     protected function configured()
     {

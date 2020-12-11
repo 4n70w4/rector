@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Fi
 
 use Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Source\ParentObject;
 
-class ClassThatInherits extends ParentObject
+class Fixture
 {
     public $toBeProtectedProperty;
 
@@ -19,7 +19,7 @@ namespace Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Fi
 
 use Rector\Generic\Tests\Rector\Property\ChangePropertyVisibilityRector\Source\ParentObject;
 
-class ClassThatInherits extends ParentObject
+class Fixture
 {
     protected $toBeProtectedProperty;
 

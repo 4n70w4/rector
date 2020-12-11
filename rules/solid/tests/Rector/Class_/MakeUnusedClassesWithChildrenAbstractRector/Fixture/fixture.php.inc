@@ -2,7 +2,7 @@
 
 namespace Rector\SOLID\Tests\Rector\Class_\MakeUnusedClassesWithChildrenAbstractRector\Fixture;
 
-class SomeClass extends PossibleAbstractClass
+class Fixture
 {
 }
 
@@ -16,7 +16,7 @@ class PossibleAbstractClass
 
 namespace Rector\SOLID\Tests\Rector\Class_\MakeUnusedClassesWithChildrenAbstractRector\Fixture;
 
-class SomeClass extends PossibleAbstractClass
+class Fixture
 {
 }
 

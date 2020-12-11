@@ -2,7 +2,7 @@
 
 namespace Rector\CodingStyle\Tests\Rector\ClassMethod\MakeInheritedMethodVisibilitySameAsParentRector\Fixture;
 
-class SkipExistingParent extends ParentClassWithProtectedMethod
+class SkipExisting
 {
     protected function run()
     {

@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class VariadicTypes
+class Variadic
 {
     /**
      * @param mixed[] $values

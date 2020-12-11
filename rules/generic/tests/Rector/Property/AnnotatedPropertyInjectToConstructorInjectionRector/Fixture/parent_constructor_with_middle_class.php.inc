@@ -2,7 +2,7 @@
 
 namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Fixture;
 
-class ClassWithInjects10ParentParent
+class ParentConstructorWithMiddleClass
 {
     /**
      * @var \DateTimeInterface
@@ -11,7 +11,7 @@ class ClassWithInjects10ParentParent
     public $dateTime;
 }
 
-class ClassWithInjects10Parent extends ClassWithInjects10ParentParent
+class ClassWithInjects10Parent extends ParentConstructorWithMiddleClass
 {
 }
 
@@ -30,7 +30,7 @@ class ClassWithInjects10 extends ClassWithInjects10Parent
 
 namespace Rector\Generic\Tests\Rector\Property\AnnotatedPropertyInjectToConstructorInjectionRector\Fixture;
 
-class ClassWithInjects10ParentParent
+class ParentConstructorWithMiddleClass
 {
     /**
      * @var \DateTimeInterface
@@ -42,7 +42,7 @@ class ClassWithInjects10ParentParent
     }
 }
 
-class ClassWithInjects10Parent extends ClassWithInjects10ParentParent
+class ClassWithInjects10Parent extends ParentConstructorWithMiddleClass
 {
 }
 

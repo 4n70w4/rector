@@ -4,7 +4,7 @@ namespace Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Fixt
 
 use Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Source\GitWrapper;
 
-class GitWrapperChange
+class GitWrapper
 {
     /**
      * @var \Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Source\GitWrapper
@@ -25,7 +25,7 @@ namespace Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Fixt
 
 use Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Source\GitWrapper;
 
-class GitWrapperChange
+class GitWrapper
 {
     /**
      * @var \Rector\Naming\Tests\Rector\Class_\RenamePropertyToMatchTypeRector\Source\GitWrapper

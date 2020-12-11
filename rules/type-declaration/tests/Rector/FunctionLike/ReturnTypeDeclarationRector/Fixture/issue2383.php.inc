@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Issus2383
+class Issue2383
 {
     public function go(): ?UriInterface
     {

@@ -2,7 +2,7 @@
 
 namespace Rector\Restoration\Tests\Rector\Class_\RemoveUselessJustForSakeInterfaceRector\Fixture;
 
-class SomeClass implements OnlyHereUsedInterface
+class Fixture
 {
 }
 

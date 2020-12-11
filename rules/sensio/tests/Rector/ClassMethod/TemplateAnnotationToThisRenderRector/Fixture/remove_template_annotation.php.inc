@@ -6,7 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class RemoveTemplateAnnotatoinController extends AbstractController
+class RemoveTemplateAnnotation
 {
     /**
      * @Template()
@@ -27,7 +27,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class RemoveTemplateAnnotatoinController extends AbstractController
+class RemoveTemplateAnnotation
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

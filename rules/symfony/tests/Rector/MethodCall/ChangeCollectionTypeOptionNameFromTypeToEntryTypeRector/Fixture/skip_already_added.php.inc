@@ -7,7 +7,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
-class SkipAlreadyAddedType extends AbstractType
+class SkipAlreadyAdded
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {

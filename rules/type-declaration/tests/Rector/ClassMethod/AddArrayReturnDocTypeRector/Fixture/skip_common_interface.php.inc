@@ -8,7 +8,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 use Symfony\Component\HttpKernel\Kernel;
 
-class SkipCommonInterface extends Kernel
+class SkipCommonInterface
 {
     /**
      * @return BundleInterface[]

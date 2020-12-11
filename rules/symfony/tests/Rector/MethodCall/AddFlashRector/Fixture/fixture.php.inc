@@ -5,7 +5,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\AddFlashRector\Fixture;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class AppController extends Controller
+class Fixture
 {
     public function someAction(Request $request)
     {
@@ -22,7 +22,7 @@ namespace Rector\Symfony\Tests\Rector\MethodCall\AddFlashRector\Fixture;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class AppController extends Controller
+class Fixture
 {
     public function someAction(Request $request)
     {

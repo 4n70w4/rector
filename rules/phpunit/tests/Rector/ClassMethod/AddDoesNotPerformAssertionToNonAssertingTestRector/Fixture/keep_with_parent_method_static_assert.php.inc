@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNo
 
 use Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Source\AbstractClassWithStaticAssert;
 
-class KeepWithParentMethodStaticAssert extends AbstractClassWithStaticAssert
+class KeepWithParentMethodStaticAssert
 {
     public function test()
     {

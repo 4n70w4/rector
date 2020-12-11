@@ -4,7 +4,7 @@ namespace Rector\NetteCodeQuality\Tests\Rector\Assign\ArrayAccessGetControlToGet
 
 use Nette\Forms\Form;
 
-class SkipForm extends Form
+class SkipForm
 {
     public function some()
     {

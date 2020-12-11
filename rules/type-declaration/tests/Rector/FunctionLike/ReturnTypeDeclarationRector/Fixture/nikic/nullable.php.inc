@@ -2,10 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture\nikic;
 
-class Foo {}
-
-/** @return Foo|null */
-function test($value) {
+class Nullable {
     return $value;
 }
 

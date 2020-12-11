@@ -4,7 +4,7 @@ namespace Rector\MagicDisclosure\Tests\Rector\Assign\GetAndSetToMethodCallRector
 
 use Rector\MagicDisclosure\Tests\Rector\Assign\GetAndSetToMethodCallRector\Source\Klarka;
 
-class KlarkaExtended extends Klarka
+class Klarka
 {
     private $existingProperty;
 
@@ -32,7 +32,7 @@ namespace Rector\MagicDisclosure\Tests\Rector\Assign\GetAndSetToMethodCallRector
 
 use Rector\MagicDisclosure\Tests\Rector\Assign\GetAndSetToMethodCallRector\Source\Klarka;
 
-class KlarkaExtended extends Klarka
+class Klarka
 {
     private $existingProperty;
 

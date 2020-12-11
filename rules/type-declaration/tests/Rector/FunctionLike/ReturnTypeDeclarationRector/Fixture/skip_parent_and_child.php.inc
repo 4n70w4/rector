@@ -2,22 +2,22 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Response
+class SkipParentAndChild
 {
 }
 
-final class RedirectResponse extends Response
+final class RedirectSkipParentAndChild extends SkipParentAndChild
 {
 }
 
 final class SkipParentAndChild
 {
-    public function run(bool $response): Response
+    public function run(bool $response): SkipParentAndChild
     {
         if ($response) {
-            return new RedirectResponse;
+            return new RedirectSkipParentAndChild;
         }
 
-        return new Response;
+        return new SkipParentAndChild;
     }
 }

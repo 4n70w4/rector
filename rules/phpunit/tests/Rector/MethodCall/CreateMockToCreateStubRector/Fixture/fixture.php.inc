@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\CreateMockToCreateStubRector\Fi
 
 use PHPUnit\Framework\TestCase;
 
-class MyTest extends TestCase
+class Fixture
 {
     public function testItBehavesAsExpected(): void
     {
@@ -22,7 +22,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\CreateMockToCreateStubRector\Fi
 
 use PHPUnit\Framework\TestCase;
 
-class MyTest extends TestCase
+class Fixture
 {
     public function testItBehavesAsExpected(): void
     {

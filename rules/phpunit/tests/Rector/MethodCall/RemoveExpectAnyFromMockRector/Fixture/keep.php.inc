@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\RemoveExpectAnyFromMockRector\F
 
 use PHPUnit\Framework\TestCase;
 
-class Keep extends TestCase
+class Keep
 {
     public function test()
     {

@@ -6,7 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 
-class SkipAnotherTypeType extends AbstractType
+class SkipAnotherType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {

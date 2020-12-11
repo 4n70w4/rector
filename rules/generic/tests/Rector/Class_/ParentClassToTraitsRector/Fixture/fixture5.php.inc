@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\Class_\ParentClassToTraitsRector\Fixture;
 
 use Rector\Generic\Tests\Rector\Class_\ParentClassToTraitsRector\Source\AnotherParentObject;
 
-class ClassWithMultipleTraits extends AnotherParentObject
+class Fixture5
 {
 }
 

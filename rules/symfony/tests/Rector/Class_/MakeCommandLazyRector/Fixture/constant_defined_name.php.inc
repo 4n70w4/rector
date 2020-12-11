@@ -2,7 +2,7 @@
 
 namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 
-class ConstantDefinedName extends \Symfony\Component\Console\Command\Command
+class ConstantDefinedName
 {
     private const COMMAND_NAME = 'regge';
 
@@ -18,7 +18,7 @@ class ConstantDefinedName extends \Symfony\Component\Console\Command\Command
 
 namespace Rector\Symfony\Tests\Rector\Class_\MakeCommandLazyRector\Fixture;
 
-class ConstantDefinedName extends \Symfony\Component\Console\Command\Command
+class ConstantDefinedName
 {
     protected static $defaultName = self::COMMAND_NAME;
     private const COMMAND_NAME = 'regge';

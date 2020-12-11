@@ -4,7 +4,7 @@ namespace Rector\Privatization\Tests\Rector\ClassMethod\PrivatizeLocalOnlyMethod
 
 use Rector\Privatization\Tests\Rector\ClassMethod\PrivatizeLocalOnlyMethodRector\Source\SomeContractWithGo;
 
-class SkipContract implements SomeContractWithGo
+class SkipContract
 {
     public function go()
     {

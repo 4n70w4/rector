@@ -19,7 +19,7 @@ interface SomeInterface
     public function getCount($items);
 }
 
-class SomeClassWithInterfaceAndTrait implements SomeInterface
+class TraitInterface
 {
     use TraitWithInterfaceImplementation;
 }
@@ -46,7 +46,7 @@ interface SomeInterface
     public function getCount($items): int;
 }
 
-class SomeClassWithInterfaceAndTrait implements SomeInterface
+class TraitInterface
 {
     use TraitWithInterfaceImplementation;
 }

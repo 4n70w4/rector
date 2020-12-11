@@ -5,7 +5,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class EmptyBodyController extends AbstractController
+class EmptyBody
 {
     /**
      * @Template
@@ -24,7 +24,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class EmptyBodyController extends AbstractController
+class EmptyBody
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

@@ -5,7 +5,7 @@ namespace Rector\NetteKdyby\Tests\Rector\ClassMethod\ChangeNetteEventNamesInGetS
 use Kdyby\Events\Subscriber;
 use Nette\Application\Application;
 
-class GetApplesSubscriber implements Subscriber
+class ApplicationOnShutdown
 {
     public function getSubscribedEvents()
     {
@@ -29,7 +29,7 @@ namespace Rector\NetteKdyby\Tests\Rector\ClassMethod\ChangeNetteEventNamesInGetS
 use Kdyby\Events\Subscriber;
 use Nette\Application\Application;
 
-class GetApplesSubscriber implements Subscriber
+class ApplicationOnShutdown
 {
     public static function getSubscribedEvents()
     {

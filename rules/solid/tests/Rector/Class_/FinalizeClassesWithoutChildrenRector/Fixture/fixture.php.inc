@@ -2,7 +2,7 @@
 
 namespace Rector\SOLID\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
 
-class FirstClass
+class Fixture
 {
 }
 
@@ -20,7 +20,7 @@ class ThirdClass extends SecondClass
 
 namespace Rector\SOLID\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
 
-final class FirstClass
+final class Fixture
 {
 }
 

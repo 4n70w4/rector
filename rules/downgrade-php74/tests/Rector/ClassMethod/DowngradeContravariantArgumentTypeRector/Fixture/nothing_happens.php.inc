@@ -2,9 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeContravariantArgumentTypeRector\Fixture;
 
-class NothingHappensType {}
-
-class NothingHappensA
+class NothingHappens
 {
     public function contraVariantArguments(NothingHappensType $type)
     { /* … */ }

@@ -22,7 +22,7 @@ abstract class ParentSingleTableInheritance
 /**
  * @ORM\Entity
  */
-class AddSingleTableInheritance extends ParentSingleTableInheritance
+class AddSingleTableInheritance
 {
 }
 
@@ -57,7 +57,7 @@ abstract class ParentSingleTableInheritance
 /**
  * @ORM\Entity
  */
-class AddSingleTableInheritance extends ParentSingleTableInheritance
+class AddSingleTableInheritance
 {
 }
 

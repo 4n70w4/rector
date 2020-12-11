@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity()
  */
-class Product extends Service
+class SkipAbstractParent
 {
     public const TYPE = 'product';
 

@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class BoolClass
+class False
 {
     /**
      * @param true $ojoj
@@ -23,7 +23,7 @@ class BoolClass
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
-class BoolClass
+class False
 {
     /**
      * @param true $ojoj

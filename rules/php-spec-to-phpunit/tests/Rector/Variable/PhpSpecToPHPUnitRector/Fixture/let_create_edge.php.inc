@@ -4,7 +4,7 @@ namespace Rector\PhpSpecToPHPUnit\Tests\Rector\Variable\PhpSpecToPHPUnitRector\F
 
 use PhpSpec\ObjectBehavior;
 
-class CurrencySpec extends ObjectBehavior
+class LetCreateEdge
 {
     public function let(CurrencyData $data)
     {

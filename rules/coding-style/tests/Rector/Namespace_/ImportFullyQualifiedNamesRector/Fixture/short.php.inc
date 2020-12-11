@@ -2,7 +2,7 @@
 
 namespace Rector\CodingStyle\Tests\Rector\Namespace_\ImportFullyQualifiedNamesRector\Fixture;
 
-class SomeException extends \Exception
+class Short
 {
 }
 

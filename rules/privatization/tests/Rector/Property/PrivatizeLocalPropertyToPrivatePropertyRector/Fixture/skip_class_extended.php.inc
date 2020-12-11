@@ -2,7 +2,7 @@
 
 namespace Rector\Privatization\Tests\Rector\Property\PrivatizeLocalPropertyToPrivatePropertyRector\Fixture;
 
-class SkipClassExtended extends AbstractParentClass
+class SkipClassExtended
 {
     /**
      * @api

@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  */
-class Question
+class RemoveInversedByNonFqn
 {
     /**
      * @ORM\ManyToMany(targetEntity="RemoveInversedByNonFqn", inversedBy="answers")
@@ -21,7 +21,7 @@ class Question
     }
 }
 
-$answer = new Question();
+$answer = new RemoveInversedByNonFqn();
 $answer->getVoters();
 
 /**
@@ -30,7 +30,7 @@ $answer->getVoters();
 class RemoveInversedByNonFqn
 {
     /**
-     * @ORM\ManyToMany(targetEntity="Question", mappedBy="voters")
+     * @ORM\ManyToMany(targetEntity="RemoveInversedByNonFqn", mappedBy="voters")
      */
     private $answers;
 
@@ -52,7 +52,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  */
-class Question
+class RemoveInversedByNonFqn
 {
     /**
      * @ORM\ManyToMany(targetEntity="RemoveInversedByNonFqn")
@@ -65,7 +65,7 @@ class Question
     }
 }
 
-$answer = new Question();
+$answer = new RemoveInversedByNonFqn();
 $answer->getVoters();
 
 /**

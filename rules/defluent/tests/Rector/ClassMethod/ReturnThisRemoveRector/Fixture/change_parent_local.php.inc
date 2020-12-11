@@ -2,7 +2,7 @@
 
 namespace Rector\Defluent\Tests\Rector\ClassMethod\ReturnThisRemoveRector\Fixture;
 
-class ChildClassWithSameMethodName extends SomeParentClassWithSameMethod
+class ChangeParentLocal
 {
     /**
      * @return self
@@ -32,7 +32,7 @@ class SomeParentClassWithSameMethod
 
 namespace Rector\Defluent\Tests\Rector\ClassMethod\ReturnThisRemoveRector\Fixture;
 
-class ChildClassWithSameMethodName extends SomeParentClassWithSameMethod
+class ChangeParentLocal
 {
     public function someFunction(): void
     {

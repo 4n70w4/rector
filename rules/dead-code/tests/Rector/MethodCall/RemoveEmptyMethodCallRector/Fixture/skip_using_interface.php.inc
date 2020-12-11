@@ -1,10 +1,10 @@
 <?php
 
-namespace Rector\DeadCode\Tests\Rector\MethodCall\RemoveEmptyMethodCallRector\Fixture;
+namespace Rector\DeadSkipUsingInterfaceode\Tests\Rector\MethodSkipUsingInterfaceall\RemoveEmptyMethodSkipUsingInterfaceallRector\Fixture;
 
-use Rector\DeadCode\Tests\Rector\MethodCall\RemoveEmptyMethodCallRector\Source\SomeInterface;
+use Rector\DeadSkipUsingInterfaceode\Tests\Rector\MethodSkipUsingInterfaceall\RemoveEmptyMethodSkipUsingInterfaceallRector\Source\SomeInterface;
 
-class C
+class SkipUsingInterface
 {
     public function execute(SomeInterface $obj)
     {

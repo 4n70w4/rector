@@ -2,7 +2,7 @@
 
 namespace Rector\Privatization\Tests\Rector\MethodCall\PrivatizeLocalGetterToPropertyRector\Fixture;
 
-class SkipParentClass extends AbstractParentClass
+class SkipParentClass
 {
     public function run()
     {

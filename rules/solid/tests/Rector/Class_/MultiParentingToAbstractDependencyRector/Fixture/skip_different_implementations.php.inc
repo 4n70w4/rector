@@ -19,7 +19,7 @@ abstract class AbstractParentClassSkipDifferentImplementations
     }
 }
 
-class FirstChildDifferentImplementations extends AbstractParentClassSkipDifferentImplementations
+class SkipDifferentImplementations
 {
     public function __construct(FirstImplementer $firstImplementer)
     {

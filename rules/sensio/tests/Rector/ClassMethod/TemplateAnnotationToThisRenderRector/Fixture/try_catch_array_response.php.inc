@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Throwable;
 
-class ClassTryCatchArrayResponseController extends AbstractController
+class TryCatchArrayResponse
 {
     /**
      * @Template()
@@ -35,7 +35,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Throwable;
 
-class ClassTryCatchArrayResponseController extends AbstractController
+class TryCatchArrayResponse
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

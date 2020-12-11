@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class BoolClass
+class False
 {
     /**
      * @return false
@@ -19,7 +19,7 @@ class BoolClass
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class BoolClass
+class False
 {
     /**
      * @return false

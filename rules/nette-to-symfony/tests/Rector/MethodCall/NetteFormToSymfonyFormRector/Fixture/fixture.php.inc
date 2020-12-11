@@ -5,7 +5,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\MethodCall\NetteFormToSymfonyFormRe
 use Rector\NetteToSymfony\Tests\Rector\MethodCall\NetteFormToSymfonyFormRector\Source\NettePresenter;
 use Nette\Application\UI\Form;
 
-class SomePresenter extends NettePresenter
+class Fixture
 {
     public function someAction()
     {
@@ -39,7 +39,7 @@ namespace Rector\NetteToSymfony\Tests\Rector\MethodCall\NetteFormToSymfonyFormRe
 use Rector\NetteToSymfony\Tests\Rector\MethodCall\NetteFormToSymfonyFormRector\Source\NettePresenter;
 use Nette\Application\UI\Form;
 
-class SomePresenter extends NettePresenter
+class Fixture
 {
     public function someAction()
     {

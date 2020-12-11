@@ -4,7 +4,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class NoReturnType implements OneToManyInterface
+class NoReturnType
 {
     public function getNode()
     {
@@ -20,7 +20,7 @@ namespace Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToMa
 
 use Rector\Generic\Tests\Rector\ClassMethod\ChangeContractMethodSingleToManyRector\Source\OneToManyInterface;
 
-class NoReturnType implements OneToManyInterface
+class NoReturnType
 {
     public function getNodes(): array
     {

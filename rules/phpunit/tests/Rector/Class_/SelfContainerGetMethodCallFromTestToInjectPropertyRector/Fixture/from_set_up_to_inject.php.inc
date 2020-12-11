@@ -5,7 +5,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\RandomElasticClient;
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class FromSetUpToInject extends TestCaseWithGetContainer
+class FromSetUpToInject
 {
     /**
      * @var RandomElasticClient
@@ -32,7 +32,7 @@ namespace Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestT
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\RandomElasticClient;
 use Rector\PHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToInjectPropertyRector\Source\TestCaseWithGetContainer;
 
-class FromSetUpToInject extends TestCaseWithGetContainer
+class FromSetUpToInject
 {
     /**
      * @var RandomElasticClient

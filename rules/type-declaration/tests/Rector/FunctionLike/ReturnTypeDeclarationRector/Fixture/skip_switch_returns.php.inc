@@ -2,7 +2,7 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class SkipSwtichReturns
+class SkipSwitchReturns
 {
     public function someFunction($value)
     {

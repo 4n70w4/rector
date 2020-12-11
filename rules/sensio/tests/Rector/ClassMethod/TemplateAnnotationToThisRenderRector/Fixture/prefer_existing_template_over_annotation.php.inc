@@ -5,7 +5,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ClassWithNamedService45Controller extends AbstractController
+class PreferExistingTemplateOverAnnotation
 {
     /**
      * @Template("AdminBundle:Payment:create.html.twig")
@@ -27,7 +27,7 @@ namespace Rector\Sensio\Tests\Rector\ClassMethod\TemplateAnnotationToThisRenderR
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ClassWithNamedService45Controller extends AbstractController
+class PreferExistingTemplateOverAnnotation
 {
     public function indexAction(): \Symfony\Component\HttpFoundation\Response
     {

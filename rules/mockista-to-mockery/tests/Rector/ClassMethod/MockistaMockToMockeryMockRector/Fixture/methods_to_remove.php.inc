@@ -4,7 +4,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 
 use PHPUnit\Framework\TestCase;
 
-class MethodsToRemove extends TestCase
+class MethodsToRemove
 {
     public function testSomething()
     {
@@ -22,7 +22,7 @@ namespace Rector\MockistaToMockery\Tests\Rector\ClassMethod\MockistaMockToMocker
 
 use PHPUnit\Framework\TestCase;
 
-class MethodsToRemove extends TestCase
+class MethodsToRemove
 {
     public function testSomething()
     {

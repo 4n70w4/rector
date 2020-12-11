@@ -2,7 +2,7 @@
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveSetterOnlyPropertyAndMethodCallRector\Fixture;
 
-class SomeClass
+class Fixture
 {
     private $name;
 
@@ -16,7 +16,7 @@ class ActiveOnlySetter
 {
     public function run()
     {
-        $someClass = new SomeClass();
+        $someClass = new Fixture();
         $someClass->setName('Tom');
     }
 }
@@ -27,7 +27,7 @@ class ActiveOnlySetter
 
 namespace Rector\DeadCode\Tests\Rector\Property\RemoveSetterOnlyPropertyAndMethodCallRector\Fixture;
 
-class SomeClass
+class Fixture
 {
 }
 
@@ -35,7 +35,7 @@ class ActiveOnlySetter
 {
     public function run()
     {
-        $someClass = new SomeClass();
+        $someClass = new Fixture();
     }
 }
 

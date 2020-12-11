@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Fixture;
 
-class SomeClass extends \PHPUnit\Framework\TestCase
+class Fixture
 {
     public function test()
     {
@@ -16,7 +16,7 @@ class SomeClass extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\AddDoesNotPerformAssertionToNonAssertingTestRector\Fixture;
 
-class SomeClass extends \PHPUnit\Framework\TestCase
+class Fixture
 {
     /**
      * @doesNotPerformAssertions

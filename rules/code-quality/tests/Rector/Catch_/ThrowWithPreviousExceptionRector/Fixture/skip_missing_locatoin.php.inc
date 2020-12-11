@@ -5,7 +5,7 @@ namespace Rector\CodeQuality\Tests\Rector\Catch_\ThrowWithPreviousExceptionRecto
 use Exception;
 use Throwable;
 
-class SkipMissingLocation
+class SkipMissingLocatoin
 {
     public function run()
     {

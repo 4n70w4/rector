@@ -4,7 +4,7 @@ namespace Rector\PHPUnit\Tests\Rector\MethodCall\CreateMockToCreateStubRector\Fi
 
 use PHPUnit\Framework\TestCase;
 
-class SkipWithExpects extends TestCase
+class SkipWithExpects
 {
     public function testItBehavesAsExpected(): void
     {

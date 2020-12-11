@@ -9,7 +9,7 @@ abstract class ParentStatic
     }
 }
 
-class ChildStatic extends ParentStatic
+class KeepParentStatic
 {
 }
 

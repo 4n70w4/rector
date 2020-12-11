@@ -2,10 +2,7 @@
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture;
 
-class TwoLevelParentType {}
-class TwoLevelChildType extends TwoLevelParentType {}
-
-class TwoLevelA
+class TwoLevelAncestor
 {
     public function covariantReturnTypes(): TwoLevelParentType
     { /* … */ }
@@ -29,10 +26,7 @@ class TwoLevelC extends TwoLevelB
 
 namespace Rector\DowngradePhp74\Tests\Rector\ClassMethod\DowngradeCovariantReturnTypeRector\Fixture;
 
-class TwoLevelParentType {}
-class TwoLevelChildType extends TwoLevelParentType {}
-
-class TwoLevelA
+class TwoLevelAncestor
 {
     public function covariantReturnTypes(): TwoLevelParentType
     { /* … */ }

@@ -4,7 +4,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYi
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYieldRector\Source\EventSubscriberInterface;
 
-class SomeEventSubscriber implements EventSubscriberInterface
+class Fixture
 {
     public static function getSubscribedEvents()
     {
@@ -20,7 +20,7 @@ namespace Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYi
 
 use Rector\CodingStyle\Tests\Rector\ClassMethod\ReturnArrayClassMethodToYieldRector\Source\EventSubscriberInterface;
 
-class SomeEventSubscriber implements EventSubscriberInterface
+class Fixture
 {
     public static function getSubscribedEvents(): \Iterator
     {

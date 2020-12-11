@@ -18,7 +18,7 @@ abstract class AbstractParentClassSkipDifferent
     }
 }
 
-class FirstChildDifferentTypes extends AbstractParentClassSkipDifferent
+class SkipDifferentTypes
 {
     private $anotherDependency;
     public function __construct(AnotherDependency $anotherDependency)

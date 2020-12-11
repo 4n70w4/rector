@@ -2,7 +2,7 @@
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\RemoveEmptyTestMethodRector\Fixture;
 
-class SomeTest extends \PHPUnit\Framework\TestCase
+class Fixture
 {
     /**
      * testGetTranslatedModelField method
@@ -20,7 +20,7 @@ class SomeTest extends \PHPUnit\Framework\TestCase
 
 namespace Rector\PHPUnit\Tests\Rector\ClassMethod\RemoveEmptyTestMethodRector\Fixture;
 
-class SomeTest extends \PHPUnit\Framework\TestCase
+class Fixture
 {
 }
 

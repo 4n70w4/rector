@@ -13,7 +13,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Command
+class SymfonyConsoleCommand
 {
     /**
      * @var string|null The default command name
@@ -244,7 +244,7 @@ class Command
      *
      * This method is not part of public API and should not be used directly.
      *
-     * @param bool $mergeArgs Whether to merge or not the Application definition arguments to Command definition arguments
+     * @param bool $mergeArgs Whether to merge or not the Application definition arguments to SymfonyConsoleCommand definition arguments
      */
     public function mergeApplicationDefinition($mergeArgs = true)
     {
@@ -278,7 +278,7 @@ class Command
         return $this;
     }
     /**
-     * Gets the InputDefinition attached to this Command.
+     * Gets the InputDefinition attached to this SymfonyConsoleCommand.
      *
      * @return InputDefinition An InputDefinition instance
      */
@@ -287,7 +287,7 @@ class Command
         return $this->definition;
     }
     /**
-     * Gets the InputDefinition to be used to create representations of this Command.
+     * Gets the InputDefinition to be used to create representations of this SymfonyConsoleCommand.
      *
      * Can be overridden to provide the original command representation when it would otherwise
      * be changed by merging with the application InputDefinition.
@@ -384,7 +384,7 @@ class Command
     /**
      * @param bool $hidden Whether or not the command should be hidden from the list of commands
      *
-     * @return Command The current instance
+     * @return SymfonyConsoleCommand The current instance
      */
     public function setHidden($hidden)
     {
@@ -554,7 +554,7 @@ class Command
     private function validateName(string $name)
     {
         if (!preg_match('/^[^\:]++(\:[^\:]++)*$/', $name)) {
-            throw new InvalidArgumentException(sprintf('Command name "%s" is invalid.', $name));
+            throw new InvalidArgumentException(sprintf('SymfonyConsoleCommand name "%s" is invalid.', $name));
         }
     }
 }
@@ -576,7 +576,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Command
+class SymfonyConsoleCommand
 {
     /**
      * @var string|null The default command name
@@ -843,7 +843,7 @@ class Command
      *
      * This method is not part of public API and should not be used directly.
      *
-     * @param bool $mergeArgs Whether to merge or not the Application definition arguments to Command definition arguments
+     * @param bool $mergeArgs Whether to merge or not the Application definition arguments to SymfonyConsoleCommand definition arguments
      */
     public function mergeApplicationDefinition($mergeArgs = true)
     {
@@ -877,7 +877,7 @@ class Command
         return $this;
     }
     /**
-     * Gets the InputDefinition attached to this Command.
+     * Gets the InputDefinition attached to this SymfonyConsoleCommand.
      *
      * @return InputDefinition An InputDefinition instance
      */
@@ -886,7 +886,7 @@ class Command
         return $this->definition;
     }
     /**
-     * Gets the InputDefinition to be used to create representations of this Command.
+     * Gets the InputDefinition to be used to create representations of this SymfonyConsoleCommand.
      *
      * Can be overridden to provide the original command representation when it would otherwise
      * be changed by merging with the application InputDefinition.
@@ -983,7 +983,7 @@ class Command
     /**
      * @param bool $hidden Whether or not the command should be hidden from the list of commands
      *
-     * @return Command The current instance
+     * @return SymfonyConsoleCommand The current instance
      */
     public function setHidden($hidden)
     {
@@ -1153,7 +1153,7 @@ class Command
     private function validateName(string $name)
     {
         if (!preg_match('/^[^\:]++(\:[^\:]++)*$/', $name)) {
-            throw new InvalidArgumentException(sprintf('Command name "%s" is invalid.', $name));
+            throw new InvalidArgumentException(sprintf('SymfonyConsoleCommand name "%s" is invalid.', $name));
         }
     }
 }

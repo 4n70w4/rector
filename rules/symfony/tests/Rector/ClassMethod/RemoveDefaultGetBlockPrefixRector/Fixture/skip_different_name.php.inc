@@ -4,7 +4,7 @@ namespace Rector\Symfony\Tests\Rector\ClassMethod\RemoveDefaultGetBlockPrefixRec
 
 use Symfony\Component\Form\AbstractType;
 
-class SkipDifferentNameType extends AbstractType
+class SkipDifferentName
 {
     public function getBlockPrefix()
     {

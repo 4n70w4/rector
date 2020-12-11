@@ -2,12 +2,12 @@
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Mamma
+class KnownStaticObjectParent
 {
 
 }
 
-class Child extends Mamma
+class Child extends KnownStaticObjectParent
 {
 
 }
@@ -28,12 +28,12 @@ class KnownStaticObjectParent
 
 namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ReturnTypeDeclarationRector\Fixture;
 
-class Mamma
+class KnownStaticObjectParent
 {
 
 }
 
-class Child extends Mamma
+class Child extends KnownStaticObjectParent
 {
 
 }
