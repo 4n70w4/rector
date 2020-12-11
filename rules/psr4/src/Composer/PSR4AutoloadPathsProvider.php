@@ -25,7 +25,7 @@ final class PSR4AutoloadPathsProvider
     }
 
     /**
-     * @return array<string, string>
+     * @return array<string, string>|array<string, string[]>
      */
     public function provide(): array
     {
