@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -20,7 +20,7 @@ final class SomeTest extends TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixture;
 
 final class MyTest2 extends \PHPUnit_Framework_TestCase
 {
@@ -20,7 +20,7 @@ final class MyTest2 extends \PHPUnit_Framework_TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixture;
 
 final class MyTest2 extends \PHPUnit_Framework_TestCase
 {

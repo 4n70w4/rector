@@ -1,12 +1,12 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 use OldNamespace;
 
 class SomeClass2
 {
-    public function someClass(Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture $argument)
+    public function someClass(Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture $argument)
     {
     }
 }

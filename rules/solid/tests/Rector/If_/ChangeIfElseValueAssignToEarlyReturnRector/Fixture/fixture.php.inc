@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
 
 class SomeClass
 {
@@ -20,7 +20,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
 
 class SomeClass
 {

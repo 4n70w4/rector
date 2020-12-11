@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\Variable\MoveVariableDeclarationNearReferenceRector\Fixture;
 
 class SomeClassUsedOnlyAfterIf
 {
@@ -18,7 +18,7 @@ class SomeClassUsedOnlyAfterIf
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\Variable\MoveVariableDeclarationNearReferenceRector\Fixture;
 
 class SomeClassUsedOnlyAfterIf
 {

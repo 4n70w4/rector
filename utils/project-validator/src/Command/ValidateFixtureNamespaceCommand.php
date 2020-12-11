@@ -76,12 +76,14 @@ final class ValidateFixtureNamespaceCommand extends Command
 
             // 3. collect files with incorrect namespace
             $incorrectNamespaceFiles[] = (string) $fixtureFile;
-            $incorrectFileContents[] = $fileContent;
-            $incorrectNamespaces[] = $this->getIncorrectNamespace($matchAll, $expectedNamespace);
+            $incorrectNamespace = $this->getIncorrectNamespace($matchAll, $expectedNamespace);
+
+            if ($input->getOption(Option::FIX)) {
+                $this->fixNamespace((string) $fixtureFile, $incorrectNamespace, $fileContent, $expectedNamespace);
+            }
         }
 
         if ($incorrectNamespaceFiles !== []) {
-            $this->fixNamespace($incorrectNamespaceFiles, $incorrectNamespaces, $incorrectFileContents, $expectedNamespace);
             $this->symfonyStyle->listing($incorrectNamespaceFiles);
 
             $message = sprintf(
@@ -91,9 +93,6 @@ final class ValidateFixtureNamespaceCommand extends Command
 
             if (! $input->getOption(Option::FIX)) {
                 $message .= ', Just add "--fix" to console command and rerun to apply.';
-            }
-
-            if (! $input->getOption(Option::FIX)) {
                 $this->symfonyStyle->error($message);
                 return ShellCode::ERROR;
             }
@@ -106,12 +105,10 @@ final class ValidateFixtureNamespaceCommand extends Command
         return ShellCode::SUCCESS;
     }
 
-    private function fixNamespace(array $incorrectNamespaceFiles, array $incorrectNamespaces, array $incorrectFileContents, string $expectedNamespace)
+    private function fixNamespace(string $incorrectNamespaceFile, string $incorrectNamespace, string $incorrectFileContent, string $expectedNamespace)
     {
-        foreach ($incorrectNamespaceFiles as $key => $incorrectNamespaceFile) {
-            $newContent = str_replace($incorrectNamespaces[$key], $expectedNamespace, $incorrectFileContents[$key]);
-            FileSystem::write((string) $incorrectNamespaceFile, $newContent);
-        }
+        $newContent = str_replace($incorrectNamespace, $expectedNamespace, $incorrectFileContent);
+        FileSystem::write((string) $incorrectNamespaceFile, $newContent);
     }
 
     /**

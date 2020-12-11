@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
 class ChangeUnionTypeMutuallyChildren
 {
@@ -24,14 +24,14 @@ class CTypeParent
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture;
 
 class ChangeUnionTypeMutuallyChildren
 {
     /**
      * @param CDataChild|CTypeParent $pointer
      */
-    public static function sizeof(\Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\CDataChild &$pointer): int
+    public static function sizeof(\Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\CDataChild &$pointer): int
     {
     }
 }

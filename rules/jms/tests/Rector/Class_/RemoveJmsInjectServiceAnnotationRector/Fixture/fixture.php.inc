@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Jms\Tests\Rector\Class_\RemoveJmsInjectServiceAnnotationRector\Fixture;
 
 use JMS\DiExtraBundle\Annotation as DI;
 
@@ -15,7 +15,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Jms\Tests\Rector\Class_\RemoveJmsInjectServiceAnnotationRector\Fixture;
 
 use JMS\DiExtraBundle\Annotation as DI;
 

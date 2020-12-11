@@ -1,8 +1,8 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class MyCustomValidatorTest extends \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\Source\OldClass
+class MyCustomValidatorTest extends \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\Source\OldClass
 {
     // ...
 }
@@ -11,9 +11,9 @@ class MyCustomValidatorTest extends \Rector\TypeDeclaration\Tests\Rector\Propert
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
-class MyCustomValidatorTest extends \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\Source\NewClass
+class MyCustomValidatorTest extends \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\Source\NewClass
 {
     // ...
 }

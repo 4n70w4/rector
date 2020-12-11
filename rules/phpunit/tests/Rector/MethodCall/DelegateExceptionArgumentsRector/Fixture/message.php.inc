@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\DelegateExceptionArgumentsRector\Fixture;
 
 final class MyMessageTest extends \PHPUnit\Framework\TestCase
 {
@@ -18,7 +18,7 @@ final class MyMessageTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\DelegateExceptionArgumentsRector\Fixture;
 
 final class MyMessageTest extends \PHPUnit\Framework\TestCase
 {

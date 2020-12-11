@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\UseSpecificWillMethodRector\Fixture;
 
 class SomeClass extends \PHPUnit\Framework\TestCase
 {
@@ -38,7 +38,7 @@ class SomeClass extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\UseSpecificWillMethodRector\Fixture;
 
 class SomeClass extends \PHPUnit\Framework\TestCase
 {

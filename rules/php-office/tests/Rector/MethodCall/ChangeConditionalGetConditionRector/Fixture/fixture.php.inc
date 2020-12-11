@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalGetConditionRector\Fixture;
 
 final class SomeClass
 {
@@ -15,7 +15,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalGetConditionRector\Fixture;
 
 final class SomeClass
 {

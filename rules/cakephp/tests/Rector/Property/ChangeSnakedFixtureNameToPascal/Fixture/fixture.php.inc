@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Property\ChangeSnakedFixtureNameToPascal\Fixture;
 
 class ClassImportingFixturesWithSnakeCasedName
 {
@@ -16,7 +16,7 @@ class ClassImportingFixturesWithSnakeCasedName
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Property\ChangeSnakedFixtureNameToPascal\Fixture;
 
 class ClassImportingFixturesWithSnakeCasedName
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 class HavingElseIfs
 {
@@ -22,7 +22,7 @@ class HavingElseIfs
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 class HavingElseIfs
 {

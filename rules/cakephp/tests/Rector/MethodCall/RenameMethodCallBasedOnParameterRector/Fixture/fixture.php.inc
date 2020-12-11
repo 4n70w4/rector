@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\MethodCall\RenameMethodCallBasedOnParameterRector\Fixture;
 
 function renameMethodCallBasedOnParameter()
 {
@@ -14,7 +14,7 @@ function renameMethodCallBasedOnParameter()
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\MethodCall\RenameMethodCallBasedOnParameterRector\Fixture;
 
 function renameMethodCallBasedOnParameter()
 {

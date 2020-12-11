@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\TryCatchToExpectExceptionRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -22,7 +22,7 @@ final class MyTest extends TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\TryCatchToExpectExceptionRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

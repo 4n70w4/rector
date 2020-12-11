@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\dunglas;
 
 class AnyClass
 {}
@@ -22,7 +22,7 @@ function aliases($integer, $boolean, $real, $double, $callback, $void, $mixed, $
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\dunglas;
 
 class AnyClass
 {}
@@ -38,6 +38,6 @@ class AnyClass
  * @param unknown $unknown
  * @param AnyClass $class
  */
-function aliases(int $integer, bool $boolean, float $real, float $double, callable $callback, $void, $mixed, $unkown, \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\AnyClass $class) {
+function aliases(int $integer, bool $boolean, float $real, float $double, callable $callback, $void, $mixed, $unkown, \Rector\TypeDeclaration\Tests\Rector\FunctionLike\ParamTypeDeclarationRector\Fixture\dunglas\AnyClass $class) {
 }
 ?>

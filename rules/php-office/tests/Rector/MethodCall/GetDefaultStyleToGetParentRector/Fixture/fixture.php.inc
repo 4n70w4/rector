@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\GetDefaultStyleToGetParentRector\Fixture;
 
 class SomeClass
 {
@@ -15,7 +15,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\GetDefaultStyleToGetParentRector\Fixture;
 
 class SomeClass
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertInstanceOfComparisonRector\Fixture;
 
 use Foo\Bar;
 
@@ -18,7 +18,7 @@ final class MyOfComparissonTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertInstanceOfComparisonRector\Fixture;
 
 use Foo\Bar;
 

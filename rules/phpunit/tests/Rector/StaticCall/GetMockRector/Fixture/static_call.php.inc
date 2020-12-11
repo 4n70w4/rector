@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\StaticCall\GetMockRector\Fixture;
 
 final class StaticCallTest extends \PHPUnit\Framework\TestCase
 {
@@ -14,7 +14,7 @@ final class StaticCallTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\StaticCall\GetMockRector\Fixture;
 
 final class StaticCallTest extends \PHPUnit\Framework\TestCase
 {

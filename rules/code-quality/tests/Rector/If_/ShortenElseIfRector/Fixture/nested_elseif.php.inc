@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\If_\ShortenElseIfRector\Fixture;
 
 class NestedElseIfClass
 {
@@ -42,7 +42,7 @@ class NestedElseIfClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\If_\ShortenElseIfRector\Fixture;
 
 class NestedElseIfClass
 {

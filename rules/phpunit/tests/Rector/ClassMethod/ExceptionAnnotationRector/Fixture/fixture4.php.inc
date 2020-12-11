@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -41,7 +41,7 @@ class ExceptionMessageTest extends TestCase
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\ExceptionAnnotationRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

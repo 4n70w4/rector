@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\NetteTesterToPhpunit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
 
 use Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Source\ORMTestCase;
 use Tester\Assert;
@@ -170,7 +170,7 @@ class EventsCompatibilityTest extends ORMTestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\NetteTesterToPhpunit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
 
 use Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Source\ORMTestCase;
 use Tester\Assert;

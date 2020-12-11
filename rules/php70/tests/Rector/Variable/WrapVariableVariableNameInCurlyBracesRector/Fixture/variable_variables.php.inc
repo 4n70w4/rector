@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Php70\Tests\Rector\Variable\WrapVariableVariableNameInCurlyBracesRector\Fixture;
 
 function variable_variables($value)
 {
@@ -11,7 +11,7 @@ function variable_variables($value)
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Php70\Tests\Rector\Variable\WrapVariableVariableNameInCurlyBracesRector\Fixture;
 
 function variable_variables($value)
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Php56\Tests\Rector\FuncCall\PowToExpRector\Fixture;
 
 function powToExp()
 {
@@ -30,7 +30,7 @@ function powToExp()
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Php56\Tests\Rector\FuncCall\PowToExpRector\Fixture;
 
 function powToExp()
 {

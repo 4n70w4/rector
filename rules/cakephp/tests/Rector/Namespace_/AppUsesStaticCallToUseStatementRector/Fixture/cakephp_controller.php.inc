@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Namespace_\AppUsesStaticCallToUseStatementRector\Fixture;
 
 \App::uses('Component', 'Controller');
 
@@ -12,7 +12,7 @@ class CakeController
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Namespace_\AppUsesStaticCallToUseStatementRector\Fixture;
 
 use Cake\Controller\Component;
 

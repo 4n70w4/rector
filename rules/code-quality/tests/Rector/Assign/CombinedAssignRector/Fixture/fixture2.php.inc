@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Fixture;
 
 use Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Source\AbstractSomeClassSoParentCanBeUsed;
 
@@ -30,7 +30,7 @@ class Whatever extends AbstractSomeClassSoParentCanBeUsed
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Fixture;
 
 use Rector\CodeQuality\Tests\Rector\Assign\CombinedAssignRector\Source\AbstractSomeClassSoParentCanBeUsed;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Php70\Tests\Rector\Variable\WrapVariableVariableNameInCurlyBracesRector\Fixture;
 
 function skip_property_fetch_variable($foo)
 {

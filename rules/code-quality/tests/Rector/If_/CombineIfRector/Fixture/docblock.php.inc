@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\If_\CombineIfRector\Fixture;
 
 class SomeClass
 {
@@ -28,7 +28,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\CodeQuality\Tests\Rector\If_\CombineIfRector\Fixture;
 
 class SomeClass
 {

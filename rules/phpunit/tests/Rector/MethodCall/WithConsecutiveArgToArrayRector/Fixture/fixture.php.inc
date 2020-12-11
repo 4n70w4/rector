@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
 
 class SomeClass
 {
@@ -24,7 +24,7 @@ class SomeTestCase extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
 
 class SomeClass
 {

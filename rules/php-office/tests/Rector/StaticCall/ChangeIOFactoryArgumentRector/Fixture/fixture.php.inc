@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangeIOFactoryArgumentRector\Fixture;
 
 final class SomeClass
 {
@@ -14,7 +14,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangeIOFactoryArgumentRector\Fixture;
 
 final class SomeClass
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Symfony\Tests\Rector\ClassMethod\GetRequestRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 use Symfony\Component\HttpFoundation\Request;

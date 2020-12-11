@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
 
 final class VariableRenamed
 {
@@ -17,7 +17,7 @@ final class VariableRenamed
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
 
 final class VariableRenamed
 {

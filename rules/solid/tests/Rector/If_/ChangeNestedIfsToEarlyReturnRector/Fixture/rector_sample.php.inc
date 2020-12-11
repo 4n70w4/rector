@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 use PhpParser\Node\Stmt\If_;
 
@@ -40,7 +40,7 @@ class RectorSample
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 use PhpParser\Node\Stmt\If_;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\MethodCall\ArrayToFluentCallRector\Fixture;
 
 function arrayToFluentCall()
 {
@@ -17,7 +17,7 @@ function arrayToFluentCall()
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\MethodCall\ArrayToFluentCallRector\Fixture;
 
 function arrayToFluentCall()
 {

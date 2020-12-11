@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
 class WithTestAnnotation extends \PHPUnit\Framework\TestCase
 {
@@ -23,7 +23,7 @@ class WithTestAnnotation extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
 
 class WithTestAnnotation extends \PHPUnit\Framework\TestCase
 {

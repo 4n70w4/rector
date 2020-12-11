@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Psr4\Tests\Rector\Namespace_\MultipleClassFileToPsr4ClassesRector\Fixture;
 
 final class ReadyException
 {

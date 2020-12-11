@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
 
 class ProcessEmptyReturnLast
 {
@@ -34,7 +34,7 @@ class ProcessEmptyReturnLast
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Solid\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
 
 class ProcessEmptyReturnLast
 {

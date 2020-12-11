@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\TestListenerToHooksRector\Fixture;
 
 use PHPUnit\Framework\AssertionFailedError;
 use PHPUnit\Framework\Test;
@@ -58,7 +58,7 @@ final class BeforeListHook implements TestListener
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\TestListenerToHooksRector\Fixture;
 
 use PHPUnit\Framework\AssertionFailedError;
 use PHPUnit\Framework\Test;

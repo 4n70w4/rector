@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture;
 
 /**
  * This is here
@@ -17,11 +17,11 @@ class AddToDocBlockTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture;
 
 /**
  * This is here
- * @see \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\AddToDocBlockTest
+ * @see \Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture\AddToDocBlockTest
  */
 class AddToDocBlock
 {

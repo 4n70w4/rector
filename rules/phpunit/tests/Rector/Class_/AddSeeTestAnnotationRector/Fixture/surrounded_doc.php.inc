@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture;
 
 /**
  * @doto àreprendre et refactorer
@@ -17,11 +17,11 @@ class SurroundedDocTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture;
 
 /**
  * @doto àreprendre et refactorer
- * @see \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\SurroundedDocTest
+ * @see \Rector\Phpunit\Tests\Rector\Class_\AddSeeTestAnnotationRector\Fixture\SurroundedDocTest
  */
 class SurroundedDoc
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\RemoveEmptyTestMethodRector\Fixture;
 
 class SomeTest extends \PHPUnit\Framework\TestCase
 {
@@ -18,7 +18,7 @@ class SomeTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\ClassMethod\RemoveEmptyTestMethodRector\Fixture;
 
 class SomeTest extends \PHPUnit\Framework\TestCase
 {

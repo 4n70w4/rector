@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Namespace_\AppUsesStaticCallToUseStatementRector\Fixture;
 
 \App::uses('HttpSocket', 'Network/Http');
 \App::uses('Xml', 'Utility');
@@ -18,7 +18,7 @@ class CakePhpFixture
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Cakephp\Tests\Rector\Namespace_\AppUsesStaticCallToUseStatementRector\Fixture;
 
 use App\Network\Http\HttpSocket;
 use Cake\Utility\Xml;

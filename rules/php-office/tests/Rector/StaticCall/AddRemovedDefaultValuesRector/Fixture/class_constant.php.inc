@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\StaticCall\AddRemovedDefaultValuesRector\Fixture;
 
 final class ClassConstant
 {
@@ -15,7 +15,7 @@ final class ClassConstant
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\PhpOffice\Tests\Rector\StaticCall\AddRemovedDefaultValuesRector\Fixture;
 
 final class ClassConstant
 {

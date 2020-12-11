@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Phpunit\Tests\Rector\StaticCall\GetMockRector\Fixture;
 
 final class SkipBuildMockTest extends \PHPUnit\Framework\TestCase
 {

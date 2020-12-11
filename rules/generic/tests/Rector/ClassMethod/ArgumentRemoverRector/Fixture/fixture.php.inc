@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Fixture;
 
 class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Source\Persister
 {
@@ -14,7 +14,7 @@ class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Gener
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Fixture;
 
 class SomeClassExtendingAbstractEntityInheritancePersister extends \Rector\Generic\Tests\Rector\ClassMethod\ArgumentRemoverRector\Source\Persister
 {

@@ -1,6 +1,6 @@
 <?php
 
-class Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture_Abc
+class Rector\Renaming\Tests\Rector\FileWithoutNamespace\PseudoNamespaceToNamespaceRector\Fixture_Abc
 {
     public function run()
     {
@@ -12,7 +12,7 @@ class Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector
 -----
 <?php
 
-namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
+namespace Rector\Renaming\Tests\Rector\FileWithoutNamespace\PseudoNamespaceToNamespaceRector\Fixture;
 
 class Abc
 {
