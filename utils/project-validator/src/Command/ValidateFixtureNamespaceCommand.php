@@ -16,6 +16,7 @@ use Symfony\Component\Finder\Finder;
 use Symplify\PackageBuilder\Console\ShellCode;
 use Symplify\SmartFileSystem\Finder\FinderSanitizer;
 use Symplify\SmartFileSystem\SmartFileInfo;
+use Rector\PSR4\Composer\PSR4AutoloadPathsProvider;
 
 final class ValidateFixtureNamespaceCommand extends Command
 {
@@ -29,10 +30,16 @@ final class ValidateFixtureNamespaceCommand extends Command
      */
     private $symfonyStyle;
 
-    public function __construct(FinderSanitizer $finderSanitizer, SymfonyStyle $symfonyStyle)
+    /**
+     * @var PSR4AutoloadPathsProvider
+     */
+    private $psr4AutoloadPathsProvider;
+
+    public function __construct(FinderSanitizer $finderSanitizer, PSR4AutoloadPathsProvider $psr4AutoloadPathsProvider, SymfonyStyle $symfonyStyle)
     {
         $this->finderSanitizer = $finderSanitizer;
         $this->symfonyStyle = $symfonyStyle;
+        $this->psr4AutoloadPathsProvider = $psr4AutoloadPathsProvider;
 
         parent::__construct();
     }
@@ -50,9 +57,14 @@ final class ValidateFixtureNamespaceCommand extends Command
         $incorrectNamespaces = [];
         $incorrectFileContents = [];
 
+        $currentDirectory = getcwd();
         foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
-            [, $relativePath] = explode(getcwd(), (string) $fixtureFile);
+            [$directoryNamespace, $relativePath] = explode('/tests/', (string) $fixtureFile);
+            if ($directoryNamespace !== getcwd()) {
+                echo ltrim(substr($directoryNamespace, strlen($currentDirectory)) . '/tests', '/');die;
+            }
+
             $relativePath = ltrim(pathinfo($relativePath, PATHINFO_DIRNAME), '\/');
             $backslashedPath = str_replace('/', '\\', $relativePath);
             $expectedNamespace = $this->getExpectedNamespace($backslashedPath);
