@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 use PhpParser\Node;
 use PhpParser\Node\Identifier;
@@ -26,7 +26,7 @@ class ClosureClass
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 use PhpParser\Node;
 use PhpParser\Node\Identifier;

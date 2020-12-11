@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\Class_\AddProphecyTraitRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\Class_\AddProphecyTraitRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 use stdClass;

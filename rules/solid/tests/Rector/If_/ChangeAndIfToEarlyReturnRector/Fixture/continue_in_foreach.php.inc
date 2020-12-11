@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 use PhpParser\Node\Identifier;
 use PhpParser\Node\Name;
@@ -21,7 +21,7 @@ class ContinueInForeachClass
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 use PhpParser\Node\Identifier;
 use PhpParser\Node\Name;

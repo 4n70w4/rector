@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\SymfonyPhpunit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
+namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
 
 use ItemRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
@@ -25,7 +25,7 @@ class ExtendsParentClassWithProperty extends ParentClassWithPropertyKernelTestCa
 -----
 <?php
 
-namespace Rector\SymfonyPhpunit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
+namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
 
 use ItemRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;

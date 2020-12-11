@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 class NonFirstLevelIfClass
 {
@@ -18,7 +18,7 @@ class NonFirstLevelIfClass
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 class NonFirstLevelIfClass
 {

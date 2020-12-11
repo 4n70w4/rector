@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertTrueFalseToSpecificMethodRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertTrueFalseToSpecificMethodRector\Fixture;
 
 final class SkipStaticCall extends \PHPUnit\Framework\TestCase
 {

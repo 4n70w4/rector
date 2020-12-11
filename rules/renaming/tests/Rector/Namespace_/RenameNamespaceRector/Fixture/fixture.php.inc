@@ -19,7 +19,7 @@ class SomeClass
 -----
 <?php
 
-namespace NewNamespace\SubNamespace;
+namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 use NewNamespace;
 use NewNamespace\AnotherSubNamespace;

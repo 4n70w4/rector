@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

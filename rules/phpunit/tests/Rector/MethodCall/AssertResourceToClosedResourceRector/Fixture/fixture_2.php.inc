@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertResourceToClosedResourceRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertResourceToClosedResourceRector\Fixture;
 
 final class MyIsTypeTest2 extends \PHPUnit\Framework\TestCase
 {
@@ -18,7 +18,7 @@ final class MyIsTypeTest2 extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertResourceToClosedResourceRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertResourceToClosedResourceRector\Fixture;
 
 final class MyIsTypeTest2 extends \PHPUnit\Framework\TestCase
 {

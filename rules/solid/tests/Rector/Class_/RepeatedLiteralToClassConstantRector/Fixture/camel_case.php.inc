@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
 
 class CamelCase
 {
@@ -18,7 +18,7 @@ class CamelCase
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
 
 class CamelCase
 {

@@ -14,13 +14,13 @@ class SomeClass5
 -----
 <?php
 
-namespace Short\AnyNamespace;
+namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 class SomeClass5
 {
     public function someClass()
     {
-        return new \Short\AnyNamespace\SomeClass5;
+        return new \Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture\SomeClass5;
     }
 }
 

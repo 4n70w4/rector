@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
 
 class LostComment
 {
@@ -22,7 +22,7 @@ class LostComment
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeIfElseValueAssignToEarlyReturnRector\Fixture;
 
 class LostComment
 {

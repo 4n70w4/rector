@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -28,7 +28,7 @@ final class StringOrFalse extends TestCase
 -----
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\SpecificAssertContainsRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

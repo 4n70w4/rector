@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
 
 class WithDashAndNumber
 {
@@ -27,7 +27,7 @@ class WithDashAndNumber
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\RepeatedLiteralToClassConstantRector\Fixture;
 
 class WithDashAndNumber
 {

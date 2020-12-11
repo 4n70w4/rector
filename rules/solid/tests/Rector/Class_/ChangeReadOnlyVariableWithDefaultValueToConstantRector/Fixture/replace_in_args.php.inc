@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector\Fixture;
 
 use Nette\Utils\Strings;
 
@@ -29,7 +29,7 @@ class ReplaceInArgs
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\ChangeReadOnlyVariableWithDefaultValueToConstantRector\Fixture;
 
 use Nette\Utils\Strings;
 

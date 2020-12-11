@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\Property\AddFalseDefaultToBoolPropertyRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Property\AddFalseDefaultToBoolPropertyRector\Fixture;
 
 class SkipDefault
 {

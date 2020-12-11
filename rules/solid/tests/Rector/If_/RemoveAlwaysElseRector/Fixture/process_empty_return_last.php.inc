@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
 
 class ProcessEmptyReturnLast
 {
@@ -34,7 +34,7 @@ class ProcessEmptyReturnLast
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\RemoveAlwaysElseRector\Fixture;
 
 class ProcessEmptyReturnLast
 {

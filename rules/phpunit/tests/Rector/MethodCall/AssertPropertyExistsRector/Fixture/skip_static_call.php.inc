@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertPropertyExistsRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertPropertyExistsRector\Fixture;
 
 final class SkipStaticCall extends \PHPUnit\Framework\TestCase
 {

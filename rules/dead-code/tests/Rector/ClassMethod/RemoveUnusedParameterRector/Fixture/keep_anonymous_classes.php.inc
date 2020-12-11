@@ -4,9 +4,7 @@ namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveUnusedParameterRector\F
     }
 }
 
-namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveUnusedParameterRector\Fixture
-{
-    use Rector\DeadCode\Tests\Rector\ClassMethod\RemoveUnusedParameterRector\FixtureInterface\Foo;
+namespace Rector\DeadCode\Tests\Rector\ClassMethod\RemoveUnusedParameterRector\Fixture;
 
     class Baz
     {

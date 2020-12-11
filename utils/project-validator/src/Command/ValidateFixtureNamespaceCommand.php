@@ -31,15 +31,15 @@ final class ValidateFixtureNamespaceCommand extends Command
     private $symfonyStyle;
 
     /**
-     * @var PSR4AutoloadPathsProvider
+     * @var array<string, string>
      */
-    private $psr4AutoloadPathsProvider;
+    private $psr4autoloadPaths;
 
     public function __construct(FinderSanitizer $finderSanitizer, PSR4AutoloadPathsProvider $psr4AutoloadPathsProvider, SymfonyStyle $symfonyStyle)
     {
         $this->finderSanitizer = $finderSanitizer;
         $this->symfonyStyle = $symfonyStyle;
-        $this->psr4AutoloadPathsProvider = $psr4AutoloadPathsProvider;
+        $this->psr4autoloadPaths = $psr4AutoloadPathsProvider->provide();
 
         parent::__construct();
     }
@@ -61,13 +61,8 @@ final class ValidateFixtureNamespaceCommand extends Command
         foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
             [$directoryNamespace, $relativePath] = explode('/tests/', (string) $fixtureFile);
-            if ($directoryNamespace !== getcwd()) {
-                echo ltrim(substr($directoryNamespace, strlen($currentDirectory)) . '/tests', '/');die;
-            }
-
-            $relativePath = ltrim(pathinfo($relativePath, PATHINFO_DIRNAME), '\/');
-            $backslashedPath = str_replace('/', '\\', $relativePath);
-            $expectedNamespace = $this->getExpectedNamespace($backslashedPath);
+            $path = ltrim(substr($directoryNamespace, strlen($currentDirectory)) . '/tests', '/');
+            $expectedNamespace = $this->getExpectedNamespace($path, $relativePath);
 
             if ($expectedNamespace === null) {
                 continue;
@@ -142,26 +137,13 @@ final class ValidateFixtureNamespaceCommand extends Command
         return $this->finderSanitizer->sanitize($finder);
     }
 
-    private function getExpectedNamespace(string $backslashedPath): ?string
+    private function getExpectedNamespace(string $path, string $relativePath): ?string
     {
-        if (strpos($backslashedPath, 'tests\\') === 0) {
-            return 'Rector\Core\Tests' . Strings::substring($backslashedPath, 5);
-        }
-
-        if (strpos($backslashedPath, 'rules\\') === 0) {
-            $namespaces = explode('\\', $backslashedPath);
-            unset($namespaces[0]);
-            $namespaces[1] = ucfirst($namespaces[1]);
-            $namespaces[1] = Strings::replace($namespaces[1], '#-(\w)#', function ($value): string {
-                if (is_array($value)) {
-                    return strtoupper($value[1]);
-                }
-
-                return strtoupper($value);
-            });
-            $namespaces[2] = 'Tests';
-
-            return 'Rector\\' . implode('\\', $namespaces);
+        $relativePath = str_replace('/', '\\', dirname($relativePath, PATHINFO_DIRNAME));
+        foreach ($this->psr4autoloadPaths as $prefix => $psr4autoloadPath) {
+            if ($psr4autoloadPath === $path) {
+                return $prefix . $relativePath;
+            }
         }
 
         return null;

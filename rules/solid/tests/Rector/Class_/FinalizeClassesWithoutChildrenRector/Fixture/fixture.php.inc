@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
 
 class FirstClass
 {
@@ -18,7 +18,7 @@ class ThirdClass extends SecondClass
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
 
 final class FirstClass
 {

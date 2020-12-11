@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 class OnlyOneIfBeforeClassMethodReturnClass
 {
@@ -22,7 +22,7 @@ class OnlyOneIfBeforeClassMethodReturnClass
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeAndIfToEarlyReturnRector\Fixture;
 
 class OnlyOneIfBeforeClassMethodReturnClass
 {

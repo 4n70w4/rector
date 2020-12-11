@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\ModeratePackage\Tests\Rector\MethodCall\WhateverRector\Fixture;
+namespace Rector\RectorGenerator\Tests\RectorGenerator\Fixture\expected\rules;
 
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
@@ -15,7 +15,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 -----
 <?php
 
-namespace Rector\ModeratePackage\Tests\Rector\MethodCall\WhateverRector\Fixture;
+namespace Rector\RectorGenerator\Tests\RectorGenerator\Fixture\expected\rules;
 
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 

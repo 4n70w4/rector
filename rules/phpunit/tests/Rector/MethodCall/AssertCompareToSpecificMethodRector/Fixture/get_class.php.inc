@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertCompareToSpecificMethodRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertCompareToSpecificMethodRector\Fixture;
 
 use stdClass;
 
@@ -18,7 +18,7 @@ final class GetClass extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertCompareToSpecificMethodRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertCompareToSpecificMethodRector\Fixture;
 
 use stdClass;
 

@@ -17,16 +17,16 @@ class MyClass
 -----
 <?php
 
-namespace MyNewNamespace;
+namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
 class MyNewClass
 {
     /**
-     * @return \MyNewNamespace\MyNewClass
+     * @return \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\MyNewClass
      */
-    public function createSelf(): \MyNewNamespace\MyNewClass
+    public function createSelf(): \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\MyNewClass
     {
-        return new \MyNewNamespace\MyNewClass;
+        return new \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\MyNewClass;
     }
 }
 

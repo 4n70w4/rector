@@ -10,20 +10,6 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarati
     }
 }
 
-namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Fixture
-{
-    final class FinalTestCase extends \Abstract_Test_Case
-    {
-        public function tearDown()
-        {
-        }
-    }
-}
-
-?>
------
-<?php
-
 namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Fixture;
 
     abstract class Abstract_Test_Case extends PHPUnitTestCase

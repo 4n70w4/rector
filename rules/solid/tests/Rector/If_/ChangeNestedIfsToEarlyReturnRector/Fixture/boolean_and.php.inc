@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 use Rector\NodeTypeResolver\Node\AttributeKey;
 
@@ -23,7 +23,7 @@ class BooleanAnd
 -----
 <?php
 
-namespace Rector\Solid\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\If_\ChangeNestedIfsToEarlyReturnRector\Fixture;
 
 use Rector\NodeTypeResolver\Node\AttributeKey;
 

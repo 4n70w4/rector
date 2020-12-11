@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 use Rector\PHPUnit\Tests\Rector\MethodCall\WithConsecutiveArgToArrayRector\Source\ClassWithMethodOfTwoArguments;

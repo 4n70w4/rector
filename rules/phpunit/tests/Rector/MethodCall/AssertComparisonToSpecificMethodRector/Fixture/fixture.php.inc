@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertComparisonToSpecificMethodRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertComparisonToSpecificMethodRector\Fixture;
 
 final class MyEqualsTest extends \PHPUnit\Framework\TestCase
 {
@@ -21,7 +21,7 @@ final class MyEqualsTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\AssertComparisonToSpecificMethodRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertComparisonToSpecificMethodRector\Fixture;
 
 final class MyEqualsTest extends \PHPUnit\Framework\TestCase
 {

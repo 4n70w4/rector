@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\ExplicitPhpErrorApiRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\ExplicitPhpErrorApiRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -16,7 +16,7 @@ final class RefactorNotice extends TestCase
 -----
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\ExplicitPhpErrorApiRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\ExplicitPhpErrorApiRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

@@ -15,13 +15,13 @@ class SomeClass2
 -----
 <?php
 
-namespace NewNamespace\SubNamespace;
+namespace Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture;
 
 use NewNamespace;
 
 class SomeClass2
 {
-    public function someClass(\NewNamespace\SubNamespace $argument)
+    public function someClass(\Rector\Renaming\Tests\Rector\Namespace_\RenameNamespaceRector\Fixture $argument)
     {
     }
 }

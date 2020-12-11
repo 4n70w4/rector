@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Solid\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
+namespace Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
 
 class SkipSimpleType
 {

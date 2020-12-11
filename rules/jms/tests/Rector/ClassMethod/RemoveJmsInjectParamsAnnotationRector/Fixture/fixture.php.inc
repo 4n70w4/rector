@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Jms\Tests\Rector\ClassMethod\RemoveJmsInjectParamsAnnotationRector\Fixture;
+namespace Rector\JMS\Tests\Rector\ClassMethod\RemoveJmsInjectParamsAnnotationRector\Fixture;
 
 use JMS\DiExtraBundle\Annotation as DI;
 
@@ -20,7 +20,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\Jms\Tests\Rector\ClassMethod\RemoveJmsInjectParamsAnnotationRector\Fixture;
+namespace Rector\JMS\Tests\Rector\ClassMethod\RemoveJmsInjectParamsAnnotationRector\Fixture;
 
 use JMS\DiExtraBundle\Annotation as DI;
 

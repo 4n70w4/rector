@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\SymfonyPhpunit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
+namespace Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Fixture;
 
 use Rector\SymfonyPHPUnit\Tests\Rector\Class_\SelfContainerGetMethodCallFromTestToSetUpMethodRector\Source\ParentClassWithPropertyKernelTestCase;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;

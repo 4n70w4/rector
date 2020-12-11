@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Phpunit\Tests\Rector\MethodCall\RemoveExpectAnyFromMockRector\Fixture;
+namespace Rector\PHPUnit\Tests\Rector\MethodCall\RemoveExpectAnyFromMockRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

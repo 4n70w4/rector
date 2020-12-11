@@ -14,14 +14,14 @@ interface MyInterface
 -----
 <?php
 
-namespace MyNewNamespace;
+namespace Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture;
 
 interface MyNewInterface
 {
     /**
-     * @return \MyNewNamespace\MyNewInterface
+     * @return \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\MyNewInterface
      */
-    public function createSelf(): \MyNewNamespace\MyNewInterface;
+    public function createSelf(): \Rector\Renaming\Tests\Rector\Name\RenameClassRector\Fixture\MyNewInterface;
 }
 
 ?>

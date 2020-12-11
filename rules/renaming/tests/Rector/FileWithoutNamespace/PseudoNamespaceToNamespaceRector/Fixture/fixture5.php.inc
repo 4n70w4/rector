@@ -22,7 +22,7 @@ class SomeTestCase
 -----
 <?php
 
-namespace ChangeMe\ToNamespaced;
+namespace Rector\Renaming\Tests\Rector\FileWithoutNamespace\PseudoNamespaceToNamespaceRector\Fixture;
 
 use PHPUnit\TestCase;
 use Rector\Generic\Tests\Rector\Name\PseudoNamespaceToNamespaceRector\Source\Keep_This;

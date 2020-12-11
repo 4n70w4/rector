@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Utils\Rector\Tests\Rector\MethodCall\WhateverRector;
+namespace Rector\RectorGenerator\Tests\RectorGenerator\Fixture\expected_3rd_party\utils;
 
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 
