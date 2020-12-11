@@ -21,6 +21,12 @@ use Symplify\SmartFileSystem\SmartFileInfo;
 final class ValidateFixtureNamespaceCommand extends Command
 {
     /**
+     * @var string
+     * @see https://regex101.com/r/5KtBi8/2
+     */
+    private const NAMESPACE_REGEX = '#^namespace (.*);$#msU';
+
+    /**
      * @var FinderSanitizer
      */
     private $finderSanitizer;
@@ -81,8 +87,7 @@ final class ValidateFixtureNamespaceCommand extends Command
 
             // 2. reading file contents
             $fileContent = (string) FileSystem::read((string) $fixtureFile);
-            // @see https://regex101.com/r/5KtBi8/2
-            $matchAll = Strings::matchAll($fileContent, '#^namespace (.*);$#msU');
+            $matchAll = Strings::matchAll($fileContent, self::NAMESPACE_REGEX);
 
             if ($matchAll === []) {
                 continue;
