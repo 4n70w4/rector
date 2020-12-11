@@ -122,6 +122,7 @@ final class ValidateFixtureNamespaceCommand extends Command
             ->notName('#empty_file\.php\.inc$#')
             ->path('#/Fixture/#')
             ->notPath('#/blade-template/#')
+            ->notPath('#bootstrap_names\.php\.inc#')
             ->in(__DIR__ . '/../../../../tests')
             ->in(__DIR__ . '/../../../../packages/*/tests')
             ->in(__DIR__ . '/../../../../rules/*/tests');
