@@ -30,6 +30,10 @@ jobs:
                         run: bin/rector validate-fixture-namespace --ansi
 
                     -
+                        name: Validate Fixtures classname
+                        run: bin/rector validate-fixture-class-name --ansi
+
+                    -
                         name: 'Validate Sets Loading'
                         # this is very slow, so it has to be in own workflow
                         run: bin/rector validate-sets --ansi
