@@ -15,7 +15,7 @@ class UseOfThisInherited
     }
 }
 
-class UseOfThisInherited extends UseOfThisInherited
+class UseOfThisInherited2 extends UseOfThisInherited
 {
     public function thisMethodUsesAThisThatThrowsAnException()
     {
@@ -42,7 +42,7 @@ class UseOfThisInherited
     }
 }
 
-class UseOfThisInherited extends UseOfThisInherited
+class UseOfThisInherited2 extends UseOfThisInherited
 {
     /**
      * @throws \Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Source\Exceptions\TheException
