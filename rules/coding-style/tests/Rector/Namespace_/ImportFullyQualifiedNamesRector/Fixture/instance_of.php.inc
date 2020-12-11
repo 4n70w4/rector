@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rector\CodingStyle\Tests\Rector\Namespace_\ImportFullyQualifiedNamesRector\Source;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr;
@@ -30,7 +30,7 @@ final class ImportPartialInstanceOf
 
 declare(strict_types=1);
 
-namespace Rector\CodingStyle\Tests\Rector\Namespace_\ImportFullyQualifiedNamesRector\Source;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr;

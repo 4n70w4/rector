@@ -1,7 +1,6 @@
 <?php
 
-namespace {
-    use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Source\PHPUnitTestCase;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
     abstract class Abstract_Test_Case extends PHPUnitTestCase
     {
@@ -25,8 +24,7 @@ namespace Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarati
 -----
 <?php
 
-namespace {
-    use Rector\TypeDeclaration\Tests\Rector\ClassMethod\AddReturnTypeDeclarationRector\Source\PHPUnitTestCase;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
     abstract class Abstract_Test_Case extends PHPUnitTestCase
     {

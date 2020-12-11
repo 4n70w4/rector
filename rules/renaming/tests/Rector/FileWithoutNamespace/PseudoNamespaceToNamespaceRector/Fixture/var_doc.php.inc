@@ -1,6 +1,6 @@
 <?php
 
-namespace OldNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class VarDoc
 {
@@ -14,7 +14,7 @@ class VarDoc
 -----
 <?php
 
-namespace OldNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class VarDoc
 {

@@ -1,6 +1,6 @@
 <?php
 
-class PHPUnit_Abc
+class Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture_Abc
 {
     public function run()
     {
@@ -12,7 +12,7 @@ class PHPUnit_Abc
 -----
 <?php
 
-namespace PHPUnit;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class Abc
 {

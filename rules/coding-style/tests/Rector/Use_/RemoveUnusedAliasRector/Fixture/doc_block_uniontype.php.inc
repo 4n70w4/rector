@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Use_\RemoveUnusedAliasRector\DocBlockUnionType;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use DateTime as PhpDateTime;
 use DateTimeImmutable as PhpDateTimeImmutable;

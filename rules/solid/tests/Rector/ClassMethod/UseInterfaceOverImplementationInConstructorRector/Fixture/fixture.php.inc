@@ -1,10 +1,10 @@
 <?php
 
-namespace Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeClass
 {
-    public function __construct(\Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture\SomeImplementation $someImplementation)
+    public function __construct(\Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\SomeImplementation $someImplementation)
     {
     }
 }
@@ -21,11 +21,11 @@ interface SomeInterface
 -----
 <?php
 
-namespace Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeClass
 {
-    public function __construct(\Rector\SOLID\Tests\Rector\ClassMethod\UseInterfaceOverImplementationInConstructorRector\Fixture\SomeInterface $someImplementation)
+    public function __construct(\Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\SomeInterface $someImplementation)
     {
     }
 }

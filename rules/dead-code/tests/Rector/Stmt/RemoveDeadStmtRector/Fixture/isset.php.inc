@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\CodeQuality\Tests\Rector\Stmt\DeadCodeRemovingRector\Fixture\Isset_;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 function wrapToPreventPhpStanCallingMethods ($object)
 {
@@ -15,7 +15,7 @@ function wrapToPreventPhpStanCallingMethods ($object)
 -----
 <?php
 
-namespace Rector\CodeQuality\Tests\Rector\Stmt\DeadCodeRemovingRector\Fixture\Isset_;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 function wrapToPreventPhpStanCallingMethods ($object)
 {

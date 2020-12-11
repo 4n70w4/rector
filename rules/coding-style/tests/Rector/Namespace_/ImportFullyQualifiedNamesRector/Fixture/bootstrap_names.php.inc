@@ -1,10 +1,6 @@
 <?php
 
-namespace {
-    function run_me_never()
-    {
-        // silent deprecations, since we test them
-        error_reporting(E_ALL ^ E_DEPRECATED);
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
         // performance boost
         \SomeNamespace\gc_disable();

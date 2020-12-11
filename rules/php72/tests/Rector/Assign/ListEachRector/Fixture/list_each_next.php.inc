@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Php72\Tests\Rector\Assign\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Rector\Testing\Contract\RunnableInterface;
 
@@ -22,7 +22,7 @@ final class ListEachNext implements RunnableInterface
 -----
 <?php
 
-namespace Rector\Php72\Tests\Rector\Assign\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Rector\Testing\Contract\RunnableInterface;
 

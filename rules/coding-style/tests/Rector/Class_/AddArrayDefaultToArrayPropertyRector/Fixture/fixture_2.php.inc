@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Property\ArrayPropertyDefaultValueRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeClass
 {
@@ -30,7 +30,7 @@ class SomeClass
 -----
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Property\ArrayPropertyDefaultValueRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeClass
 {

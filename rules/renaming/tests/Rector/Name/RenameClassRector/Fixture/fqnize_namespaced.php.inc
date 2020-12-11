@@ -12,7 +12,7 @@ class FqnizeNamespaced
 -----
 <?php
 
-namespace Abc;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class FqnizeNamespaced
 {

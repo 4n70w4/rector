@@ -1,6 +1,6 @@
 <?php
 
-namespace SomeNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -21,7 +21,7 @@ final class ParamWithDot extends Controller
 -----
 <?php
 
-namespace SomeNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\CodingStyle\Rector\Ternary\TernaryConditionVariableAssignmentRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 function ternary($value)
 {
@@ -11,7 +11,7 @@ function ternary($value)
 -----
 <?php
 
-namespace Rector\CodingStyle\Rector\Ternary\TernaryConditionVariableAssignmentRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 function ternary($value)
 {

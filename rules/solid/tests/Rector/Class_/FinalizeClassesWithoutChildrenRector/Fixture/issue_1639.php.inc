@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\SOLID\Tests\Rector\Class_\FinalizeClassesWithoutChildrenRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Doctrine\ORM\Mapping as ORM;
 use Snowflake\Snowflake;

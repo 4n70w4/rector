@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
@@ -16,7 +16,7 @@ final class TestController extends AbstractController
 -----
 <?php
 
-namespace App\Controller;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 

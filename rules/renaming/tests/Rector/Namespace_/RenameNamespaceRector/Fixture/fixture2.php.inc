@@ -1,12 +1,12 @@
 <?php
 
-namespace OldNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use OldNamespace;
 
 class SomeClass2
 {
-    public function someClass(OldNamespace\SubNamespace $argument)
+    public function someClass(Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture $argument)
     {
     }
 }

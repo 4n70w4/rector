@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertFalseStrposToContainsRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 final class MyContainsStrposTest extends \PHPUnit\Framework\TestCase
 {
@@ -15,7 +15,7 @@ final class MyContainsStrposTest extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\MethodCall\AssertFalseStrposToContainsRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 final class MyContainsStrposTest extends \PHPUnit\Framework\TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ThisIsWrong;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 final class WrongNamespace
 {

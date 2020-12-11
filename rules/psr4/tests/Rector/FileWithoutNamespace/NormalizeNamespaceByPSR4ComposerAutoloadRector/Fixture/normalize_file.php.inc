@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PSR4\Tests\Rector\FileWithoutNamespace\NormalizeNamespaceByPSR4ComposerAutoloadRector\Source;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeClassTest
 {
@@ -20,7 +20,7 @@ class SomeClassTest
 {
     public function test()
     {
-        $someClass = new \Rector\PSR4\Tests\Rector\FileWithoutNamespace\NormalizeNamespaceByPSR4ComposerAutoloadRector\Source\SomeClass();
+        $someClass = new \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\SomeClass();
     }
 }
 

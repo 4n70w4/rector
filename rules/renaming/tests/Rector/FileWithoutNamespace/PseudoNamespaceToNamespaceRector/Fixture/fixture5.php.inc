@@ -1,6 +1,6 @@
 <?php
 
-namespace ChangeMe_ToNamespaced;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PHPUnit_TestCase;
 use Rector\Generic\Tests\Rector\Name\PseudoNamespaceToNamespaceRector\Source\Keep_This;

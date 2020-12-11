@@ -16,7 +16,7 @@ class NamespaceLessClass
 
 declare(strict_types=1);
 
-namespace Rector\PSR4\Tests\Rector\FileWithoutNamespace\NormalizeNamespaceByPSR4ComposerAutoloadRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class NamespaceLessClass
 {

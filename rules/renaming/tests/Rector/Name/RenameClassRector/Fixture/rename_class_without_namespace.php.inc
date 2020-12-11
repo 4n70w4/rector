@@ -15,16 +15,16 @@ class MyOldClass
 -----
 <?php
 
-namespace MyNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class MyNewClass
 {
     /**
-     * @return \MyNamespace\MyNewClass
+     * @return \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\MyNewClass
      */
-    public function createSelf(): \MyNamespace\MyNewClass
+    public function createSelf(): \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\MyNewClass
     {
-        return new \MyNamespace\MyNewClass;
+        return new \Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture\MyNewClass;
     }
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\Class_\AddProphecyTraitRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 
@@ -16,7 +16,7 @@ final class ExampleTest extends TestCase
 -----
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\Class_\AddProphecyTraitRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PHPUnit\Framework\TestCase;
 

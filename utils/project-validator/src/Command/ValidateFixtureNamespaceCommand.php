@@ -47,6 +47,8 @@ final class ValidateFixtureNamespaceCommand extends Command
     {
         $fixtureFiles = $this->getFixtureFiles();
         $incorrectNamespaceFiles = [];
+        $incorrectNamespaces = [];
+        $incorrectFileContents = [];
 
         foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
@@ -65,8 +67,6 @@ final class ValidateFixtureNamespaceCommand extends Command
             $matchAll = Strings::matchAll($fileContent, '#^namespace (.*);$#msU');
 
             if ($matchAll === []) {
-                // 3. collect files with no namespace
-                $incorrectNamespaceFiles[] = (string) $fixtureFile;
                 continue;
             }
 
@@ -76,32 +76,42 @@ final class ValidateFixtureNamespaceCommand extends Command
 
             // 3. collect files with incorrect namespace
             $incorrectNamespaceFiles[] = (string) $fixtureFile;
+            $incorrectFileContents[] = $fileContent;
+            $incorrectNamespaces[] = $this->getIncorrectNamespace($matchAll, $expectedNamespace);
         }
 
         if ($incorrectNamespaceFiles !== []) {
-            if ($input->getOption(Option::FIX)) {
-
-            }
+            $this->fixNamespace($incorrectNamespaceFiles, $incorrectNamespaces, $incorrectFileContents, $expectedNamespace);
             $this->symfonyStyle->listing($incorrectNamespaceFiles);
 
             $message = sprintf(
-                'Found %d files with invalid namespace. Please follow psr-4 defined in composer.json',
+                'Found %d fixture files with invalid namespace which not follow psr-4 defined in composer.json',
                 count($incorrectNamespaceFiles)
             );
 
             if (! $input->getOption(Option::FIX)) {
-                echo ', Just add "--fix" to console command and rerun to apply.';
-            } else {
-                echo ' and fixed';
+                $message .= ', Just add "--fix" to console command and rerun to apply.';
             }
 
-            $this->symfonyStyle->error($message);
+            if (! $input->getOption(Option::FIX)) {
+                $this->symfonyStyle->error($message);
+                return ShellCode::ERROR;
+            }
 
-            return ShellCode::ERROR;
+            $this->symfonyStyle->success($message . ' and all fixtures are corrected', );
+            return ShellCode::SUCCESS;
         }
 
         $this->symfonyStyle->success('All fixtures are correct');
         return ShellCode::SUCCESS;
+    }
+
+    private function fixNamespace(array $incorrectNamespaceFiles, array $incorrectNamespaces, array $incorrectFileContents, string $expectedNamespace)
+    {
+        foreach ($incorrectNamespaceFiles as $key => $incorrectNamespaceFile) {
+            $newContent = str_replace($incorrectNamespaces[$key], $expectedNamespace, $incorrectFileContents[$key]);
+            FileSystem::write((string) $incorrectNamespaceFile, $newContent);
+        }
     }
 
     /**
@@ -158,5 +168,18 @@ final class ValidateFixtureNamespaceCommand extends Command
         }
 
         return $countMatchAll === 2 && $matchAll[0][1] === $expectedNamespace && $matchAll[1][1] === $expectedNamespace;
+    }
+
+    private function getIncorrectNamespace(array $matchAll, string $expectedNamespace): string
+    {
+        $countMatchAll = count($matchAll);
+
+        if ($countMatchAll === 1) {
+            return $matchAll[0][1];
+        }
+
+        return $matchAll[0][1] !== $expectedNamespace
+            ? $matchAll[0][1]
+            : $matchAll[1][1];
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class MultipleDataProviders extends \PHPUnit\Framework\TestCase
 {
@@ -34,7 +34,7 @@ class MultipleDataProviders extends \PHPUnit\Framework\TestCase
 -----
 <?php
 
-namespace Rector\PHPUnit\Tests\Rector\Class_\RemoveDataProviderTestPrefixRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class MultipleDataProviders extends \PHPUnit\Framework\TestCase
 {

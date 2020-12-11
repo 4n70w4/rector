@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Symfony\Tests\Rector\MethodCall\ReadOnlyOptionToAttributeRector;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Component\Form\FormBuilder;
 
@@ -16,7 +16,7 @@ class ReadOnlyOptionToAttribute2
 -----
 <?php
 
-namespace Rector\Symfony\Tests\Rector\MethodCall\ReadOnlyOptionToAttributeRector;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Symfony\Component\Form\FormBuilder;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace OldNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class AnnotationsTest
 {
@@ -18,7 +18,7 @@ class AnnotationsTest
 -----
 <?php
 
-namespace OldNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class AnnotationsTest
 {

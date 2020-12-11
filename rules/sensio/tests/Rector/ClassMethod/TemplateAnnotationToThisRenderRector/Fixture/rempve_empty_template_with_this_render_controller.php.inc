@@ -1,6 +1,6 @@
 <?php declare (strict_types=1);
 
-namespace AppBundle\Controller;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -20,7 +20,7 @@ final class RemoveEmptyTemplateWithThisRenderController extends AbstractControll
 -----
 <?php declare (strict_types=1);
 
-namespace AppBundle\Controller;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

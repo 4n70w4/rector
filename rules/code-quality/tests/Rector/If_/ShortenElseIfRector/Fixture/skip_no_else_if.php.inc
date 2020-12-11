@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Php\Tests\Rector\If_\ShortenElseIfRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SkipNoElseIfClass
 {

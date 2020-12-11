@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use App\Entity\Post;
 use Rector\DoctrineCodeQuality\Tests\Rector\DoctrineRepositoryAsService\Source\RandomClass;

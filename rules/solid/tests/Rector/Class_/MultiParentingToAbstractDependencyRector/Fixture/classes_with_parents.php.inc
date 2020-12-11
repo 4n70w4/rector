@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\SOLID\Tests\Rector\Class_\MultiParentingToAbstractDependencyRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Rector\SOLID\Tests\Rector\Class_\MultiParentingToAbstractDependencyRector\Source\ClassWithParent;
 
@@ -37,7 +37,7 @@ class SecondChildClassWithParent extends AbstractParentClassWithParents
 -----
 <?php
 
-namespace Rector\SOLID\Tests\Rector\Class_\MultiParentingToAbstractDependencyRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Rector\SOLID\Tests\Rector\Class_\MultiParentingToAbstractDependencyRector\Source\ClassWithParent;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace NewNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use OldNamespaceWith\OldSplitNamespace;
 
@@ -16,7 +16,7 @@ class SomeClass3
 -----
 <?php
 
-namespace NewNamespace\SubNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use NewNamespaceWith\NewSplitNamespace;
 

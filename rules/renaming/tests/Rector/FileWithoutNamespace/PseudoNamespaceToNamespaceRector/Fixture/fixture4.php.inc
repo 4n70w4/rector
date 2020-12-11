@@ -1,6 +1,6 @@
 <?php
 
-namespace SomeNamespace;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class SomeTestCase
 {

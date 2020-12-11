@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\DowngradePhp73\Tests\Rector\FuncCall\DowngradeFlexibleHeredocSyntaxRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class FixtureClass
 {
@@ -27,7 +27,7 @@ class FixtureClass
 -----
 <?php
 
-namespace Rector\DowngradePhp73\Tests\Rector\FuncCall\DowngradeFlexibleHeredocSyntaxRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 class FixtureClass
 {

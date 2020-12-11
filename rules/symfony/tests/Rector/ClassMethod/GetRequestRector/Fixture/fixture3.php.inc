@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Symfony\Tests\Rector\Controller\AddFlashRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use Rector\Symfony\Tests\Rector\Source\SymfonyController;
 use Symfony\Component\HttpFoundation\Request;

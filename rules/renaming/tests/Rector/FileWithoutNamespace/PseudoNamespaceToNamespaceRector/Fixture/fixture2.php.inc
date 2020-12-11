@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Generic\Tests\Rector\Name\PseudoNamespaceToNamespaceRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PHPUnit_SpecialClass;
 
@@ -16,7 +16,7 @@ class SomeTest
 -----
 <?php
 
-namespace Rector\Generic\Tests\Rector\Name\PseudoNamespaceToNamespaceRector\Fixture;
+namespace Rector\TypeDeclaration\Tests\Rector\Property\PropertyTypeDeclarationRector\Fixture;
 
 use PHPUnit\SpecialClass;
 
