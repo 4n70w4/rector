@@ -67,9 +67,13 @@ final class ValidateFixtureNamespaceCommand extends Command
 
         foreach ($fixtureFiles as $fixtureFile) {
             // 1. geting expected namespace ...
-            [$directoryNamespace, $relativePath] = explode('/tests/', (string) $fixtureFile);
-            $path = ltrim(substr($directoryNamespace, strlen($this->currentDirectory)) . '/tests', '/');
-            $expectedNamespace = $this->getExpectedNamespace($path, $relativePath);
+            $paths = explode('/tests/', (string) $fixtureFile);
+            if (count($paths) > 2) {
+                continue;
+            }
+
+            $path = ltrim(substr($paths[0], strlen($this->currentDirectory)) . '/tests', '/');
+            $expectedNamespace = $this->getExpectedNamespace($path, $paths[1]);
 
             if ($expectedNamespace === null) {
                 continue;
@@ -141,8 +145,6 @@ final class ValidateFixtureNamespaceCommand extends Command
             ->path('#/Fixture/#')
             ->notPath('#/blade-template/#')
             ->notPath('#bootstrap_names\.php\.inc#')
-            ->notPath('#/expected_3rd_party/#')
-            ->notPath('#/WhateverRector/#')
             ->in(__DIR__ . '/../../../../tests')
             ->in(__DIR__ . '/../../../../packages/*/tests')
             ->in(__DIR__ . '/../../../../rules/*/tests');
