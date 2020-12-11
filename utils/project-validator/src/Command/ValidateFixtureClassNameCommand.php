@@ -44,7 +44,7 @@ final class ValidateFixtureClassNameCommand extends Command
     private $symfonyStyle;
 
     /**
-     * @var array<string, string>
+     * @var array<string, string>|array<string, string[]>
      */
     private $psr4autoloadPaths;
 
@@ -74,7 +74,7 @@ final class ValidateFixtureClassNameCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $optionFix = $input->getOption(Option::FIX);
+        $optionFix = (bool) $input->getOption(Option::FIX);
         $fixtureFiles = $this->getFixtureFiles();
         $incorrectClassNameFiles = [];
 
@@ -101,25 +101,7 @@ final class ValidateFixtureClassNameCommand extends Command
             }
 
             if ($this->isFoundCorrectNamespace($matchAll, $expectedNamespace)) {
-                $matchAll = Strings::matchAll($fileContent, self::CLASS_REGEX);
-
-                if ($matchAll === []) {
-                    continue;
-                }
-
-                $fileName          = substr($fixtureFile->getFileName(), 0, -8);
-                $expectedClassName = ucfirst(StaticRectorStrings::uppercaseUnderscoreToCamelCase($fileName));
-                $incorrectClassName = $this->getClassName($matchAll);
-                if ($expectedClassName === $incorrectClassName) {
-                    continue;
-                }
-
-                // 3. collect files with incorrect namespace
-                $incorrectClassNameFiles[] = (string) $fixtureFile;
-
-                if ($optionFix) {
-                    $this->fixClassName((string) $fixtureFile, $incorrectClassName, $fileContent, $expectedClassName);
-                }
+                $incorrectClassNameFiles = $this->checkAndFixClassName($fileContent, $fixtureFile, $incorrectClassNameFiles, $optionFix);
             }
         }
 
@@ -143,6 +125,34 @@ final class ValidateFixtureClassNameCommand extends Command
 
         $this->symfonyStyle->success('All fixtures are correct');
         return ShellCode::SUCCESS;
+    }
+
+    /**
+     * @param string[] $incorrectClassNameFiles
+     * @return string[]
+     */
+    private function checkAndFixClassName(string $fileContent, SmartFileInfo $fixtureFile, array $incorrectClassNameFiles, bool $optionFix): array
+    {
+        $matchAll = Strings::matchAll($fileContent, self::CLASS_REGEX);
+
+        if ($matchAll === []) {
+            return $incorrectClassNameFiles;
+        }
+
+        $fileName          = substr($fixtureFile->getFileName(), 0, -8);
+        $expectedClassName = ucfirst(StaticRectorStrings::uppercaseUnderscoreToCamelCase($fileName));
+        $incorrectClassName = $this->getClassName($matchAll);
+        if ($expectedClassName === $incorrectClassName) {
+            return $incorrectClassNameFiles;
+        }
+
+        $incorrectClassNameFiles[] = (string) $fixtureFile;
+
+        if ($optionFix) {
+            $this->fixClassName((string) $fixtureFile, $incorrectClassName, $fileContent, $expectedClassName);
+        }
+
+        return $incorrectClassNameFiles;
     }
 
     private function fixClassName(
@@ -178,7 +188,7 @@ final class ValidateFixtureClassNameCommand extends Command
     {
         $relativePath = str_replace('/', '\\', dirname($relativePath, PATHINFO_DIRNAME));
         foreach ($this->psr4autoloadPaths as $prefix => $psr4autoloadPath) {
-            if ($psr4autoloadPath === $path) {
+            if (is_string($psr4autoloadPath) && $psr4autoloadPath === $path) {
                 return $prefix . $relativePath;
             }
         }

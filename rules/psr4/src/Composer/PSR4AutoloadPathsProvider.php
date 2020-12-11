@@ -10,7 +10,7 @@ use Symplify\SmartFileSystem\SmartFileSystem;
 final class PSR4AutoloadPathsProvider
 {
     /**
-     * @var array<string, string>
+     * @var array<string, string>|array<string, string[]>
      */
     private $cachedComposerJsonPSR4AutoloadPaths = [];
 

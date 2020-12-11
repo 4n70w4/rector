@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture;
+namespace Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture;
 
 class Reservedobject
 {
@@ -31,31 +31,31 @@ $someObject = new Reservedobject;
 -----
 <?php
 
-namespace Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture;
+namespace Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture;
 
 class SmartObject
 {
 
 }
 
-class ChildObject extends \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject
+class ChildObject extends \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject
 {
 
 }
 
 $some = new ChildObject();
-if ($some instanceof \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject) {
+if ($some instanceof \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject) {
     return;
 }
 
-is_subclass_of($some, \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject::class);
+is_subclass_of($some, \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject::class);
 
-is_a($some, \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject::class);
+is_a($some, \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject::class);
 
-function someFunction(\Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject $reservedObject): \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject {
+function someFunction(\Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject $reservedObject): \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject {
     return $reservedObject;
 }
 
-$someObject = new \Rector\Php71\Tests\Rector\Name\ReservedobjectRector\Fixture\SmartObject;
+$someObject = new \Rector\Php71\Tests\Rector\Name\ReservedObjectRector\Fixture\SmartObject;
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Fixture;
+namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixture;
 
 use Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Source\Exceptions\TheException;
 
@@ -30,7 +30,7 @@ class UseUseOfAMethodOfAClassPassedAsParameterClassWithUseOfAMethodOfAClassPasse
 -----
 <?php
 
-namespace Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Fixture;
+namespace Rector\CodingStyle\Tests\Rector\Throw_\AnnotateThrowablesRector\Fixture;
 
 use Rector\CodingStyle\Tests\Rector\Throw_\UseOfAMethodOfAClassPassedAsParameternnotateThrowablesRector\Source\Exceptions\TheException;
 

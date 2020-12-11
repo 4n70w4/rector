@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\DeadSkipUsingInterfaceode\Tests\Rector\MethodSkipUsingInterfaceall\RemoveEmptyMethodSkipUsingInterfaceallRector\Fixture;
+namespace Rector\DeadCode\Tests\Rector\MethodCall\RemoveEmptyMethodCallRector\Fixture;
 
 use Rector\DeadSkipUsingInterfaceode\Tests\Rector\MethodSkipUsingInterfaceall\RemoveEmptyMethodSkipUsingInterfaceallRector\Source\SomeInterface;
 
