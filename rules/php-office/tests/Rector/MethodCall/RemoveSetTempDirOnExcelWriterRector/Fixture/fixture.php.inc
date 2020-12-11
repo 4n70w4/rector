@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\RemoveSetTempDirOnExcelWriterRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\RemoveSetTempDirOnExcelWriterRector\Fixture;
 
 final class SomeClass
 {
@@ -15,7 +15,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\RemoveSetTempDirOnExcelWriterRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\RemoveSetTempDirOnExcelWriterRector\Fixture;
 
 final class SomeClass
 {

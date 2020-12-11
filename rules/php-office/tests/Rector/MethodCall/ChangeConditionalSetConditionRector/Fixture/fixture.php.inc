@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalSetConditionRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\ChangeConditionalSetConditionRector\Fixture;
 
 final class SomeClass
 {
@@ -15,7 +15,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalSetConditionRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\ChangeConditionalSetConditionRector\Fixture;
 
 final class SomeClass
 {

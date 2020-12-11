@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalReturnedCellRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\ChangeConditionalReturnedCellRector\Fixture;
 
 final class SomeClass
 {
@@ -15,7 +15,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\ChangeConditionalReturnedCellRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\ChangeConditionalReturnedCellRector\Fixture;
 
 final class SomeClass
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangeDataTypeForValueRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\StaticCall\ChangeDataTypeForValueRector\Fixture;
 
 final class SomeClass
 {
@@ -14,7 +14,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangeDataTypeForValueRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\StaticCall\ChangeDataTypeForValueRector\Fixture;
 
 final class SomeClass
 {

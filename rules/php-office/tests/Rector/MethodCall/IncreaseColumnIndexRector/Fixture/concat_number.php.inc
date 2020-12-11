@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
 
 final class PlusNumber
 {
@@ -17,7 +17,7 @@ final class PlusNumber
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\MethodCall\IncreaseColumnIndexRector\Fixture;
 
 final class PlusNumber
 {

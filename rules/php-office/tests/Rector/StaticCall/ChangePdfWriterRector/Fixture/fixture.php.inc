@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangePdfWriterRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\StaticCall\ChangePdfWriterRector\Fixture;
 
 final class SomeClass
 {
@@ -16,7 +16,7 @@ final class SomeClass
 -----
 <?php
 
-namespace Rector\PhpOffice\Tests\Rector\StaticCall\ChangePdfWriterRector\Fixture;
+namespace Rector\PHPOffice\Tests\Rector\StaticCall\ChangePdfWriterRector\Fixture;
 
 final class SomeClass
 {
