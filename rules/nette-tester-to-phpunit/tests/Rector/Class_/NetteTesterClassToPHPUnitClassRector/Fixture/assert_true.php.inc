@@ -1,6 +1,6 @@
 <?php
 
-namespace Rector\NetteTesterToPhpunit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
+namespace Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
 
 use Tester\Assert;
 
@@ -13,7 +13,7 @@ function someStaticFunctions()
 -----
 <?php
 
-namespace Rector\NetteTesterToPhpunit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
+namespace Rector\NetteTesterToPHPUnit\Tests\Rector\Class_\NetteTesterClassToPHPUnitClassRector\Fixture;
 
 use Tester\Assert;
 
