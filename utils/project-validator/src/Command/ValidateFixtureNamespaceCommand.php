@@ -7,6 +7,7 @@ namespace Rector\Utils\ProjectValidator\Command;
 use Nette\Utils\FileSystem;
 use Nette\Utils\Strings;
 use const PATHINFO_DIRNAME;
+use Rector\Core\Configuration\Option;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -38,6 +39,7 @@ final class ValidateFixtureNamespaceCommand extends Command
 
     protected function configure(): void
     {
+        $this->addOption(Option::FIX, null, null, 'Fix found violations.');
         $this->setDescription('[CI] Validate tests fixtures namespace');
     }
 
@@ -77,11 +79,21 @@ final class ValidateFixtureNamespaceCommand extends Command
         }
 
         if ($incorrectNamespaceFiles !== []) {
+            if ($input->getOption(Option::FIX)) {
+
+            }
             $this->symfonyStyle->listing($incorrectNamespaceFiles);
+
             $message = sprintf(
                 'Found %d files with invalid namespace. Please follow psr-4 defined in composer.json',
                 count($incorrectNamespaceFiles)
             );
+
+            if (! $input->getOption(Option::FIX)) {
+                echo ', Just add "--fix" to console command and rerun to apply.';
+            } else {
+                echo ' and fixed';
+            }
 
             $this->symfonyStyle->error($message);
 
